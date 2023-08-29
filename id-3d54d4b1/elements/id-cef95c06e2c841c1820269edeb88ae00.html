@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE XD-LAB: Laboratory Reports</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE XD-LAB: Laboratory Reports</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Sharing Laboratory Reports (XD-LAB) addresses the sharing of laboratory reports among a community of healthcare settings and care providers. This Content Integration Profile describes a clinical laboratory report as an electronic document to be published towards a document sharing resource such as an Electronic Health Record (EHR) or a Personal Health Record (PHR) shared by a community of care providers, using one of the document sharing profiles defined in ITI-TF. Such an electronic document contains the set of releasable results produced by a clinical laboratory in fulfillment of one or more test Orders for a patient.
+
+Additional information: The Integrating the Healthcare Enterprise (IHE) Cross-Enterprise Document Sharing for Laboratory Reports (XD-LAB) specification is a healthcare interoperability profile that outlines the standards and processes for sharing laboratory reports across different healthcare systems. This specification is designed to improve the efficiency and effectiveness of healthcare delivery by enabling the seamless exchange of laboratory data between healthcare providers, laboratories, and patients.
+
+The IHE XD-LAB specification is based on the IHE Cross-Enterprise Document Sharing (XDS) infrastructure, which provides a framework for the registration, distribution, and access of patient electronic health records across health enterprises. The XD-LAB profile extends this infrastructure to include laboratory reports, which are a critical component of patient health information.
+
+The XD-LAB specification covers the entire process of laboratory report sharing, from the generation of the report by the laboratory system, to the submission of the report to the XDS infrastructure, to the retrieval and display of the report by the healthcare provider or patient. It defines the document types, metadata, and transactions required for each step of this process.
+
+The document types defined by the XD-LAB specification include the Laboratory Report Document, which contains the actual laboratory results, and the Laboratory Report Manifest, which provides a summary of the report and its associated results. The metadata includes information about the patient, the laboratory, the tests performed, and the results obtained.
+
+The transactions defined by the XD-LAB specification include the Provide and Register Document Set transaction, which is used by the laboratory system to submit the report to the XDS infrastructure, and the Retrieve Document Set transaction, which is used by the healthcare provider or patient to retrieve the report from the XDS infrastructure.
+
+By standardizing the sharing of laboratory reports, the IHE XD-LAB specification helps to ensure that all healthcare providers have access to the same accurate and up-to-date patient information, regardless of the specific systems or technologies they use. This can lead to improved patient care, reduced medical errors, and increased efficiency in the healthcare system.
+
+Example: 1. Hospital Laboratory: A hospital laboratory can use the IHE XD-LAB standard to share test results with physicians and other healthcare providers. For example, if a patient has a blood test, the laboratory can use the XD-LAB standard to create a structured report that includes the patient's name, the type of test, the results, and any relevant notes. This report can then be shared electronically with the patient's physician, who can access it through their electronic health record (EHR) system.
+
+2. Independent Laboratory: An independent laboratory that performs tests for multiple healthcare providers can use the IHE XD-LAB standard to share results in a consistent format. This can make it easier for healthcare providers to integrate the results into their EHR systems, regardless of the specific software they use.
+
+3. Public Health Department: A public health department can use the IHE XD-LAB standard to collect and analyze laboratory data from multiple sources. For example, during an outbreak of a communicable disease, the department can use the standard to gather data from various laboratories, compile it into a single report, and analyze it to track the spread of the disease.
+
+4. Clinical Research: In clinical research, the IHE XD-LAB standard can be used to share laboratory results between research teams and clinical trial participants. This can help ensure that all parties have access to the same information, which can be particularly important in trials involving multiple sites or countries.
+
+5. Telemedicine: In telemedicine, the IHE XD-LAB standard can be used to share laboratory results between remote healthcare providers and patients. This can help ensure that patients receive timely and accurate information about their health, even if they are unable to visit a healthcare provider in person.
+
+LOST view: TVA-Health Laboratory Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHEXD-LABLaboratoryReportsContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHEXD-LABLaboratoryReportsContract
+
+dct:title: IHE XD-LAB: Laboratory Reports Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXD-LABLaboratoryReportsContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXD-LABLaboratoryReportsContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE XD-LAB: Laboratory Reports Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Hospital Laboratory: A hospital laboratory can use the IHE XD-LAB standard to share test results with physicians and other healthcare providers. For example, if a patient has a blood test, the laboratory can use the XD-LAB standard to create a structured report that includes the patient's name, the type of test, the results, and any relevant notes. This report can then be shared electronically with the patient's physician, who can access it through their electronic health record (EHR) system.
+
+								2. Independent Laboratory: An independent laboratory that performs tests for multiple healthcare providers can use the IHE XD-LAB standard to share results in a consistent format. This can make it easier for healthcare providers to integrate the results into their EHR systems, regardless of the specific software they use.
+
+								3. Public Health Department: A public health department can use the IHE XD-LAB standard to collect and analyze laboratory data from multiple sources. For example, during an outbreak of a communicable disease, the department can use the standard to gather data from various laboratories, compile it into a single report, and analyze it to track the spread of the disease.
+
+								4. Clinical Research: In clinical research, the IHE XD-LAB standard can be used to share laboratory results between research teams and clinical trial participants. This can help ensure that all parties have access to the same information, which can be particularly important in trials involving multiple sites or countries.
+
+								5. Telemedicine: In telemedicine, the IHE XD-LAB standard can be used to share laboratory results between remote healthcare providers and patients. This can help ensure that patients receive timely and accurate information about their health, even if they are unable to visit a healthcare provider in person.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Integrating the Healthcare Enterprise (IHE) Cross-Enterprise Document Sharing for Laboratory Reports (XD-LAB) specification is a healthcare interoperability profile that outlines the standards and processes for sharing laboratory reports across different healthcare systems. This specification is designed to improve the efficiency and effectiveness of healthcare delivery by enabling the seamless exchange of laboratory data between healthcare providers, laboratories, and patients.
+
+								The IHE XD-LAB specification is based on the IHE Cross-Enterprise Document Sharing (XDS) infrastructure, which provides a framework for the registration, distribution, and access of patient electronic health records across health enterprises. The XD-LAB profile extends this infrastructure to include laboratory reports, which are a critical component of patient health information.
+
+								The XD-LAB specification covers the entire process of laboratory report sharing, from the generation of the report by the laboratory system, to the submission of the report to the XDS infrastructure, to the retrieval and display of the report by the healthcare provider or patient. It defines the document types, metadata, and transactions required for each step of this process.
+
+								The document types defined by the XD-LAB specification include the Laboratory Report Document, which contains the actual laboratory results, and the Laboratory Report Manifest, which provides a summary of the report and its associated results. The metadata includes information about the patient, the laboratory, the tests performed, and the results obtained.
+
+								The transactions defined by the XD-LAB specification include the Provide and Register Document Set transaction, which is used by the laboratory system to submit the report to the XDS infrastructure, and the Retrieve Document Set transaction, which is used by the healthcare provider or patient to retrieve the report from the XDS infrastructure.
+
+								By standardizing the sharing of laboratory reports, the IHE XD-LAB specification helps to ensure that all healthcare providers have access to the same accurate and up-to-date patient information, regardless of the specific systems or technologies they use. This can lead to improved patient care, reduced medical errors, and increased efficiency in the healthcare system.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Sharing Laboratory Reports (XD-LAB) addresses the sharing of laboratory reports among a community of healthcare settings and care providers. This Content Integration Profile describes a clinical laboratory report as an electronic document to be published towards a document sharing resource such as an Electronic Health Record (EHR) or a Personal Health Record (PHR) shared by a community of care providers, using one of the document sharing profiles defined in ITI-TF. Such an electronic document contains the set of releasable results produced by a clinical laboratory in fulfillment of one or more test Orders for a patient.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Laboratory Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

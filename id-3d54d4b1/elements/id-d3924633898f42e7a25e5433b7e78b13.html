@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE SWF.b: Radiology Scheduled Workflow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE SWF.b: Radiology Scheduled Workflow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Scheduled Workflow.b establishes a seamless flow of information that supports efficient patient care workflow in a typical imaging encounter. It specifies transactions that maintain the consistency of patient information from registration through ordering, scheduling, imaging acquisition, storage and viewing. This consistency is also the foundation for subsequent workflow steps, such as reporting.
+
+Additional information: The IHE SWF.b: Radiology Scheduled Workflow specification is a detailed set of protocols and guidelines designed by the Integrating the Healthcare Enterprise (IHE) to streamline and standardize the workflow in radiology departments. This specification is an extension of the original Scheduled Workflow (SWF) integration profile, with the addition of the ".b" indicating that it includes updated or additional features.
+
+The SWF.b specification primarily focuses on the scheduling, performance, interpretation, and reporting of radiology procedures. It aims to ensure that all relevant patient information, procedure details, and imaging data are accurately captured, communicated, and stored across different systems and devices within a healthcare facility.
+
+The specification covers a wide range of activities, from the initial ordering of a radiology procedure by a physician, to the scheduling of the procedure, the acquisition of images, the interpretation of these images by a radiologist, and the generation of a report based on this interpretation. It also includes guidelines for the management of patient data, the tracking of procedure status, and the handling of discrepancies or exceptions in the workflow.
+
+The IHE SWF.b specification is designed to facilitate interoperability between different healthcare IT systems, by defining a common language and set of procedures that all systems can understand and follow. This helps to reduce errors, improve efficiency, and enhance the quality of care provided to patients.
+
+The specification is based on the use of standard communication protocols and data formats, such as DICOM (Digital Imaging and Communications in Medicine) for imaging data, and HL7 (Health Level Seven) for patient and procedure information. This ensures that the specification can be implemented by a wide range of healthcare IT systems, regardless of their specific technology or vendor.
+
+In summary, the IHE SWF.b: Radiology Scheduled Workflow specification is a comprehensive set of guidelines for the management of radiology procedures, designed to improve the efficiency, accuracy, and quality of care in radiology departments.
+
+Example: 1. Hospital Imaging Department: A hospital's imaging department can use the IHE SWF.b to manage and streamline their radiology workflow. For instance, when a patient is scheduled for an X-ray, the system can automatically generate a worklist for the radiologist, including all necessary patient information and procedure details. The radiologist can then use the system to track the procedure's progress, from image acquisition to interpretation and report generation. This not only improves efficiency but also reduces the risk of errors or miscommunication.
+
+2. Radiology Clinic: A radiology clinic can use the IHE SWF.b to manage their daily operations. When a patient is referred for a CT scan, the system can schedule the procedure, assign it to a specific machine and radiologist, and notify all relevant parties. After the scan, the system can track the interpretation process, ensuring that the report is completed and sent back to the referring physician in a timely manner.
+
+3. Teleradiology Services: Teleradiology services, which provide remote reading of radiology images, can also benefit from the IHE SWF.b. The system can manage the workflow of receiving images from a client hospital, assigning them to a radiologist, tracking the reading process, and sending back the report. This can greatly improve the efficiency and reliability of teleradiology services.
+
+4. Imaging Research Studies: In research studies involving imaging, the IHE SWF.b can be used to manage the workflow of image acquisition, processing, analysis, and data storage. This can help ensure that the study follows a consistent protocol and that all data is properly managed and stored.
+
+5. Medical Imaging Equipment Manufacturers: Manufacturers of medical imaging equipment can use the IHE SWF.b to design their systems in a way that supports efficient radiology workflows. This can make their products more attractive to hospitals and clinics, as it can help these facilities improve their efficiency and patient care.
+
+LOST view: TVA-Health Medical Imaging Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHESWFbRadiologyScheduledWorkflowContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHESWFbRadiologyScheduledWorkflowContract
+
+dct:title: IHE SWF.b: Radiology Scheduled Workflow Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHESWFbRadiologyScheduledWorkflowContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHESWFbRadiologyScheduledWorkflowContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE SWF.b: Radiology Scheduled Workflow Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Hospital Imaging Department: A hospital's imaging department can use the IHE SWF.b to manage and streamline their radiology workflow. For instance, when a patient is scheduled for an X-ray, the system can automatically generate a worklist for the radiologist, including all necessary patient information and procedure details. The radiologist can then use the system to track the procedure's progress, from image acquisition to interpretation and report generation. This not only improves efficiency but also reduces the risk of errors or miscommunication.
+
+								2. Radiology Clinic: A radiology clinic can use the IHE SWF.b to manage their daily operations. When a patient is referred for a CT scan, the system can schedule the procedure, assign it to a specific machine and radiologist, and notify all relevant parties. After the scan, the system can track the interpretation process, ensuring that the report is completed and sent back to the referring physician in a timely manner.
+
+								3. Teleradiology Services: Teleradiology services, which provide remote reading of radiology images, can also benefit from the IHE SWF.b. The system can manage the workflow of receiving images from a client hospital, assigning them to a radiologist, tracking the reading process, and sending back the report. This can greatly improve the efficiency and reliability of teleradiology services.
+
+								4. Imaging Research Studies: In research studies involving imaging, the IHE SWF.b can be used to manage the workflow of image acquisition, processing, analysis, and data storage. This can help ensure that the study follows a consistent protocol and that all data is properly managed and stored.
+
+								5. Medical Imaging Equipment Manufacturers: Manufacturers of medical imaging equipment can use the IHE SWF.b to design their systems in a way that supports efficient radiology workflows. This can make their products more attractive to hospitals and clinics, as it can help these facilities improve their efficiency and patient care.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE SWF.b: Radiology Scheduled Workflow specification is a detailed set of protocols and guidelines designed by the Integrating the Healthcare Enterprise (IHE) to streamline and standardize the workflow in radiology departments. This specification is an extension of the original Scheduled Workflow (SWF) integration profile, with the addition of the ".b" indicating that it includes updated or additional features.
+
+								The SWF.b specification primarily focuses on the scheduling, performance, interpretation, and reporting of radiology procedures. It aims to ensure that all relevant patient information, procedure details, and imaging data are accurately captured, communicated, and stored across different systems and devices within a healthcare facility.
+
+								The specification covers a wide range of activities, from the initial ordering of a radiology procedure by a physician, to the scheduling of the procedure, the acquisition of images, the interpretation of these images by a radiologist, and the generation of a report based on this interpretation. It also includes guidelines for the management of patient data, the tracking of procedure status, and the handling of discrepancies or exceptions in the workflow.
+
+								The IHE SWF.b specification is designed to facilitate interoperability between different healthcare IT systems, by defining a common language and set of procedures that all systems can understand and follow. This helps to reduce errors, improve efficiency, and enhance the quality of care provided to patients.
+
+								The specification is based on the use of standard communication protocols and data formats, such as DICOM (Digital Imaging and Communications in Medicine) for imaging data, and HL7 (Health Level Seven) for patient and procedure information. This ensures that the specification can be implemented by a wide range of healthcare IT systems, regardless of their specific technology or vendor.
+
+								In summary, the IHE SWF.b: Radiology Scheduled Workflow specification is a comprehensive set of guidelines for the management of radiology procedures, designed to improve the efficiency, accuracy, and quality of care in radiology departments.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Scheduled Workflow.b establishes a seamless flow of information that supports efficient patient care workflow in a typical imaging encounter. It specifies transactions that maintain the consistency of patient information from registration through ordering, scheduling, imaging acquisition, storage and viewing. This consistency is also the foundation for subsequent workflow steps, such as reporting.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Medical Imaging Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

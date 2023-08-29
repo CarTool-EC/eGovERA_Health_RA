@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE PDQ: Patient Demographics Query</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE PDQ: Patient Demographics Query</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: The Patient Demographics Query (PDQ) Integration Profile: (a) allows a Patient Demographics Supplier actor to receive a Patient Demographics Query or Patient Demographics and Visit Query request from the Patient Demographics Consumer actor, and returns demographics (and, where appropriate, visit) information. (b) When the Patient Demographics Supplier Actor is grouped with actors in other IHE profiles that perform patient information reconciliation activities (e.g., Radiology PIR), the PDQ Supplier Actor may use the updated information to respond to PDQ Queries. In addition, the Patient Demographics Query Profile may play an integral workflow role in conjunction with other IHE Profiles.
+
+Additional information: The IHE (Integrating the Healthcare Enterprise) PDQ (Patient Demographics Query) specification is a standard protocol that allows healthcare information systems to query a central patient information server for a list of patients based on a set of demographic parameters. This specification is designed to improve the efficiency and accuracy of patient identification and data retrieval in healthcare settings.
+
+The PDQ specification is part of the IHE's IT Infrastructure (ITI) domain, which focuses on the interoperability of health information systems. The PDQ specification provides a standardized method for querying patient information, which can include details such as name, date of birth, gender, address, and other identifying information.
+
+The primary goal of the PDQ specification is to facilitate the accurate and efficient exchange of patient demographic information between different healthcare systems. This can help to reduce errors in patient identification, improve the accuracy of patient records, and streamline the process of patient data retrieval.
+
+The PDQ specification defines both the format of the query request and the expected format of the response. The query request is typically sent by a client system, such as a hospital information system or electronic health record system, to a server that maintains a central repository of patient information. The server then responds with a list of patients that match the query parameters.
+
+The PDQ specification also supports the use of wildcard characters in query parameters, which allows for more flexible and powerful searches. For example, a query for patients with a last name of "Smith" could be written as "Sm*", which would return all patients with a last name starting with "Sm".
+
+In summary, the IHE PDQ specification is a critical standard in healthcare IT that enables efficient, accurate, and standardized querying of patient demographic information across different healthcare information systems.
+
+Example: 1. Hospital Admission: When a patient is admitted to a hospital, the administrative staff can use IHE PDQ to query the patient's demographic information from the hospital's database. This can help to quickly fill out admission forms, verify the patient's identity, and ensure that the patient's records are up-to-date.
+
+2. Emergency Room Visit: In an emergency situation, medical staff can use IHE PDQ to quickly retrieve a patient's demographic information. This can help to identify the patient, especially if they are unconscious or unable to communicate, and can also help to locate their medical records for reference.
+
+3. Specialist Referral: When a patient is referred to a specialist, the specialist's office can use IHE PDQ to query the patient's demographic information from the referring physician's database. This can help to streamline the referral process and ensure that the specialist has all the necessary information about the patient.
+
+4. Pharmacy Prescription: When a patient presents a prescription at a pharmacy, the pharmacist can use IHE PDQ to verify the patient's identity and retrieve their demographic information. This can help to prevent prescription fraud and ensure that the medication is dispensed to the correct patient.
+
+5. Telemedicine Consultation: During a telemedicine consultation, the healthcare provider can use IHE PDQ to retrieve the patient's demographic information. This can help to verify the patient's identity, especially since the consultation is not taking place in person.
+
+6. Health Information Exchange: In a health information exchange, healthcare providers can use IHE PDQ to query and retrieve patient demographic information from other participating providers. This can help to ensure that the patient's records are consistent and up-to-date across all providers.
+
+LOST view: TVA-Health Patient Summary Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHEPDQPatientDemographicsQueryContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHEPDQPatientDemographicsQueryContract
+
+dct:title: IHE PDQ: Patient Demographics Query Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEPDQPatientDemographicsQueryContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEPDQPatientDemographicsQueryContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE PDQ: Patient Demographics Query Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Hospital Admission: When a patient is admitted to a hospital, the administrative staff can use IHE PDQ to query the patient's demographic information from the hospital's database. This can help to quickly fill out admission forms, verify the patient's identity, and ensure that the patient's records are up-to-date.
+
+								2. Emergency Room Visit: In an emergency situation, medical staff can use IHE PDQ to quickly retrieve a patient's demographic information. This can help to identify the patient, especially if they are unconscious or unable to communicate, and can also help to locate their medical records for reference.
+
+								3. Specialist Referral: When a patient is referred to a specialist, the specialist's office can use IHE PDQ to query the patient's demographic information from the referring physician's database. This can help to streamline the referral process and ensure that the specialist has all the necessary information about the patient.
+
+								4. Pharmacy Prescription: When a patient presents a prescription at a pharmacy, the pharmacist can use IHE PDQ to verify the patient's identity and retrieve their demographic information. This can help to prevent prescription fraud and ensure that the medication is dispensed to the correct patient.
+
+								5. Telemedicine Consultation: During a telemedicine consultation, the healthcare provider can use IHE PDQ to retrieve the patient's demographic information. This can help to verify the patient's identity, especially since the consultation is not taking place in person.
+
+								6. Health Information Exchange: In a health information exchange, healthcare providers can use IHE PDQ to query and retrieve patient demographic information from other participating providers. This can help to ensure that the patient's records are consistent and up-to-date across all providers.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE (Integrating the Healthcare Enterprise) PDQ (Patient Demographics Query) specification is a standard protocol that allows healthcare information systems to query a central patient information server for a list of patients based on a set of demographic parameters. This specification is designed to improve the efficiency and accuracy of patient identification and data retrieval in healthcare settings.
+
+								The PDQ specification is part of the IHE's IT Infrastructure (ITI) domain, which focuses on the interoperability of health information systems. The PDQ specification provides a standardized method for querying patient information, which can include details such as name, date of birth, gender, address, and other identifying information.
+
+								The primary goal of the PDQ specification is to facilitate the accurate and efficient exchange of patient demographic information between different healthcare systems. This can help to reduce errors in patient identification, improve the accuracy of patient records, and streamline the process of patient data retrieval.
+
+								The PDQ specification defines both the format of the query request and the expected format of the response. The query request is typically sent by a client system, such as a hospital information system or electronic health record system, to a server that maintains a central repository of patient information. The server then responds with a list of patients that match the query parameters.
+
+								The PDQ specification also supports the use of wildcard characters in query parameters, which allows for more flexible and powerful searches. For example, a query for patients with a last name of "Smith" could be written as "Sm*", which would return all patients with a last name starting with "Sm".
+
+								In summary, the IHE PDQ specification is a critical standard in healthcare IT that enables efficient, accurate, and standardized querying of patient demographic information across different healthcare information systems.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Patient Demographics Query (PDQ) Integration Profile: (a) allows a Patient Demographics Supplier actor to receive a Patient Demographics Query or Patient Demographics and Visit Query request from the Patient Demographics Consumer actor, and returns demographics (and, where appropriate, visit) information. (b) When the Patient Demographics Supplier Actor is grouped with actors in other IHE profiles that perform patient information reconciliation activities (e.g., Radiology PIR), the PDQ Supplier Actor may use the updated information to respond to PDQ Queries. In addition, the Patient Demographics Query Profile may play an integral workflow role in conjunction with other IHE Profiles.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Patient Summary Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

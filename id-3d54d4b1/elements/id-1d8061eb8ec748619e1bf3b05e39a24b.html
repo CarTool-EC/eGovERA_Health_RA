@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE LTW: Laboratory Testing Workflow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE LTW: Laboratory Testing Workflow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Laboratory Testing Workflow (LTW) integrates the ordering, scheduling, processing, and result reporting activities associated with in vitro diagnostic tests performed by clinical laboratories in healthcare institutions. The Laboratory Testing Workflow Profile covers the workflow related to tests performed on in vitro specimens by a clinical laboratory inside a healthcare institution, for both existing and pending orders, related to identified patients and unidentified or misidentified patients. It maintains the consistency of patient and order information from registration through ordering, scheduling, pre-analytical processing, testing, technical and clinical validation, to results reporting and usage of laoratory observations and comments by the care providers.
+
+Additional information: The Integrating the Healthcare Enterprise (IHE) Laboratory Testing Workflow (LTW) specification is a comprehensive framework designed to standardize and streamline the process of ordering and performing laboratory tests within the healthcare industry. This specification is part of the IHE Pathology and Laboratory Medicine (PaLM) domain.
+
+The LTW specification focuses on the complete cycle of laboratory testing, from the initial order of a test by a healthcare provider, through the processing and analysis of the sample in the laboratory, to the final delivery of the test results. It aims to ensure that all steps in this process are carried out in a consistent, efficient, and accurate manner, regardless of the specific systems or technologies used.
+
+The LTW specification defines a set of standardized transactions and data elements, which are used to exchange information between different systems involved in the laboratory testing process. These include systems for order management, sample processing, result reporting, and others. By using these standardized transactions and data elements, different systems can communicate with each other effectively, reducing the risk of errors and improving the overall efficiency of the process.
+
+The LTW specification also includes detailed guidelines on how to implement these transactions and data elements in different systems, as well as how to ensure their interoperability. This makes it easier for healthcare providers and laboratories to adopt the specification and integrate it into their existing workflows.
+
+In summary, the IHE LTW specification is a critical tool for improving the quality and efficiency of laboratory testing in the healthcare industry. It provides a standardized framework for managing the entire testing process, from order to result, and ensures that all systems involved in this process can communicate effectively with each other.
+
+Example: 1. Hospital Laboratory Testing: In a hospital setting, the IHE LTW can be used to manage the workflow of laboratory testing. For example, when a doctor orders a blood test for a patient, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the doctor through the same workflow. This ensures that all data is accurately recorded and easily accessible.
+
+2. Clinical Research: In clinical research, the IHE LTW can be used to manage the workflow of laboratory testing for clinical trials. For instance, when a researcher orders a genetic test for a participant, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the researcher through the same workflow. This ensures that all data is accurately recorded and easily accessible, which is crucial for the validity of the research.
+
+3. Veterinary Medicine: In veterinary medicine, the IHE LTW can be used to manage the workflow of laboratory testing for animals. For example, when a vet orders a urine test for a dog, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the vet through the same workflow. This ensures that all data is accurately recorded and easily accessible, which is crucial for the health of the animal.
+
+4. Public Health Surveillance: In public health surveillance, the IHE LTW can be used to manage the workflow of laboratory testing for disease surveillance. For instance, when a public health officer orders a test for a suspected case of a communicable disease, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the officer through the same workflow. This ensures that all data is accurately recorded and easily accessible, which is crucial for the monitoring and control of diseases.
+
+LOST view: TVA-Health Laboratory Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHELTWLaboratoryTestingWorkflowContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHELTWLaboratoryTestingWorkflowContract
+
+dct:title: IHE LTW: Laboratory Testing Workflow Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHELTWLaboratoryTestingWorkflowContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHELTWLaboratoryTestingWorkflowContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE LTW: Laboratory Testing Workflow Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Hospital Laboratory Testing: In a hospital setting, the IHE LTW can be used to manage the workflow of laboratory testing. For example, when a doctor orders a blood test for a patient, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the doctor through the same workflow. This ensures that all data is accurately recorded and easily accessible.
+
+								2. Clinical Research: In clinical research, the IHE LTW can be used to manage the workflow of laboratory testing for clinical trials. For instance, when a researcher orders a genetic test for a participant, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the researcher through the same workflow. This ensures that all data is accurately recorded and easily accessible, which is crucial for the validity of the research.
+
+								3. Veterinary Medicine: In veterinary medicine, the IHE LTW can be used to manage the workflow of laboratory testing for animals. For example, when a vet orders a urine test for a dog, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the vet through the same workflow. This ensures that all data is accurately recorded and easily accessible, which is crucial for the health of the animal.
+
+								4. Public Health Surveillance: In public health surveillance, the IHE LTW can be used to manage the workflow of laboratory testing for disease surveillance. For instance, when a public health officer orders a test for a suspected case of a communicable disease, the order is sent to the laboratory through the LTW. The laboratory then processes the test, records the results, and sends them back to the officer through the same workflow. This ensures that all data is accurately recorded and easily accessible, which is crucial for the monitoring and control of diseases.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Integrating the Healthcare Enterprise (IHE) Laboratory Testing Workflow (LTW) specification is a comprehensive framework designed to standardize and streamline the process of ordering and performing laboratory tests within the healthcare industry. This specification is part of the IHE Pathology and Laboratory Medicine (PaLM) domain.
+
+								The LTW specification focuses on the complete cycle of laboratory testing, from the initial order of a test by a healthcare provider, through the processing and analysis of the sample in the laboratory, to the final delivery of the test results. It aims to ensure that all steps in this process are carried out in a consistent, efficient, and accurate manner, regardless of the specific systems or technologies used.
+
+								The LTW specification defines a set of standardized transactions and data elements, which are used to exchange information between different systems involved in the laboratory testing process. These include systems for order management, sample processing, result reporting, and others. By using these standardized transactions and data elements, different systems can communicate with each other effectively, reducing the risk of errors and improving the overall efficiency of the process.
+
+								The LTW specification also includes detailed guidelines on how to implement these transactions and data elements in different systems, as well as how to ensure their interoperability. This makes it easier for healthcare providers and laboratories to adopt the specification and integrate it into their existing workflows.
+
+								In summary, the IHE LTW specification is a critical tool for improving the quality and efficiency of laboratory testing in the healthcare industry. It provides a standardized framework for managing the entire testing process, from order to result, and ensures that all systems involved in this process can communicate effectively with each other.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Laboratory Testing Workflow (LTW) integrates the ordering, scheduling, processing, and result reporting activities associated with in vitro diagnostic tests performed by clinical laboratories in healthcare institutions. The Laboratory Testing Workflow Profile covers the workflow related to tests performed on in vitro specimens by a clinical laboratory inside a healthcare institution, for both existing and pending orders, related to identified patients and unidentified or misidentified patients. It maintains the consistency of patient and order information from registration through ordering, scheduling, pre-analytical processing, testing, technical and clinical validation, to results reporting and usage of laoratory observations and comments by the care providers.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Laboratory Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

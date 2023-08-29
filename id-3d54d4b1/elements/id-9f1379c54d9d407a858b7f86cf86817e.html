@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>SCRIPT - ePrescription exchange</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>SCRIPT - ePrescription exchange</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: SCRIPT is a standard promulgated by the National Council for Prescription Drug Programs (NCPDP) for the electronically transmitted medical prescriptions.
+
+Additional information: The SCRIPT ePrescription Exchange Specification is a standard developed by the National Council for Prescription Drug Programs (NCPDP) in the United States. It is designed to facilitate the electronic transmission of prescription information between prescribers, pharmacies, and payers. The standard aims to improve the efficiency and accuracy of the prescription process, reduce medication errors, and enhance patient safety.
+
+The SCRIPT standard encompasses a wide range of transactions, including new prescriptions, prescription renewals, prescription change requests, prescription cancellation requests, medication history requests and responses, and various types of messages related to the status of prescriptions. It also includes structured and codified data elements to represent drug information, patient information, prescriber information, and pharmacy information.
+
+The SCRIPT standard is designed to be used in a variety of healthcare settings, including ambulatory care, long-term care, and retail pharmacies. It supports both the prescribing of medications and the dispensing of medications, and it can be used for both controlled and non-controlled substances.
+
+The SCRIPT standard is continually updated and refined to reflect changes in the healthcare environment, advances in technology, and evolving regulatory requirements. For example, the most recent version of the standard, known as SCRIPT Version 2017071, includes enhancements to support the electronic prescribing of controlled substances (EPCS) and to meet the requirements of the Medicare Part D e-prescribing program.
+
+The SCRIPT standard is widely adopted in the U.S. healthcare system, and its use is mandated by the Centers for Medicare &amp; Medicaid Services (CMS) for certain types of transactions. It is also recognized by the Office of the National Coordinator for Health Information Technology (ONC) as a certified health IT standard.
+
+Example: 1. Doctor's Office: A doctor can use the SCRIPT standard for ePrescription exchange to send a patient's prescription directly to their preferred pharmacy. This eliminates the need for the patient to carry a physical prescription and reduces the risk of it being lost or misinterpreted.
+
+2. Pharmacy: Once the ePrescription is received, the pharmacy can use the same standard to send a request for refill authorization back to the doctor's office. This streamlines the refill process and ensures that the patient receives the correct medication.
+
+3. Hospital: In a hospital setting, doctors can use the SCRIPT standard to send ePrescriptions directly from the patient's bedside to the hospital pharmacy. This reduces the time it takes for the patient to receive their medication and improves patient care.
+
+4. Health Insurance Companies: Health insurance companies can use the SCRIPT standard to receive electronic prescriptions from healthcare providers. This allows them to process claims more efficiently and accurately.
+
+5. Telemedicine: In a telemedicine setting, healthcare providers can use the SCRIPT standard to send ePrescriptions directly to the patient's pharmacy after a virtual consultation. This makes it easier for patients to receive their medication without having to visit a doctor's office in person.
+
+6. Electronic Health Record Systems: EHR systems can use the SCRIPT standard to integrate ePrescription functionality. This allows healthcare providers to send ePrescriptions directly from the patient's electronic health record, improving efficiency and reducing errors. 
+
+7. Clinical Decision Support Systems: These systems can use the SCRIPT standard to provide clinicians with real-time alerts about potential drug interactions, allergies, or other safety concerns before the ePrescription is sent to the pharmacy.
+
+LOST view: TVA-Health eDispensation Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/SCRIPT-EPrescriptionExchangeContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/SCRIPT-EPrescriptionExchangeContract
+
+dct:title: SCRIPT - EPrescription Exchange Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/SCRIPT-EPrescriptionExchangeContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/SCRIPT-EPrescriptionExchangeContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">SCRIPT - EPrescription Exchange Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Doctor's Office: A doctor can use the SCRIPT standard for ePrescription exchange to send a patient's prescription directly to their preferred pharmacy. This eliminates the need for the patient to carry a physical prescription and reduces the risk of it being lost or misinterpreted.
+
+								2. Pharmacy: Once the ePrescription is received, the pharmacy can use the same standard to send a request for refill authorization back to the doctor's office. This streamlines the refill process and ensures that the patient receives the correct medication.
+
+								3. Hospital: In a hospital setting, doctors can use the SCRIPT standard to send ePrescriptions directly from the patient's bedside to the hospital pharmacy. This reduces the time it takes for the patient to receive their medication and improves patient care.
+
+								4. Health Insurance Companies: Health insurance companies can use the SCRIPT standard to receive electronic prescriptions from healthcare providers. This allows them to process claims more efficiently and accurately.
+
+								5. Telemedicine: In a telemedicine setting, healthcare providers can use the SCRIPT standard to send ePrescriptions directly to the patient's pharmacy after a virtual consultation. This makes it easier for patients to receive their medication without having to visit a doctor's office in person.
+
+								6. Electronic Health Record Systems: EHR systems can use the SCRIPT standard to integrate ePrescription functionality. This allows healthcare providers to send ePrescriptions directly from the patient's electronic health record, improving efficiency and reducing errors. 
+
+								7. Clinical Decision Support Systems: These systems can use the SCRIPT standard to provide clinicians with real-time alerts about potential drug interactions, allergies, or other safety concerns before the ePrescription is sent to the pharmacy.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The SCRIPT ePrescription Exchange Specification is a standard developed by the National Council for Prescription Drug Programs (NCPDP) in the United States. It is designed to facilitate the electronic transmission of prescription information between prescribers, pharmacies, and payers. The standard aims to improve the efficiency and accuracy of the prescription process, reduce medication errors, and enhance patient safety.
+
+								The SCRIPT standard encompasses a wide range of transactions, including new prescriptions, prescription renewals, prescription change requests, prescription cancellation requests, medication history requests and responses, and various types of messages related to the status of prescriptions. It also includes structured and codified data elements to represent drug information, patient information, prescriber information, and pharmacy information.
+
+								The SCRIPT standard is designed to be used in a variety of healthcare settings, including ambulatory care, long-term care, and retail pharmacies. It supports both the prescribing of medications and the dispensing of medications, and it can be used for both controlled and non-controlled substances.
+
+								The SCRIPT standard is continually updated and refined to reflect changes in the healthcare environment, advances in technology, and evolving regulatory requirements. For example, the most recent version of the standard, known as SCRIPT Version 2017071, includes enhancements to support the electronic prescribing of controlled substances (EPCS) and to meet the requirements of the Medicare Part D e-prescribing program.
+
+								The SCRIPT standard is widely adopted in the U.S. healthcare system, and its use is mandated by the Centers for Medicare &amp; Medicaid Services (CMS) for certain types of transactions. It is also recognized by the Office of the National Coordinator for Health Information Technology (ONC) as a certified health IT standard.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">SCRIPT is a standard promulgated by the National Council for Prescription Drug Programs (NCPDP) for the electronically transmitted medical prescriptions.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health eDispensation Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE DIS: Pharmacy Dispense</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE DIS: Pharmacy Dispense</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: The Community Dispense Document Profile (DIS) describes the content and format of a dispense document generated during the process in which a health care professional (in most cases, but not necessarily always, a pharmacist) hands out a medication to a patient. Documents created according to this profile are intended to be used in the context of the &#8220;Community Medication Prescription and Dispense&#8221; Integration Profile (CMPD).
+
+Additional information: The IHE (Integrating the Healthcare Enterprise) DIS (Dispense Information Service) Pharmacy Dispense specification is a detailed technical framework that outlines the standard procedures for the exchange of information related to the dispensing of medications in a healthcare setting. This specification is part of the IHE Pharmacy domain, which focuses on improving the safety, quality, and efficiency of medication-related processes.
+
+The IHE DIS Pharmacy Dispense specification is designed to ensure that all relevant parties in the medication dispensing process, including pharmacists, physicians, and other healthcare providers, have access to accurate, up-to-date, and comprehensive information. This includes details about the medication itself (such as the name, dosage, and instructions for use), the patient who is receiving the medication, and the healthcare provider who prescribed the medication.
+
+The specification defines a set of transactions and interactions between different systems involved in the dispensing process, such as the pharmacy management system, the electronic health record (EHR) system, and the medication dispensing system. These transactions and interactions are designed to facilitate the seamless exchange of information and ensure that all systems are working together effectively and efficiently.
+
+The IHE DIS Pharmacy Dispense specification also includes provisions for error handling and security to ensure that the dispensing process is not only efficient, but also safe and secure. This includes mechanisms for verifying the identity of the patient and the healthcare provider, checking for potential drug interactions, and ensuring that the medication is dispensed correctly.
+
+In summary, the IHE DIS Pharmacy Dispense specification is a comprehensive framework for the exchange of information related to the dispensing of medications, designed to improve the safety, quality, and efficiency of this critical healthcare process.
+
+Example: 1. Prescription Management: A patient visits a doctor who prescribes medication for their condition. The doctor enters the prescription into the hospital's electronic health record (EHR) system. The EHR system, using IHE DIS: Pharmacy Dispense, sends the prescription to the hospital's pharmacy. The pharmacy dispenses the medication and updates the system, which then notifies the doctor that the medication has been dispensed.
+
+2. Medication Reconciliation: A patient is admitted to the hospital. The hospital's EHR system, using IHE DIS: Pharmacy Dispense, retrieves the patient's medication history from the pharmacy. The hospital staff can then reconcile the patient's current medications with those they were taking prior to admission, ensuring that there are no conflicts or potential issues.
+
+3. Refill Management: A patient needs a refill of their chronic medication. The pharmacy, using IHE DIS: Pharmacy Dispense, sends a refill request to the patient's doctor. The doctor approves the refill and updates the system. The pharmacy then dispenses the refill and updates the system, which then notifies the patient that their refill is ready for pickup.
+
+4. Medication Tracking: A hospital wants to track the usage of a particular medication. Using IHE DIS: Pharmacy Dispense, the hospital's EHR system can retrieve dispensing information from the pharmacy, allowing the hospital to monitor usage trends and ensure that the medication is being used appropriately.
+
+5. Drug Interaction Check: A doctor prescribes a new medication for a patient. The EHR system, using IHE DIS: Pharmacy Dispense, sends the prescription to the pharmacy. The pharmacy checks for potential drug interactions with the patient's current medications and alerts the doctor if any are found. The doctor can then adjust the prescription as necessary.
+
+LOST view: TVA-Health eDispensation Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHEDISPharmacyDispenseContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHEDISPharmacyDispenseContract
+
+dct:title: IHE DIS: Pharmacy Dispense Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEDISPharmacyDispenseContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEDISPharmacyDispenseContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE DIS: Pharmacy Dispense Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Prescription Management: A patient visits a doctor who prescribes medication for their condition. The doctor enters the prescription into the hospital's electronic health record (EHR) system. The EHR system, using IHE DIS: Pharmacy Dispense, sends the prescription to the hospital's pharmacy. The pharmacy dispenses the medication and updates the system, which then notifies the doctor that the medication has been dispensed.
+
+								2. Medication Reconciliation: A patient is admitted to the hospital. The hospital's EHR system, using IHE DIS: Pharmacy Dispense, retrieves the patient's medication history from the pharmacy. The hospital staff can then reconcile the patient's current medications with those they were taking prior to admission, ensuring that there are no conflicts or potential issues.
+
+								3. Refill Management: A patient needs a refill of their chronic medication. The pharmacy, using IHE DIS: Pharmacy Dispense, sends a refill request to the patient's doctor. The doctor approves the refill and updates the system. The pharmacy then dispenses the refill and updates the system, which then notifies the patient that their refill is ready for pickup.
+
+								4. Medication Tracking: A hospital wants to track the usage of a particular medication. Using IHE DIS: Pharmacy Dispense, the hospital's EHR system can retrieve dispensing information from the pharmacy, allowing the hospital to monitor usage trends and ensure that the medication is being used appropriately.
+
+								5. Drug Interaction Check: A doctor prescribes a new medication for a patient. The EHR system, using IHE DIS: Pharmacy Dispense, sends the prescription to the pharmacy. The pharmacy checks for potential drug interactions with the patient's current medications and alerts the doctor if any are found. The doctor can then adjust the prescription as necessary.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE (Integrating the Healthcare Enterprise) DIS (Dispense Information Service) Pharmacy Dispense specification is a detailed technical framework that outlines the standard procedures for the exchange of information related to the dispensing of medications in a healthcare setting. This specification is part of the IHE Pharmacy domain, which focuses on improving the safety, quality, and efficiency of medication-related processes.
+
+								The IHE DIS Pharmacy Dispense specification is designed to ensure that all relevant parties in the medication dispensing process, including pharmacists, physicians, and other healthcare providers, have access to accurate, up-to-date, and comprehensive information. This includes details about the medication itself (such as the name, dosage, and instructions for use), the patient who is receiving the medication, and the healthcare provider who prescribed the medication.
+
+								The specification defines a set of transactions and interactions between different systems involved in the dispensing process, such as the pharmacy management system, the electronic health record (EHR) system, and the medication dispensing system. These transactions and interactions are designed to facilitate the seamless exchange of information and ensure that all systems are working together effectively and efficiently.
+
+								The IHE DIS Pharmacy Dispense specification also includes provisions for error handling and security to ensure that the dispensing process is not only efficient, but also safe and secure. This includes mechanisms for verifying the identity of the patient and the healthcare provider, checking for potential drug interactions, and ensuring that the medication is dispensed correctly.
+
+								In summary, the IHE DIS Pharmacy Dispense specification is a comprehensive framework for the exchange of information related to the dispensing of medications, designed to improve the safety, quality, and efficiency of this critical healthcare process.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Community Dispense Document Profile (DIS) describes the content and format of a dispense document generated during the process in which a health care professional (in most cases, but not necessarily always, a pharmacist) hands out a medication to a patient. Documents created according to this profile are intended to be used in the context of the &#8220;Community Medication Prescription and Dispense&#8221; Integration Profile (CMPD).</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health eDispensation Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

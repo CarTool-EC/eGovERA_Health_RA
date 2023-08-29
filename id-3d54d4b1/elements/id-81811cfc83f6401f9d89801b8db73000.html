@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE LCSD: Laboratory Code Sets Distribution</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE LCSD: Laboratory Code Sets Distribution</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Laboratory Code Sets Distribution (LCSD) shares common nomenclatures among systems involved in laboratory workflows. A set of common codes is generally used by multiple application systems in a laboratory workflow environment. These common codes need to be synchronized across the various applications at a given site. In many implementations, one application system will be the owner (the "master") of the code set. The responsibility for managing a code set may also be distributed among different systems. This profile provides a way for the master of a code set (battery, test and observation codes) to send the code set to other applications.
+
+Additional information: The Integrating the Healthcare Enterprise (IHE) Laboratory Code Sets Distribution (LCSD) specification is a healthcare interoperability profile that defines a standardized method for distributing laboratory test codes and their associated information. This specification is designed to facilitate the exchange of laboratory test information between healthcare systems, such as electronic health record (EHR) systems, laboratory information systems (LIS), and other healthcare information technology (HIT) systems.
+
+The LCSD specification is part of the IHE's Laboratory domain, which focuses on the integration of systems that produce laboratory data, such as clinical laboratory testing and anatomic pathology, with other healthcare systems. The LCSD profile provides a solution for the distribution, installation, and update of laboratory code sets, which are used to identify specific laboratory tests.
+
+The LCSD specification defines the actors, transactions, and content modules involved in the distribution of laboratory code sets. The actors include the Code Set Master, which is the source of the code sets, and the Code Set Consumer, which is the system that uses the code sets. The transactions define the interactions between these actors, such as the distribution of code sets from the Code Set Master to the Code Set Consumer.
+
+The content modules define the structure and format of the code sets, which are based on standard healthcare terminologies such as LOINC (Logical Observation Identifiers Names and Codes) and SNOMED CT (Systematized Nomenclature of Medicine Clinical Terms). The LCSD specification also defines the use of metadata to describe the code sets, such as version information and update history.
+
+The LCSD specification supports the use of standard healthcare messaging protocols for the distribution of code sets, such as HL7 (Health Level Seven) and FHIR (Fast Healthcare Interoperability Resources). This ensures that the LCSD profile can be integrated with existing healthcare systems and workflows.
+
+In summary, the IHE LCSD specification provides a standardized method for the distribution of laboratory code sets, facilitating the exchange of laboratory test information between healthcare systems and improving the interoperability of healthcare IT systems.
+
+Example: 1. Electronic Health Record Systems: The IHE LCSD can be applied in EHR systems to standardize the coding of laboratory tests and results. This ensures that all healthcare providers, regardless of their location or the specific system they use, can understand and interpret the laboratory results. For example, a hospital in New York can send a patient's lab results to a specialist in California, and the specialist will be able to understand the results because they are coded according to the LCSD standard.
+
+2. Laboratory Information Systems: The LCSD can be used in LIS to standardize the way laboratory tests are ordered and results are reported. For instance, a doctor in a clinic can order a blood test for a patient, and the laboratory can process the order, perform the test, and report the results back to the doctor, all using the same standardized codes.
+
+3. Health Information Exchanges: HIEs can use the LCSD to ensure that laboratory data is consistently coded across different healthcare organizations. This allows for seamless exchange of information and improved patient care. For example, a patient's lab results from a hospital can be shared with their primary care physician and any specialists they see, all using the same standardized codes.
+
+4. Research and Public Health Reporting: The LCSD can be applied in research and public health reporting to ensure consistent coding of laboratory data. This allows for accurate aggregation and analysis of data, which can inform public health interventions and research studies. For example, a public health agency can collect data on the prevalence of a certain disease by gathering lab results from various healthcare providers, all coded according to the LCSD standard.
+
+5. Interoperability Testing: The LCSD can be used in interoperability testing to ensure that different healthcare IT systems can effectively communicate with each other. For example, a new EHR system can be tested to ensure it can send and receive lab orders and results using the LCSD standard.
+
+LOST view: TVA-Health Laboratory Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHELCSDLaboratoryCodeSetsDistributionContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHELCSDLaboratoryCodeSetsDistributionContract
+
+dct:title: IHE LCSD: Laboratory Code Sets Distribution Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHELCSDLaboratoryCodeSetsDistributionContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHELCSDLaboratoryCodeSetsDistributionContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE LCSD: Laboratory Code Sets Distribution Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Electronic Health Record Systems: The IHE LCSD can be applied in EHR systems to standardize the coding of laboratory tests and results. This ensures that all healthcare providers, regardless of their location or the specific system they use, can understand and interpret the laboratory results. For example, a hospital in New York can send a patient's lab results to a specialist in California, and the specialist will be able to understand the results because they are coded according to the LCSD standard.
+
+								2. Laboratory Information Systems: The LCSD can be used in LIS to standardize the way laboratory tests are ordered and results are reported. For instance, a doctor in a clinic can order a blood test for a patient, and the laboratory can process the order, perform the test, and report the results back to the doctor, all using the same standardized codes.
+
+								3. Health Information Exchanges: HIEs can use the LCSD to ensure that laboratory data is consistently coded across different healthcare organizations. This allows for seamless exchange of information and improved patient care. For example, a patient's lab results from a hospital can be shared with their primary care physician and any specialists they see, all using the same standardized codes.
+
+								4. Research and Public Health Reporting: The LCSD can be applied in research and public health reporting to ensure consistent coding of laboratory data. This allows for accurate aggregation and analysis of data, which can inform public health interventions and research studies. For example, a public health agency can collect data on the prevalence of a certain disease by gathering lab results from various healthcare providers, all coded according to the LCSD standard.
+
+								5. Interoperability Testing: The LCSD can be used in interoperability testing to ensure that different healthcare IT systems can effectively communicate with each other. For example, a new EHR system can be tested to ensure it can send and receive lab orders and results using the LCSD standard.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Integrating the Healthcare Enterprise (IHE) Laboratory Code Sets Distribution (LCSD) specification is a healthcare interoperability profile that defines a standardized method for distributing laboratory test codes and their associated information. This specification is designed to facilitate the exchange of laboratory test information between healthcare systems, such as electronic health record (EHR) systems, laboratory information systems (LIS), and other healthcare information technology (HIT) systems.
+
+								The LCSD specification is part of the IHE's Laboratory domain, which focuses on the integration of systems that produce laboratory data, such as clinical laboratory testing and anatomic pathology, with other healthcare systems. The LCSD profile provides a solution for the distribution, installation, and update of laboratory code sets, which are used to identify specific laboratory tests.
+
+								The LCSD specification defines the actors, transactions, and content modules involved in the distribution of laboratory code sets. The actors include the Code Set Master, which is the source of the code sets, and the Code Set Consumer, which is the system that uses the code sets. The transactions define the interactions between these actors, such as the distribution of code sets from the Code Set Master to the Code Set Consumer.
+
+								The content modules define the structure and format of the code sets, which are based on standard healthcare terminologies such as LOINC (Logical Observation Identifiers Names and Codes) and SNOMED CT (Systematized Nomenclature of Medicine Clinical Terms). The LCSD specification also defines the use of metadata to describe the code sets, such as version information and update history.
+
+								The LCSD specification supports the use of standard healthcare messaging protocols for the distribution of code sets, such as HL7 (Health Level Seven) and FHIR (Fast Healthcare Interoperability Resources). This ensures that the LCSD profile can be integrated with existing healthcare systems and workflows.
+
+								In summary, the IHE LCSD specification provides a standardized method for the distribution of laboratory code sets, facilitating the exchange of laboratory test information between healthcare systems and improving the interoperability of healthcare IT systems.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Laboratory Code Sets Distribution (LCSD) shares common nomenclatures among systems involved in laboratory workflows. A set of common codes is generally used by multiple application systems in a laboratory workflow environment. These common codes need to be synchronized across the various applications at a given site. In many implementations, one application system will be the owner (the "master") of the code set. The responsibility for managing a code set may also be distributed among different systems. This profile provides a way for the master of a code set (battery, test and observation codes) to send the code set to other applications.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Laboratory Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE XCPD: Cross-Community Patient Discovery</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE XCPD: Cross-Community Patient Discovery</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: The Cross-Community Patient Discovery (XCPD) profile supports the means to locate communities which hold patient relevant health data and the translation of patient identifiers across communities holding the same patient&#8217;s data. A community is defined as a group of facilities/enterprises that have agreed to work together using a common set of policies for the purpose of sharing health information within the community via an established mechanism. Facilities/enterprises may host any type of healthcare application such as EHR, PHR, etc. A community is identifiable by a globally unique id called the homeCommunityId. Membership of a facility/enterprise in one community does not preclude it from being a member in another community. Such communities may be XDS Affinity Domains which define document sharing using the XDS profile or any other communities, no matter what their internal sharing structure.
+
+Additional information: The IHE XCPD (Cross-Community Patient Discovery) specification is a healthcare interoperability standard developed by Integrating the Healthcare Enterprise (IHE), an initiative by healthcare professionals and industry to improve the way computer systems in healthcare share information. The XCPD specification provides a standardized way to locate and match patient records across different health information exchange (HIE) communities, which can be different healthcare organizations, regions, or even countries.
+
+The XCPD specification is designed to support the process of patient discovery, which involves identifying whether a patient is known to a community, and if so, what the patient's identifiers are within that community. This is crucial in a healthcare setting where patient information needs to be shared across different healthcare providers for coordinated care.
+
+The XCPD specification defines a set of transactions and interactions between different actors, such as the Initiating Gateway and Responding Gateway, to support the patient discovery process. These transactions include the Patient Discovery Query, which is used to request patient information, and the Patient Discovery Response, which is used to respond to the query with patient information.
+
+The XCPD specification also defines the data format and content for the patient discovery query and response. This includes patient demographic information, such as name, date of birth, gender, and address, as well as patient identifiers, such as the patient ID and the assigning authority.
+
+The XCPD specification supports different types of patient matching strategies, including deterministic matching, which requires an exact match of patient identifiers, and probabilistic matching, which uses statistical algorithms to determine the likelihood of a match.
+
+In summary, the IHE XCPD specification provides a standardized way to locate and match patient records across different health information exchange communities, supporting the sharing of patient information for coordinated care.
+
+Example: 1. Health Information Exchange: In a health information exchange (HIE) scenario, the IHE XCPD can be used to discover and locate patient records across different health communities. For instance, if a patient from Community A visits a hospital in Community B, the hospital can use XCPD to find and retrieve the patient's health records from Community A. This can help in providing timely and accurate care to the patient.
+
+2. Emergency Services: In case of emergencies, where a patient might be unconscious or unable to provide their medical history, the IHE XCPD can be used to quickly discover and retrieve the patient's health information from different health communities. This can be crucial in making life-saving decisions.
+
+3. Telemedicine: In telemedicine, where a patient might be receiving care from healthcare providers in different locations, the IHE XCPD can be used to ensure that all providers have access to the same patient information. This can help in coordinating care and avoiding potential medical errors.
+
+4. Research Studies: In research studies involving patients from different health communities, the IHE XCPD can be used to discover and retrieve patient information. This can help in gathering comprehensive data for the study.
+
+5. Interoperability Testing: In scenarios where health IT systems are being tested for interoperability, the IHE XCPD can be used to simulate the discovery and retrieval of patient information from different health communities. This can help in identifying and addressing potential interoperability issues.
+
+LOST view: TVA-Health Patient Summary Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHEXCPDCross-CommunityPatientDiscoveryContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHEXCPDCross-CommunityPatientDiscoveryContract
+
+dct:title: IHE XCPD: Cross-Community Patient Discovery Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXCPDCross-CommunityPatientDiscoveryContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXCPDCross-CommunityPatientDiscoveryContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE XCPD: Cross-Community Patient Discovery Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Health Information Exchange: In a health information exchange (HIE) scenario, the IHE XCPD can be used to discover and locate patient records across different health communities. For instance, if a patient from Community A visits a hospital in Community B, the hospital can use XCPD to find and retrieve the patient's health records from Community A. This can help in providing timely and accurate care to the patient.
+
+								2. Emergency Services: In case of emergencies, where a patient might be unconscious or unable to provide their medical history, the IHE XCPD can be used to quickly discover and retrieve the patient's health information from different health communities. This can be crucial in making life-saving decisions.
+
+								3. Telemedicine: In telemedicine, where a patient might be receiving care from healthcare providers in different locations, the IHE XCPD can be used to ensure that all providers have access to the same patient information. This can help in coordinating care and avoiding potential medical errors.
+
+								4. Research Studies: In research studies involving patients from different health communities, the IHE XCPD can be used to discover and retrieve patient information. This can help in gathering comprehensive data for the study.
+
+								5. Interoperability Testing: In scenarios where health IT systems are being tested for interoperability, the IHE XCPD can be used to simulate the discovery and retrieval of patient information from different health communities. This can help in identifying and addressing potential interoperability issues.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE XCPD (Cross-Community Patient Discovery) specification is a healthcare interoperability standard developed by Integrating the Healthcare Enterprise (IHE), an initiative by healthcare professionals and industry to improve the way computer systems in healthcare share information. The XCPD specification provides a standardized way to locate and match patient records across different health information exchange (HIE) communities, which can be different healthcare organizations, regions, or even countries.
+
+								The XCPD specification is designed to support the process of patient discovery, which involves identifying whether a patient is known to a community, and if so, what the patient's identifiers are within that community. This is crucial in a healthcare setting where patient information needs to be shared across different healthcare providers for coordinated care.
+
+								The XCPD specification defines a set of transactions and interactions between different actors, such as the Initiating Gateway and Responding Gateway, to support the patient discovery process. These transactions include the Patient Discovery Query, which is used to request patient information, and the Patient Discovery Response, which is used to respond to the query with patient information.
+
+								The XCPD specification also defines the data format and content for the patient discovery query and response. This includes patient demographic information, such as name, date of birth, gender, and address, as well as patient identifiers, such as the patient ID and the assigning authority.
+
+								The XCPD specification supports different types of patient matching strategies, including deterministic matching, which requires an exact match of patient identifiers, and probabilistic matching, which uses statistical algorithms to determine the likelihood of a match.
+
+								In summary, the IHE XCPD specification provides a standardized way to locate and match patient records across different health information exchange communities, supporting the sharing of patient information for coordinated care.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Cross-Community Patient Discovery (XCPD) profile supports the means to locate communities which hold patient relevant health data and the translation of patient identifiers across communities holding the same patient&#8217;s data. A community is defined as a group of facilities/enterprises that have agreed to work together using a common set of policies for the purpose of sharing health information within the community via an established mechanism. Facilities/enterprises may host any type of healthcare application such as EHR, PHR, etc. A community is identifiable by a globally unique id called the homeCommunityId. Membership of a facility/enterprise in one community does not preclude it from being a member in another community. Such communities may be XDS Affinity Domains which define document sharing using the XDS profile or any other communities, no matter what their internal sharing structure.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Patient Summary Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

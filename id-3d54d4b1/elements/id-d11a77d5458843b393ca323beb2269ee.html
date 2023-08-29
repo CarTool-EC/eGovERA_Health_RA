@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>C-CDA -Clinical documents</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>C-CDA -Clinical documents</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: The Consolidated Clinical Document Architecture (C-CDA) is an XML-based markup standard which provides a library of CDA formatted documents.
+
+Additional information: The Consolidated Clinical Document Architecture (C-CDA) is a standard for the structured exchange of clinical documents among healthcare providers. It was developed by Health Level Seven International (HL7), a not-for-profit, ANSI-accredited standards developing organization dedicated to providing a comprehensive framework and related standards for the exchange, integration, sharing, and retrieval of electronic health information.
+
+C-CDA is a markup standard intended to specify the encoding, structure, and semantics of clinical documents for exchange. It is designed to improve the interoperability of electronic health records (EHRs) and enhance their meaningful use. The standard includes a series of document templates, each of which defines the structure and semantics of a specific type of clinical document such as a discharge summary, radiology report, or laboratory result.
+
+Each C-CDA document is made up of a header and a body. The header includes information about the patient, the author and custodian of the document, and the type of document. The body of the document contains the clinical content, which is organized into sections such as allergies, medications, problems, and procedures.
+
+The C-CDA standard is based on the HL7 Reference Information Model (RIM) and uses the HL7 Version 3 data types. It is expressed in Extensible Markup Language (XML), which allows it to be processed by computers and read by humans.
+
+The use of C-CDA can facilitate the sharing of patient information among healthcare providers, enabling better coordinated care and improved patient outcomes. It can also support public health reporting, quality measurement, and clinical research.
+
+Example: 1. Patient Transfer: When a patient is transferred from one healthcare facility to another, a C-CDA document can be used to summarize the patient's medical history, current medications, allergies, and other relevant information. This ensures that the receiving facility has all the necessary information to continue the patient's care.
+
+2. Discharge Summary: After a patient is discharged from a hospital, a C-CDA document can be used to summarize the patient's hospital stay, including diagnoses, treatments, and follow-up care instructions. This document can be shared with the patient's primary care physician to ensure continuity of care.
+
+3. Referral: When a physician refers a patient to a specialist, a C-CDA document can be used to provide the specialist with a comprehensive overview of the patient's health status. This can include information about the patient's symptoms, test results, and the reason for the referral.
+
+4. Emergency Department Visit: In case of an emergency department visit, a C-CDA document can be used to record the patient's symptoms, the care provided, and the patient's response to treatment. This document can be shared with the patient's primary care physician to ensure they are aware of the emergency visit and any subsequent care needs.
+
+5. Health Information Exchange: C-CDA documents can be used in health information exchanges, where they allow different healthcare providers to share and access patient information. This can improve coordination of care and reduce the likelihood of medical errors.
+
+6. Patient Portal: Patients can access their own C-CDA documents through a patient portal. This allows patients to view their own health information, including lab results, medication lists, and care plans. This can help patients to better manage their own health and make informed decisions about their care.
+
+LOST view: TVA-Health Technical Agreements
+
+Identifier: http://data.europa.eu/dr8/egovera/C-CDA-ClinicalDocumentsContract
+
+EIRA traceability: eira:TechnicalAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/C-CDA-ClinicalDocumentsContract
+
+dct:title: C-CDA -Clinical Documents Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/C-CDA-ClinicalDocumentsContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/C-CDA-ClinicalDocumentsContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">C-CDA -Clinical Documents Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Patient Transfer: When a patient is transferred from one healthcare facility to another, a C-CDA document can be used to summarize the patient's medical history, current medications, allergies, and other relevant information. This ensures that the receiving facility has all the necessary information to continue the patient's care.
+
+								2. Discharge Summary: After a patient is discharged from a hospital, a C-CDA document can be used to summarize the patient's hospital stay, including diagnoses, treatments, and follow-up care instructions. This document can be shared with the patient's primary care physician to ensure continuity of care.
+
+								3. Referral: When a physician refers a patient to a specialist, a C-CDA document can be used to provide the specialist with a comprehensive overview of the patient's health status. This can include information about the patient's symptoms, test results, and the reason for the referral.
+
+								4. Emergency Department Visit: In case of an emergency department visit, a C-CDA document can be used to record the patient's symptoms, the care provided, and the patient's response to treatment. This document can be shared with the patient's primary care physician to ensure they are aware of the emergency visit and any subsequent care needs.
+
+								5. Health Information Exchange: C-CDA documents can be used in health information exchanges, where they allow different healthcare providers to share and access patient information. This can improve coordination of care and reduce the likelihood of medical errors.
+
+								6. Patient Portal: Patients can access their own C-CDA documents through a patient portal. This allows patients to view their own health information, including lab results, medication lists, and care plans. This can help patients to better manage their own health and make informed decisions about their care.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Consolidated Clinical Document Architecture (C-CDA) is a standard for the structured exchange of clinical documents among healthcare providers. It was developed by Health Level Seven International (HL7), a not-for-profit, ANSI-accredited standards developing organization dedicated to providing a comprehensive framework and related standards for the exchange, integration, sharing, and retrieval of electronic health information.
+
+								C-CDA is a markup standard intended to specify the encoding, structure, and semantics of clinical documents for exchange. It is designed to improve the interoperability of electronic health records (EHRs) and enhance their meaningful use. The standard includes a series of document templates, each of which defines the structure and semantics of a specific type of clinical document such as a discharge summary, radiology report, or laboratory result.
+
+								Each C-CDA document is made up of a header and a body. The header includes information about the patient, the author and custodian of the document, and the type of document. The body of the document contains the clinical content, which is organized into sections such as allergies, medications, problems, and procedures.
+
+								The C-CDA standard is based on the HL7 Reference Information Model (RIM) and uses the HL7 Version 3 data types. It is expressed in Extensible Markup Language (XML), which allows it to be processed by computers and read by humans.
+
+								The use of C-CDA can facilitate the sharing of patient information among healthcare providers, enabling better coordinated care and improved patient outcomes. It can also support public health reporting, quality measurement, and clinical research.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Consolidated Clinical Document Architecture (C-CDA) is an XML-based markup standard which provides a library of CDA formatted documents.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

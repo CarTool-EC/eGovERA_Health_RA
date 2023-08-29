@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE PIX: Patient Identifier Cross-Referencing</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE PIX: Patient Identifier Cross-Referencing</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: The Patient Identifier Cross Referencing (PIX) Integration Profile supports the cross-referencing of patient identifiers from multiple Patient Identifier Domains by: (a) Transmitting patient identity information from an identity source to the Patient Identifier Cross-reference Manager. (b) Providing the ability to access the list(s) of cross-referenced patient identifiers either via a query/ response or via an update notification.
+
+Additional information: The IHE (Integrating the Healthcare Enterprise) Patient Identifier Cross-Referencing (PIX) specification is a healthcare data standard that facilitates the accurate and efficient exchange of patient information among healthcare providers. It is designed to ensure that patient data remains consistent, accurate, and up-to-date across different healthcare systems, thereby improving the quality of patient care.
+
+The IHE PIX specification provides a framework for the cross-referencing of patient identifiers that are used in different healthcare information systems. This means that it enables the linking of multiple identifiers that may be used to identify a single patient in different systems, such as a hospital information system, a laboratory system, or a pharmacy system. This is particularly important in healthcare settings where patients may be identified by different identifiers in different systems, which can lead to confusion and errors in patient care.
+
+The IHE PIX specification defines a set of transactions and interactions between three types of actors: the Patient Identity Source, the Patient Identity Cross-reference Manager, and the Patient Identity Cross-reference Consumer. The Patient Identity Source is the system that provides patient identity information to the Patient Identity Cross-reference Manager. The Patient Identity Cross-reference Manager is responsible for maintaining the cross-reference of patient identifiers and providing this information to the Patient Identity Cross-reference Consumer. The Patient Identity Cross-reference Consumer is the system that uses the cross-referenced patient identifiers to access patient information.
+
+The IHE PIX specification also defines the use of HL7 (Health Level Seven) messaging standards for the exchange of patient identity information. HL7 is a set of international standards for the transfer of clinical and administrative data between software applications used by various healthcare providers.
+
+In summary, the IHE PIX specification provides a standardized approach to patient identity management in healthcare, helping to ensure that patient data is accurately and efficiently exchanged between different healthcare systems. This can help to improve the quality of patient care by ensuring that healthcare providers have access to accurate and up-to-date patient information.
+
+Example: 1. Hospital Mergers: When two hospitals merge, they often have two different patient identification systems. Using IHE PIX, they can cross-reference the patient identifiers from both systems to ensure that each patient's records are accurately combined and accessible in the new system.
+
+2. Interoperability between Healthcare Systems: Different healthcare systems often use different patient identification systems. For example, a hospital may use one system, while a local clinic uses another. IHE PIX allows these systems to cross-reference patient identifiers, ensuring that a patient's records can be accurately accessed across different healthcare systems.
+
+3. Emergency Services: In an emergency situation, a patient may be taken to a hospital that they have never visited before. If this hospital uses a different patient identification system than the patient's regular healthcare provider, IHE PIX can be used to cross-reference the patient's identifier and quickly access their medical history.
+
+4. Research Studies: In research studies involving multiple healthcare institutions, each institution may use a different patient identification system. IHE PIX can be used to cross-reference patient identifiers, ensuring that each patient's data is accurately combined for the study.
+
+5. Health Information Exchanges (HIEs): HIEs often involve multiple healthcare systems, each using a different patient identification system. IHE PIX allows these systems to cross-reference patient identifiers, ensuring that a patient's records can be accurately accessed across the HIE.
+
+6. Telemedicine: In telemedicine, a patient may receive care from healthcare providers in different locations, each using a different patient identification system. IHE PIX can be used to cross-reference patient identifiers, ensuring that each provider has accurate access to the patient's records.
+
+LOST view: TVA-Health Patient Summary Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHEPIXPatientIdentifierCross-ReferencingContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHEPIXPatientIdentifierCross-ReferencingContract
+
+dct:title: IHE PIX: Patient Identifier Cross-Referencing Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEPIXPatientIdentifierCross-ReferencingContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEPIXPatientIdentifierCross-ReferencingContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE PIX: Patient Identifier Cross-Referencing Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Hospital Mergers: When two hospitals merge, they often have two different patient identification systems. Using IHE PIX, they can cross-reference the patient identifiers from both systems to ensure that each patient's records are accurately combined and accessible in the new system.
+
+								2. Interoperability between Healthcare Systems: Different healthcare systems often use different patient identification systems. For example, a hospital may use one system, while a local clinic uses another. IHE PIX allows these systems to cross-reference patient identifiers, ensuring that a patient's records can be accurately accessed across different healthcare systems.
+
+								3. Emergency Services: In an emergency situation, a patient may be taken to a hospital that they have never visited before. If this hospital uses a different patient identification system than the patient's regular healthcare provider, IHE PIX can be used to cross-reference the patient's identifier and quickly access their medical history.
+
+								4. Research Studies: In research studies involving multiple healthcare institutions, each institution may use a different patient identification system. IHE PIX can be used to cross-reference patient identifiers, ensuring that each patient's data is accurately combined for the study.
+
+								5. Health Information Exchanges (HIEs): HIEs often involve multiple healthcare systems, each using a different patient identification system. IHE PIX allows these systems to cross-reference patient identifiers, ensuring that a patient's records can be accurately accessed across the HIE.
+
+								6. Telemedicine: In telemedicine, a patient may receive care from healthcare providers in different locations, each using a different patient identification system. IHE PIX can be used to cross-reference patient identifiers, ensuring that each provider has accurate access to the patient's records.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE (Integrating the Healthcare Enterprise) Patient Identifier Cross-Referencing (PIX) specification is a healthcare data standard that facilitates the accurate and efficient exchange of patient information among healthcare providers. It is designed to ensure that patient data remains consistent, accurate, and up-to-date across different healthcare systems, thereby improving the quality of patient care.
+
+								The IHE PIX specification provides a framework for the cross-referencing of patient identifiers that are used in different healthcare information systems. This means that it enables the linking of multiple identifiers that may be used to identify a single patient in different systems, such as a hospital information system, a laboratory system, or a pharmacy system. This is particularly important in healthcare settings where patients may be identified by different identifiers in different systems, which can lead to confusion and errors in patient care.
+
+								The IHE PIX specification defines a set of transactions and interactions between three types of actors: the Patient Identity Source, the Patient Identity Cross-reference Manager, and the Patient Identity Cross-reference Consumer. The Patient Identity Source is the system that provides patient identity information to the Patient Identity Cross-reference Manager. The Patient Identity Cross-reference Manager is responsible for maintaining the cross-reference of patient identifiers and providing this information to the Patient Identity Cross-reference Consumer. The Patient Identity Cross-reference Consumer is the system that uses the cross-referenced patient identifiers to access patient information.
+
+								The IHE PIX specification also defines the use of HL7 (Health Level Seven) messaging standards for the exchange of patient identity information. HL7 is a set of international standards for the transfer of clinical and administrative data between software applications used by various healthcare providers.
+
+								In summary, the IHE PIX specification provides a standardized approach to patient identity management in healthcare, helping to ensure that patient data is accurately and efficiently exchanged between different healthcare systems. This can help to improve the quality of patient care by ensuring that healthcare providers have access to accurate and up-to-date patient information.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Patient Identifier Cross Referencing (PIX) Integration Profile supports the cross-referencing of patient identifiers from multiple Patient Identifier Domains by: (a) Transmitting patient identity information from an identity source to the Patient Identifier Cross-reference Manager. (b) Providing the ability to access the list(s) of cross-referenced patient identifiers either via a query/ response or via an update notification.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Patient Summary Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

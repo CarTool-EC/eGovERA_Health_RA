@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Laboratory data format</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Laboratory data format</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Representation"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Representation" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Data format for the exchange of laboratory information.
+
+Additional information: The laboratory data format is designed to facilitate the efficient and accurate recording, storage, and retrieval of laboratory data. It typically includes fields for patient identification, specimen identification, test requested, test results, units of measure, reference ranges, and date and time of testing. The format may also include additional fields for comments or notes, abnormal flags, and other relevant information. The specific format used may depend on the type of laboratory (e.g., clinical, research, industrial) and the specific tests being performed. It's important to note that the laboratory data format must comply with relevant standards and regulations to ensure data integrity and patient privacy.
+
+Example: For instance, a laboratory data format for a clinical laboratory might include the following fields: 'Patient ID', 'Patient Name', 'Date of Birth', 'Gender', 'Test Requested', 'Specimen ID', 'Date and Time of Collection', 'Test Results', 'Units of Measure', 'Reference Range', 'Abnormal Flags', 'Date and Time of Reporting', and 'Comments'. This format allows for the systematic recording and retrieval of patient test data, facilitating efficient patient care and clinical decision-making.
+
+Publisher: National Institutes of Health
+
+Source: https://www.nih.gov/health-information/nih-clinical-research-trials-you/basics
+
+LOST view: Semantic view
+
+Identifier: http://data.europa.eu/dr8/egovera/LaboratoryDataFormatRepresentation
+
+EIRA traceability: eira:DataRepresentation
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/LaboratoryDataFormatRepresentation
+
+dct:title: Laboratory Data Format
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/LaboratoryDataFormatRepresentation</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DataRepresentation</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/LaboratoryDataFormatRepresentation</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Laboratory Data Format</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">For instance, a laboratory data format for a clinical laboratory might include the following fields: 'Patient ID', 'Patient Name', 'Date of Birth', 'Gender', 'Test Requested', 'Specimen ID', 'Date and Time of Collection', 'Test Results', 'Units of Measure', 'Reference Range', 'Abnormal Flags', 'Date and Time of Reporting', and 'Comments'. This format allows for the systematic recording and retrieval of patient test data, facilitating efficient patient care and clinical decision-making.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The laboratory data format is designed to facilitate the efficient and accurate recording, storage, and retrieval of laboratory data. It typically includes fields for patient identification, specimen identification, test requested, test results, units of measure, reference ranges, and date and time of testing. The format may also include additional fields for comments or notes, abnormal flags, and other relevant information. The specific format used may depend on the type of laboratory (e.g., clinical, research, industrial) and the specific tests being performed. It's important to note that the laboratory data format must comply with relevant standards and regulations to ensure data integrity and patient privacy.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data format for the exchange of laboratory information.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap">National Institutes of Health</td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://www.nih.gov/health-information/nih-clinical-research-trials-you/basics</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Semantic view</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

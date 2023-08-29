@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>LOINC - laboratory observation</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>LOINC - laboratory observation</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: LOINC is a common language (a set of identifiers, names, and codes) for identifying health measurements, observations, and documents. LOINC is a rich catalog of measurements, including laboratory tests, clinical measures like vital signs and anthropometric measures, standardized survey instruments.
+
+Additional information: LOINC, which stands for Logical Observation Identifiers Names and Codes, is a universal standard for identifying medical laboratory observations. It was developed and is maintained by the Regenstrief Institute, a non-profit medical research organization. LOINC was created in response to the demand for a universal standard for identifying and reporting laboratory and other clinical observations.
+
+LOINC applies to three types of healthcare observations: laboratory, clinical, and claims attachments. It covers a wide range of observations, including laboratory tests, clinical measurements like blood pressure, patient assessments, and even complex reporting of genetic test results.
+
+The LOINC system is designed to facilitate the exchange and pooling of results, such as blood hemoglobin, serum potassium, or tuberculosis test results, for clinical care, outcomes management, and research. It provides a set of universal names and ID codes for identifying laboratory and clinical test results in the context of existing HL7, ASTM E1238, and CEN TC251 observation report messages.
+
+Each LOINC code is unique and provides a precise definition of the test or measurement. The code is composed of six parts: the component (what is measured), the property (the characteristic of what is measured), the timing (when the measurement is made), the system (the context or specimen), the scale (the kind of scale used in the measurement), and the method (how the measurement is made).
+
+LOINC is used worldwide and has been adopted by large reference laboratories, healthcare organizations, and government bodies in many countries. It is also recognized by key U.S. federal agencies such as the Centers for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Health IT (ONC).
+
+In summary, LOINC is a universal coding system that enables the identification, exchange, and integration of health data from multiple sources and is essential for the interoperability of electronic health records.
+
+Example: LOINC (Logical Observation Identifiers Names and Codes) is a universal standard for identifying medical laboratory observations. Here are some examples of its application:
+
+1. Clinical Laboratory Testing: LOINC codes are used to identify specific tests performed in a clinical laboratory. For example, a blood glucose test might have a specific LOINC code, which would be used to record and report the results of that test. This allows for consistent identification and tracking of tests across different laboratories and healthcare systems.
+
+2. Electronic Health Records: LOINC codes are used in electronic health records (EHRs) to standardize the recording and sharing of laboratory test results. This ensures that the same test is recorded in the same way across different EHR systems, facilitating interoperability and data exchange.
+
+3. Public Health Reporting: Public health agencies use LOINC codes to track and report on disease outbreaks and other public health issues. For example, during the COVID-19 pandemic, LOINC codes were used to identify and track tests for the virus.
+
+4. Research: Researchers use LOINC codes to aggregate and analyze data from multiple sources. For example, a researcher studying diabetes might use the LOINC code for blood glucose tests to gather data from multiple clinical laboratories.
+
+5. Health Information Exchange: LOINC codes are used in health information exchanges (HIEs) to standardize the sharing of laboratory test results. This ensures that the same test is recorded in the same way across different HIE systems, facilitating interoperability and data exchange.
+
+6. Radiology and Imaging: LOINC codes are also used to identify specific imaging studies, such as X-rays, CT scans, and MRIs. This allows for consistent identification and tracking of imaging studies across different healthcare systems.
+
+LOST view: TVA-Health Laboratory Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/LOINC-LaboratoryObservationContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/LOINC-LaboratoryObservationContract
+
+dct:title: LOINC - Laboratory Observation Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/LOINC-LaboratoryObservationContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/LOINC-LaboratoryObservationContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">LOINC - Laboratory Observation Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">LOINC (Logical Observation Identifiers Names and Codes) is a universal standard for identifying medical laboratory observations. Here are some examples of its application:
+
+								1. Clinical Laboratory Testing: LOINC codes are used to identify specific tests performed in a clinical laboratory. For example, a blood glucose test might have a specific LOINC code, which would be used to record and report the results of that test. This allows for consistent identification and tracking of tests across different laboratories and healthcare systems.
+
+								2. Electronic Health Records: LOINC codes are used in electronic health records (EHRs) to standardize the recording and sharing of laboratory test results. This ensures that the same test is recorded in the same way across different EHR systems, facilitating interoperability and data exchange.
+
+								3. Public Health Reporting: Public health agencies use LOINC codes to track and report on disease outbreaks and other public health issues. For example, during the COVID-19 pandemic, LOINC codes were used to identify and track tests for the virus.
+
+								4. Research: Researchers use LOINC codes to aggregate and analyze data from multiple sources. For example, a researcher studying diabetes might use the LOINC code for blood glucose tests to gather data from multiple clinical laboratories.
+
+								5. Health Information Exchange: LOINC codes are used in health information exchanges (HIEs) to standardize the sharing of laboratory test results. This ensures that the same test is recorded in the same way across different HIE systems, facilitating interoperability and data exchange.
+
+								6. Radiology and Imaging: LOINC codes are also used to identify specific imaging studies, such as X-rays, CT scans, and MRIs. This allows for consistent identification and tracking of imaging studies across different healthcare systems.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">LOINC, which stands for Logical Observation Identifiers Names and Codes, is a universal standard for identifying medical laboratory observations. It was developed and is maintained by the Regenstrief Institute, a non-profit medical research organization. LOINC was created in response to the demand for a universal standard for identifying and reporting laboratory and other clinical observations.
+
+								LOINC applies to three types of healthcare observations: laboratory, clinical, and claims attachments. It covers a wide range of observations, including laboratory tests, clinical measurements like blood pressure, patient assessments, and even complex reporting of genetic test results.
+
+								The LOINC system is designed to facilitate the exchange and pooling of results, such as blood hemoglobin, serum potassium, or tuberculosis test results, for clinical care, outcomes management, and research. It provides a set of universal names and ID codes for identifying laboratory and clinical test results in the context of existing HL7, ASTM E1238, and CEN TC251 observation report messages.
+
+								Each LOINC code is unique and provides a precise definition of the test or measurement. The code is composed of six parts: the component (what is measured), the property (the characteristic of what is measured), the timing (when the measurement is made), the system (the context or specimen), the scale (the kind of scale used in the measurement), and the method (how the measurement is made).
+
+								LOINC is used worldwide and has been adopted by large reference laboratories, healthcare organizations, and government bodies in many countries. It is also recognized by key U.S. federal agencies such as the Centers for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Health IT (ONC).
+
+								In summary, LOINC is a universal coding system that enables the identification, exchange, and integration of health data from multiple sources and is essential for the interoperability of electronic health records.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">LOINC is a common language (a set of identifiers, names, and codes) for identifying health measurements, observations, and documents. LOINC is a rich catalog of measurements, including laboratory tests, clinical measures like vital signs and anthropometric measures, standardized survey instruments.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Laboratory Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

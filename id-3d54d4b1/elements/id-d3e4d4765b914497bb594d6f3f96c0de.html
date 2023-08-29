@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE XDS.b: Cross-Enterprise Document Sharing</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE XDS.b: Cross-Enterprise Document Sharing</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Cross-Enterprise Document Sharing (XDS) is an interoperability profile that facilitates the registration, distribution and access across health enterprises of patient electronic health records.
+
+Additional information: The IHE XDS.b: Cross-Enterprise Document Sharing (XDS) specification is a standard developed by Integrating the Healthcare Enterprise (IHE), an initiative by healthcare professionals and industry to improve the way computer systems in healthcare share information. The XDS.b specification is an updated version of the XDS.a specification, which provides a framework for managing and sharing electronic health records (EHRs) across different healthcare organizations.
+
+The XDS.b specification is designed to facilitate the registration, distribution, and access of patient electronic health information within and across healthcare enterprises. It provides a standardized method for healthcare providers to share patient records, regardless of the underlying systems and technologies they use. This is achieved by creating a metadata registry that indexes all documents for a patient, which can be queried to locate and retrieve documents from different healthcare providers.
+
+The XDS.b specification defines a set of transactions, message formats, and data elements to support the sharing of clinical documents. It uses web services technology and is based on the ebXML Registry standards from OASIS and the HL7 Clinical Document Architecture (CDA) standard.
+
+The XDS.b specification supports a wide range of healthcare IT applications and workflows including electronic health records, health information exchange networks, and regional health information organizations. It enables the interoperability of these systems, allowing them to work together to provide a comprehensive view of a patient's health information.
+
+The main components of the XDS.b specification are the Document Registry, Document Repository, and Document Consumer. The Document Registry stores metadata about the documents, the Document Repository stores the documents themselves, and the Document Consumer is the application that queries the Document Registry and retrieves documents from the Document Repository.
+
+Overall, the IHE XDS.b specification plays a crucial role in enabling the seamless exchange of health information across different healthcare organizations, thereby improving the quality and efficiency of patient care.
+
+Example: 1. Healthcare Networks: IHE XDS.b can be applied in healthcare networks where multiple hospitals, clinics, and healthcare providers need to share patient information. For example, a patient may visit a primary care physician, a specialist, and a hospital all within the same network. Each provider would generate documents related to the patient's care, such as lab results, imaging studies, and consultation notes. Using IHE XDS.b, these documents can be shared across the network, ensuring that every provider has access to the most up-to-date information.
+
+2. Telemedicine: In telemedicine, a patient may be located in a remote area while the healthcare provider is in a different location. The healthcare provider can use IHE XDS.b to access the patient's medical records, including previous consultations, lab results, and medication history. This ensures that the provider has all the necessary information to make an informed decision about the patient's care.
+
+3. Emergency Services: In emergency situations, it's crucial that healthcare providers have immediate access to a patient's medical history. IHE XDS.b can be used to quickly and securely share this information across different healthcare systems. For example, if a patient is brought to a hospital after a car accident, the emergency room doctors can use IHE XDS.b to access the patient's records from their primary care physician or any specialists they've seen.
+
+4. Research and Clinical Trials: Researchers and clinicians conducting clinical trials often need to share documents related to their studies. IHE XDS.b can be used to share these documents across different institutions and research sites. This can include study protocols, data collection forms, and patient consent forms.
+
+5. Public Health Reporting: Public health organizations often need to collect data from multiple healthcare providers to monitor disease trends and respond to public health emergencies. IHE XDS.b can be used to share relevant documents, such as lab reports and epidemiological data, across different healthcare systems.
+
+LOST view: TVA-Health Technical Agreements
+
+Identifier: http://data.europa.eu/dr8/egovera/IHEXDSbCross-EnterpriseDocumentSharingContract
+
+EIRA traceability: eira:TechnicalAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHEXDSbCross-EnterpriseDocumentSharingContract
+
+dct:title: IHE XDS.b: Cross-Enterprise Document Sharing Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXDSbCross-EnterpriseDocumentSharingContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXDSbCross-EnterpriseDocumentSharingContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE XDS.b: Cross-Enterprise Document Sharing Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Healthcare Networks: IHE XDS.b can be applied in healthcare networks where multiple hospitals, clinics, and healthcare providers need to share patient information. For example, a patient may visit a primary care physician, a specialist, and a hospital all within the same network. Each provider would generate documents related to the patient's care, such as lab results, imaging studies, and consultation notes. Using IHE XDS.b, these documents can be shared across the network, ensuring that every provider has access to the most up-to-date information.
+
+								2. Telemedicine: In telemedicine, a patient may be located in a remote area while the healthcare provider is in a different location. The healthcare provider can use IHE XDS.b to access the patient's medical records, including previous consultations, lab results, and medication history. This ensures that the provider has all the necessary information to make an informed decision about the patient's care.
+
+								3. Emergency Services: In emergency situations, it's crucial that healthcare providers have immediate access to a patient's medical history. IHE XDS.b can be used to quickly and securely share this information across different healthcare systems. For example, if a patient is brought to a hospital after a car accident, the emergency room doctors can use IHE XDS.b to access the patient's records from their primary care physician or any specialists they've seen.
+
+								4. Research and Clinical Trials: Researchers and clinicians conducting clinical trials often need to share documents related to their studies. IHE XDS.b can be used to share these documents across different institutions and research sites. This can include study protocols, data collection forms, and patient consent forms.
+
+								5. Public Health Reporting: Public health organizations often need to collect data from multiple healthcare providers to monitor disease trends and respond to public health emergencies. IHE XDS.b can be used to share relevant documents, such as lab reports and epidemiological data, across different healthcare systems.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE XDS.b: Cross-Enterprise Document Sharing (XDS) specification is a standard developed by Integrating the Healthcare Enterprise (IHE), an initiative by healthcare professionals and industry to improve the way computer systems in healthcare share information. The XDS.b specification is an updated version of the XDS.a specification, which provides a framework for managing and sharing electronic health records (EHRs) across different healthcare organizations.
+
+								The XDS.b specification is designed to facilitate the registration, distribution, and access of patient electronic health information within and across healthcare enterprises. It provides a standardized method for healthcare providers to share patient records, regardless of the underlying systems and technologies they use. This is achieved by creating a metadata registry that indexes all documents for a patient, which can be queried to locate and retrieve documents from different healthcare providers.
+
+								The XDS.b specification defines a set of transactions, message formats, and data elements to support the sharing of clinical documents. It uses web services technology and is based on the ebXML Registry standards from OASIS and the HL7 Clinical Document Architecture (CDA) standard.
+
+								The XDS.b specification supports a wide range of healthcare IT applications and workflows including electronic health records, health information exchange networks, and regional health information organizations. It enables the interoperability of these systems, allowing them to work together to provide a comprehensive view of a patient's health information.
+
+								The main components of the XDS.b specification are the Document Registry, Document Repository, and Document Consumer. The Document Registry stores metadata about the documents, the Document Repository stores the documents themselves, and the Document Consumer is the application that queries the Document Registry and retrieves documents from the Document Repository.
+
+								Overall, the IHE XDS.b specification plays a crucial role in enabling the seamless exchange of health information across different healthcare organizations, thereby improving the quality and efficiency of patient care.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Cross-Enterprise Document Sharing (XDS) is an interoperability profile that facilitates the registration, distribution and access across health enterprises of patient electronic health records.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

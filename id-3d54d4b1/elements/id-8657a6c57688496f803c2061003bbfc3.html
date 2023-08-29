@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE LWA: Laboratory Analytical Workflow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE LWA: Laboratory Analytical Workflow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: The Laboratory Analytical Workflow (LAW) profile addresses the exchange of information related to patient and QC test orders &amp; results between IVD testing systems and health informatics systems. The purpose of the LAW profile is to improve interoperability between IVD testing systems and health informatics systems by reducing complexity and variability in the exchange of information related to patient and QC test orders and to the result thereof. This profile is thus focused on the analytical workflow in the work area of a clinical laboratory. Its Transactions streamline the scheduling, performance and result reporting of Analytical Work Order Steps (AWOS) between IVD testing systems and healthcare IT systems (LIS or middlewares).
+
+Additional information: The IHE LWA (Laboratory Analytical Workflow) specification is a detailed framework developed by the Integrating the Healthcare Enterprise (IHE) organization. This specification is designed to streamline and standardize the workflow processes within clinical laboratories, particularly those related to the analysis of patient samples.
+
+The IHE LWA specification provides a comprehensive guide on how to manage, process, and report laboratory tests and results in a consistent and efficient manner. It covers various aspects of the laboratory workflow, including the pre-analytical, analytical, and post-analytical phases.
+
+In the pre-analytical phase, the specification outlines procedures for managing patient orders, specimen collection, and specimen transportation. It also provides guidelines on how to handle issues such as order modifications, cancellations, and specimen rejections.
+
+In the analytical phase, the IHE LWA specification details the steps involved in processing and analyzing the specimens. This includes procedures for instrument setup, calibration, quality control, and result generation.
+
+In the post-analytical phase, the specification provides guidelines on how to review, validate, and report the test results. It also covers procedures for result corrections, amendments, and confirmatory testing.
+
+The IHE LWA specification also addresses the use of information technology systems in the laboratory workflow. It provides standards for data exchange between different systems, such as Laboratory Information Systems (LIS), Electronic Health Records (EHR), and laboratory instruments. This ensures that all systems can communicate effectively with each other, thereby reducing errors and improving efficiency.
+
+By following the IHE LWA specification, clinical laboratories can ensure that their workflow processes are consistent, efficient, and compliant with international standards. This can lead to improved patient care, as test results are produced more quickly and accurately.
+
+Example: 1. Hospital Laboratory Testing: A hospital may use the IHE LWA to manage the workflow of laboratory testing. For example, when a patient's blood sample is taken, the IHE LWA can be used to track the sample's journey from collection, through testing, to the delivery of results. This includes managing the ordering of tests, tracking the sample's location, and ensuring the results are accurately reported back to the patient's healthcare provider.
+
+2. Research Laboratories: In a research setting, the IHE LWA can be used to manage the workflow of experiments. This includes tracking the use of specific equipment, managing the collection and analysis of data, and ensuring the results are accurately reported.
+
+3. Pharmaceutical Companies: Pharmaceutical companies often conduct extensive laboratory testing as part of their drug development process. The IHE LWA can be used to manage this process, including tracking the use of specific reagents, managing the collection and analysis of data, and ensuring the results are accurately reported.
+
+4. Public Health Laboratories: Public health laboratories, which often conduct testing for a variety of diseases and conditions, can use the IHE LWA to manage their workflow. This includes tracking the collection and testing of samples, managing the analysis of data, and ensuring the results are accurately reported to public health officials.
+
+5. Veterinary Laboratories: Veterinary laboratories, which conduct testing for animal diseases, can also use the IHE LWA. This includes managing the ordering of tests, tracking the collection and testing of samples, and ensuring the results are accurately reported to veterinarians.
+
+LOST view: TVA-Health Laboratory Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHELWALaboratoryAnalyticalWorkflowContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHELWALaboratoryAnalyticalWorkflowContract
+
+dct:title: IHE LWA: Laboratory Analytical Workflow Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHELWALaboratoryAnalyticalWorkflowContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHELWALaboratoryAnalyticalWorkflowContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE LWA: Laboratory Analytical Workflow Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Hospital Laboratory Testing: A hospital may use the IHE LWA to manage the workflow of laboratory testing. For example, when a patient's blood sample is taken, the IHE LWA can be used to track the sample's journey from collection, through testing, to the delivery of results. This includes managing the ordering of tests, tracking the sample's location, and ensuring the results are accurately reported back to the patient's healthcare provider.
+
+								2. Research Laboratories: In a research setting, the IHE LWA can be used to manage the workflow of experiments. This includes tracking the use of specific equipment, managing the collection and analysis of data, and ensuring the results are accurately reported.
+
+								3. Pharmaceutical Companies: Pharmaceutical companies often conduct extensive laboratory testing as part of their drug development process. The IHE LWA can be used to manage this process, including tracking the use of specific reagents, managing the collection and analysis of data, and ensuring the results are accurately reported.
+
+								4. Public Health Laboratories: Public health laboratories, which often conduct testing for a variety of diseases and conditions, can use the IHE LWA to manage their workflow. This includes tracking the collection and testing of samples, managing the analysis of data, and ensuring the results are accurately reported to public health officials.
+
+								5. Veterinary Laboratories: Veterinary laboratories, which conduct testing for animal diseases, can also use the IHE LWA. This includes managing the ordering of tests, tracking the collection and testing of samples, and ensuring the results are accurately reported to veterinarians.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE LWA (Laboratory Analytical Workflow) specification is a detailed framework developed by the Integrating the Healthcare Enterprise (IHE) organization. This specification is designed to streamline and standardize the workflow processes within clinical laboratories, particularly those related to the analysis of patient samples.
+
+								The IHE LWA specification provides a comprehensive guide on how to manage, process, and report laboratory tests and results in a consistent and efficient manner. It covers various aspects of the laboratory workflow, including the pre-analytical, analytical, and post-analytical phases.
+
+								In the pre-analytical phase, the specification outlines procedures for managing patient orders, specimen collection, and specimen transportation. It also provides guidelines on how to handle issues such as order modifications, cancellations, and specimen rejections.
+
+								In the analytical phase, the IHE LWA specification details the steps involved in processing and analyzing the specimens. This includes procedures for instrument setup, calibration, quality control, and result generation.
+
+								In the post-analytical phase, the specification provides guidelines on how to review, validate, and report the test results. It also covers procedures for result corrections, amendments, and confirmatory testing.
+
+								The IHE LWA specification also addresses the use of information technology systems in the laboratory workflow. It provides standards for data exchange between different systems, such as Laboratory Information Systems (LIS), Electronic Health Records (EHR), and laboratory instruments. This ensures that all systems can communicate effectively with each other, thereby reducing errors and improving efficiency.
+
+								By following the IHE LWA specification, clinical laboratories can ensure that their workflow processes are consistent, efficient, and compliant with international standards. This can lead to improved patient care, as test results are produced more quickly and accurately.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Laboratory Analytical Workflow (LAW) profile addresses the exchange of information related to patient and QC test orders &amp; results between IVD testing systems and health informatics systems. The purpose of the LAW profile is to improve interoperability between IVD testing systems and health informatics systems by reducing complexity and variability in the exchange of information related to patient and QC test orders and to the result thereof. This profile is thus focused on the analytical workflow in the work area of a clinical laboratory. Its Transactions streamline the scheduling, performance and result reporting of Analytical Work Order Steps (AWOS) between IVD testing systems and healthcare IT systems (LIS or middlewares).</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Laboratory Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

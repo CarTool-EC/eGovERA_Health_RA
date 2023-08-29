@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IHE XDS-I.b: Cross-Enterprise Document</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IHE XDS-I.b: Cross-Enterprise Document</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Cross-enterprise Document Sharing for Imaging (XDS-I.b) is an interoperability profile that extends XDS to share images, diagnostic reports and related information across a group of care sites.
+
+Additional information: The IHE XDS-I.b: Cross-Enterprise Document Sharing for Imaging (XDS-I.b) specification is a healthcare interoperability standard developed by the Integrating the Healthcare Enterprise (IHE) initiative. It is an extension of the IHE Cross-Enterprise Document Sharing (XDS) integration profile, specifically designed to facilitate the sharing of medical imaging information across different healthcare enterprises.
+
+The XDS-I.b specification provides a framework for managing, locating, retrieving, and sharing imaging documents, such as radiology reports, images, and other related documents, between different healthcare systems. It uses a distributed model where imaging documents are stored in their original format at the source system and made available to other systems through a registry that maintains metadata about each document.
+
+The XDS-I.b specification defines a set of transactions, message formats, and workflows to support the sharing of imaging documents. It uses standard protocols and technologies, such as the Digital Imaging and Communications in Medicine (DICOM) standard for imaging data and the Health Level Seven (HL7) standard for healthcare data exchange.
+
+The main components of the XDS-I.b architecture are the Document Source, Document Repository, Document Registry, and Document Consumer. The Document Source is the system that provides the imaging documents. The Document Repository stores the documents and makes them available for retrieval. The Document Registry maintains metadata about the documents and provides a query interface for locating documents. The Document Consumer is the system that retrieves and uses the documents.
+
+The XDS-I.b specification supports patient-centric access to imaging documents, allowing healthcare providers to access a patient's imaging history from different sources in a unified manner. This can improve the efficiency and quality of healthcare delivery by enabling better-informed clinical decisions, reducing unnecessary imaging procedures, and facilitating care coordination across different healthcare providers.
+
+Example: 1. Hospital Information System: In a hospital, the IHE XDS-I.b can be used to share patient's medical images and reports across different departments. For instance, if a patient undergoes an MRI scan in the radiology department, the images can be shared with the neurology department for further analysis and treatment planning. This ensures that all relevant medical professionals have access to the necessary information, improving the efficiency and quality of patient care.
+
+2. Telemedicine: In telemedicine, the IHE XDS-I.b can be used to share medical documents between healthcare providers and patients remotely. This can be particularly useful in rural or remote areas where access to healthcare services is limited. By using this standard, healthcare providers can send medical images and reports to patients or other doctors for remote consultations.
+
+3. Health Information Exchange (HIE): HIEs use IHE XDS-I.b to facilitate the exchange of health information across different healthcare systems. This can include hospitals, clinics, pharmacies, and other healthcare providers. By using this standard, HIEs can ensure that all health information is shared in a secure and standardized manner, improving interoperability and coordination of care.
+
+4. Research and Clinical Trials: In research and clinical trials, the IHE XDS-I.b can be used to share medical images and documents between different research teams and institutions. This can help to facilitate collaboration and data sharing, speeding up the research process and improving the quality of research outcomes.
+
+5. Teleradiology: Teleradiology services use IHE XDS-I.b to share radiological images and reports between radiologists and other healthcare providers. This can help to improve access to radiology services, particularly in areas where there is a shortage of radiologists.
+
+LOST view: TVA-Health Medical Imaging Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/IHEXDS-IbCross-EnterpriseDocumentContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/IHEXDS-IbCross-EnterpriseDocumentContract
+
+dct:title: IHE XDS-I.b: Cross-Enterprise Document Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXDS-IbCross-EnterpriseDocumentContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/IHEXDS-IbCross-EnterpriseDocumentContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">IHE XDS-I.b: Cross-Enterprise Document Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Hospital Information System: In a hospital, the IHE XDS-I.b can be used to share patient's medical images and reports across different departments. For instance, if a patient undergoes an MRI scan in the radiology department, the images can be shared with the neurology department for further analysis and treatment planning. This ensures that all relevant medical professionals have access to the necessary information, improving the efficiency and quality of patient care.
+
+								2. Telemedicine: In telemedicine, the IHE XDS-I.b can be used to share medical documents between healthcare providers and patients remotely. This can be particularly useful in rural or remote areas where access to healthcare services is limited. By using this standard, healthcare providers can send medical images and reports to patients or other doctors for remote consultations.
+
+								3. Health Information Exchange (HIE): HIEs use IHE XDS-I.b to facilitate the exchange of health information across different healthcare systems. This can include hospitals, clinics, pharmacies, and other healthcare providers. By using this standard, HIEs can ensure that all health information is shared in a secure and standardized manner, improving interoperability and coordination of care.
+
+								4. Research and Clinical Trials: In research and clinical trials, the IHE XDS-I.b can be used to share medical images and documents between different research teams and institutions. This can help to facilitate collaboration and data sharing, speeding up the research process and improving the quality of research outcomes.
+
+								5. Teleradiology: Teleradiology services use IHE XDS-I.b to share radiological images and reports between radiologists and other healthcare providers. This can help to improve access to radiology services, particularly in areas where there is a shortage of radiologists.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The IHE XDS-I.b: Cross-Enterprise Document Sharing for Imaging (XDS-I.b) specification is a healthcare interoperability standard developed by the Integrating the Healthcare Enterprise (IHE) initiative. It is an extension of the IHE Cross-Enterprise Document Sharing (XDS) integration profile, specifically designed to facilitate the sharing of medical imaging information across different healthcare enterprises.
+
+								The XDS-I.b specification provides a framework for managing, locating, retrieving, and sharing imaging documents, such as radiology reports, images, and other related documents, between different healthcare systems. It uses a distributed model where imaging documents are stored in their original format at the source system and made available to other systems through a registry that maintains metadata about each document.
+
+								The XDS-I.b specification defines a set of transactions, message formats, and workflows to support the sharing of imaging documents. It uses standard protocols and technologies, such as the Digital Imaging and Communications in Medicine (DICOM) standard for imaging data and the Health Level Seven (HL7) standard for healthcare data exchange.
+
+								The main components of the XDS-I.b architecture are the Document Source, Document Repository, Document Registry, and Document Consumer. The Document Source is the system that provides the imaging documents. The Document Repository stores the documents and makes them available for retrieval. The Document Registry maintains metadata about the documents and provides a query interface for locating documents. The Document Consumer is the system that retrieves and uses the documents.
+
+								The XDS-I.b specification supports patient-centric access to imaging documents, allowing healthcare providers to access a patient's imaging history from different sources in a unified manner. This can improve the efficiency and quality of healthcare delivery by enabling better-informed clinical decisions, reducing unnecessary imaging procedures, and facilitating care coordination across different healthcare providers.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Cross-enterprise Document Sharing for Imaging (XDS-I.b) is an interoperability profile that extends XDS to share images, diagnostic reports and related information across a group of care sites.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Medical Imaging Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

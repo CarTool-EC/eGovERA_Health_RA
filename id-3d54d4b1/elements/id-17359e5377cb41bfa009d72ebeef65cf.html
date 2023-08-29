@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>DICOM - medical image exchange</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>DICOM - medical image exchange</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Contract"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Contract" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Digital Imaging and Communications in Medicine (DICOM) is the standard for the communication and management of medical imaging information and related data. DICOM is most commonly used for storing and transmitting medical images enabling the integration of medical imaging devices such as scanners, servers, workstations, printers, network hardware, and picture archiving and communication systems (PACS) from multiple manufacturers.
+
+Additional information: DICOM, which stands for Digital Imaging and Communications in Medicine, is a global standard for the exchange, storage, and transmission of medical images and related information. It was developed by the National Electrical Manufacturers Association (NEMA) and is widely used in hospitals and medical institutions worldwide.
+
+DICOM enables the integration of scanners, servers, workstations, printers, and network hardware from multiple manufacturers into a picture archiving and communication system (PACS). The DICOM standard includes a file format definition and a network communications protocol that uses TCP/IP to communicate between systems.
+
+DICOM files can contain patient information, such as name and patient ID, as well as image data. The image data can include multiple images, each of which is a separate DICOM object, and can also include other types of data such as measurements, reports, and structured data.
+
+The DICOM standard also includes services, such as those that allow devices to query and retrieve images from a PACS. These services are defined in terms of DICOM message service elements (DIMSEs) and are layered on top of the DICOM communication protocol.
+
+The DICOM standard is complex and comprehensive, covering many aspects of medical imaging workflows. It includes specifications for imaging modalities such as radiography, computed tomography (CT), magnetic resonance imaging (MRI), and ultrasound. It also covers areas such as structured reporting, image presentation, and medical image management.
+
+DICOM has been crucial in enabling interoperability in medical imaging. It allows images and associated information to be exchanged between devices and systems, regardless of manufacturer, making it easier for healthcare professionals to access and use the information they need. This has led to improvements in patient care and efficiency in the healthcare industry.
+
+Example: 1. Radiology: Radiologists use DICOM to exchange images such as X-rays, MRIs, CT scans, and ultrasounds. These images can be shared between different departments within a hospital or with other hospitals for second opinions or consultations.
+
+2. Oncology: In cancer treatment, DICOM is used to exchange images from PET scans, CT scans, and MRIs. These images are crucial in diagnosing the stage of cancer, planning treatment, and monitoring the progress of treatment.
+
+3. Cardiology: Cardiologists use DICOM to exchange images from echocardiograms, angiograms, and other heart-related imaging studies. These images can be shared with other cardiologists or with surgeons planning heart surgeries.
+
+4. Dentistry: Dentists and oral surgeons use DICOM to exchange images from dental X-rays, CT scans, and 3D imaging studies. These images can be shared with other dental specialists or with orthodontists planning braces or other orthodontic treatment.
+
+5. Telemedicine: DICOM is used in telemedicine to exchange medical images between healthcare providers and patients in remote locations. This allows patients to receive expert medical advice without the need to travel.
+
+6. Research and Education: DICOM is used in medical research and education to exchange images for teaching purposes or for use in clinical studies. This allows researchers and students to access a wide range of medical images for their work.
+
+7. Veterinary Medicine: Veterinarians use DICOM to exchange images from animal X-rays, ultrasounds, and other imaging studies. These images can be shared with other veterinarians or with specialists in veterinary medicine. 
+
+8. Medical Equipment Manufacturers: They use DICOM standards to ensure their imaging equipment is compatible with the systems used by healthcare providers. This ensures that images produced by their equipment can be easily shared and viewed.
+
+LOST view: TVA-Health Medical Imaging Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/DICOM-MedicalImageExchangeContract
+
+EIRA traceability: eira:TechnicalInteroperabilityAgreementContract
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-04
+
+dct:identifier: http://data.europa.eu/dr8/egovera/DICOM-MedicalImageExchangeContract
+
+dct:title: DICOM - Medical Image Exchange Contract
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/DICOM-MedicalImageExchangeContract</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TechnicalInteroperabilityAgreementContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/DICOM-MedicalImageExchangeContract</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">DICOM - Medical Image Exchange Contract</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Radiology: Radiologists use DICOM to exchange images such as X-rays, MRIs, CT scans, and ultrasounds. These images can be shared between different departments within a hospital or with other hospitals for second opinions or consultations.
+
+								2. Oncology: In cancer treatment, DICOM is used to exchange images from PET scans, CT scans, and MRIs. These images are crucial in diagnosing the stage of cancer, planning treatment, and monitoring the progress of treatment.
+
+								3. Cardiology: Cardiologists use DICOM to exchange images from echocardiograms, angiograms, and other heart-related imaging studies. These images can be shared with other cardiologists or with surgeons planning heart surgeries.
+
+								4. Dentistry: Dentists and oral surgeons use DICOM to exchange images from dental X-rays, CT scans, and 3D imaging studies. These images can be shared with other dental specialists or with orthodontists planning braces or other orthodontic treatment.
+
+								5. Telemedicine: DICOM is used in telemedicine to exchange medical images between healthcare providers and patients in remote locations. This allows patients to receive expert medical advice without the need to travel.
+
+								6. Research and Education: DICOM is used in medical research and education to exchange images for teaching purposes or for use in clinical studies. This allows researchers and students to access a wide range of medical images for their work.
+
+								7. Veterinary Medicine: Veterinarians use DICOM to exchange images from animal X-rays, ultrasounds, and other imaging studies. These images can be shared with other veterinarians or with specialists in veterinary medicine. 
+
+								8. Medical Equipment Manufacturers: They use DICOM standards to ensure their imaging equipment is compatible with the systems used by healthcare providers. This ensures that images produced by their equipment can be easily shared and viewed.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">DICOM, which stands for Digital Imaging and Communications in Medicine, is a global standard for the exchange, storage, and transmission of medical images and related information. It was developed by the National Electrical Manufacturers Association (NEMA) and is widely used in hospitals and medical institutions worldwide.
+
+								DICOM enables the integration of scanners, servers, workstations, printers, and network hardware from multiple manufacturers into a picture archiving and communication system (PACS). The DICOM standard includes a file format definition and a network communications protocol that uses TCP/IP to communicate between systems.
+
+								DICOM files can contain patient information, such as name and patient ID, as well as image data. The image data can include multiple images, each of which is a separate DICOM object, and can also include other types of data such as measurements, reports, and structured data.
+
+								The DICOM standard also includes services, such as those that allow devices to query and retrieve images from a PACS. These services are defined in terms of DICOM message service elements (DIMSEs) and are layered on top of the DICOM communication protocol.
+
+								The DICOM standard is complex and comprehensive, covering many aspects of medical imaging workflows. It includes specifications for imaging modalities such as radiography, computed tomography (CT), magnetic resonance imaging (MRI), and ultrasound. It also covers areas such as structured reporting, image presentation, and medical image management.
+
+								DICOM has been crucial in enabling interoperability in medical imaging. It allows images and associated information to be exchanged between devices and systems, regardless of manufacturer, making it easier for healthcare professionals to access and use the information they need. This has led to improvements in patient care and efficiency in the healthcare industry.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Digital Imaging and Communications in Medicine (DICOM) is the standard for the communication and management of medical imaging information and related data. DICOM is most commonly used for storing and transmitting medical images enabling the integration of medical imaging devices such as scanners, servers, workstations, printers, network hardware, and picture archiving and communication systems (PACS) from multiple manufacturers.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Medical Imaging Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Health Technical Agreements</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
