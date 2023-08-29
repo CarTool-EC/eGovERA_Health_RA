@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>TVI-Functional Architecture Principles</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>TVI-Functional Architecture Principles</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-09667061dfc846afbafde4faff645c9e.png" alt="TVI-Functional Architecture Principles" usemap="#id-09667061dfc846afbafde4faff645c9emap"/>
+			   <map name="id-09667061dfc846afbafde4faff645c9emap">
+				  				<area shape="rect" coords="70,646,230,701" href="../elements/id-69909dcfa924421faa43f6ebd2fb13e9.html"  target="element">
+
+				  		<area shape="rect" coords="10,598,263,766" href="../elements/id-b68bae7b18b84d2bbbadf3a9376fb47d.html"  target="element">
+				  				<area shape="rect" coords="356,1654,476,1709" href="../elements/id-648bfbbba1dd443fa2bdb05b0fd6831f.html"  target="element">
+				  				<area shape="rect" coords="188,1654,308,1709" href="../elements/id-876d592cfd7e455fb64f459e6ef5121b.html"  target="element">
+				  				<area shape="rect" coords="536,1654,656,1709" href="../elements/id-846078eea9454cc5a3e9f8512a3b39d7.html"  target="element">
+				  				<area shape="rect" coords="536,1726,656,1781" href="../elements/id-96aaf9813e8e42ba8fd4888722d8dabc.html"  target="element">
+				  				<area shape="rect" coords="188,1726,308,1781" href="../elements/id-26d0192cfa6e4222a91888fb2a65af4b.html"  target="element">
+				  				<area shape="rect" coords="704,1654,824,1709" href="../elements/id-0d2725ea450e4ba78bb28ac91dd7f5fd.html"  target="element">
+				  				<area shape="rect" coords="704,1726,824,1781" href="../elements/id-023d50e1251e4d98aef95ff33bc38ab3.html"  target="element">
+				  				<area shape="rect" coords="356,1726,476,1781" href="../elements/id-6e7974013fb24b829a01e1fc1c7f8ffc.html"  target="element">
+
+				  		<area shape="rect" coords="164,1606,848,1810" href="../elements/id-088c5dc503784889895adb5509964e8b.html"  target="element">
+				  				<area shape="rect" coords="1654,34,1798,106" href="../elements/id-e7acc1f0e7814b048e308a4e258bd5e2.html"  target="element">
+				  				<area shape="rect" coords="1834,34,1978,106" href="../elements/id-105fae7b1cb54f9ba590544dc1c43629.html"  target="element">
+
+				  		<area shape="rect" coords="1618,10,2026,214" href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html"  target="element">
+				  				<area shape="rect" coords="1990,1498,2134,1570" href="../elements/id-0c8181b78b1343e784d17756bce4ec4f.html"  target="element">
+				  				<area shape="rect" coords="1798,1506,1958,1561" href="../elements/id-822a4607087d499eb3e3e991ac16a939.html"  target="element">
+				  				<area shape="rect" coords="1630,1414,1790,1469" href="../elements/id-1c5783d785cb4c1faa2832d1a52f29ce.html"  target="element">
+				  				<area shape="rect" coords="1870,1414,2030,1469" href="../elements/id-105cbb9a42fe4136ae4ea80a8e90682c.html"  target="element">
+
+				  		<area shape="rect" coords="1618,1378,2170,1582" href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html"  target="element">
+				  				<area shape="rect" coords="442,658,602,713" href="../elements/id-94a0ab412f4c49bca8dce1ece4287ae4.html"  target="element">
+
+				  		<area shape="rect" coords="382,598,802,766" href="../elements/id-45cb020e504541d2ae3ce69cc59f1115.html"  target="element">
+				  				<area shape="rect" coords="1769,1225,1889,1280" href="../elements/id-011a714e394b4c6084f4f192be71dcf0.html"  target="element">
+				  				<area shape="rect" coords="1627,1225,1747,1280" href="../elements/id-1343c7d8027d405d9598173529a72b9b.html"  target="element">
+
+				  		<area shape="rect" coords="1613,1177,1926,1357" href="../elements/id-8e3bc496ddc848d3a8853d4ede4763cc.html"  target="element">
+				  				<area shape="rect" coords="1757,1107,1877,1162" href="../elements/id-524c4afe98154971bd90195970b493fc.html"  target="element">
+				  				<area shape="rect" coords="1625,1107,1745,1162" href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html"  target="element">
+				  				<area shape="rect" coords="1757,1047,1877,1102" href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html"  target="element">
+				  				<area shape="rect" coords="1625,1047,1745,1102" href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html"  target="element">
+
+				  		<area shape="rect" coords="1613,1023,2033,1167" href="../elements/id-cb7d647355fd4d259b7484587f17f007.html"  target="element">
+				  				<area shape="rect" coords="559,1474,696,1529" href="../elements/id-499e0a3e26de414caf00bf79ac27fdca.html"  target="element">
+
+				  		<area shape="rect" coords="547,1426,848,1570" href="../elements/id-512fa185aceb47cbb741e6717b7a1301.html"  target="element">
+				  				<area shape="rect" coords="572,118,692,173" href="../elements/id-83f14efbd989435188aa3cddb148b8a6.html"  target="element">
+
+				  		<area shape="rect" coords="548,70,847,214" href="../elements/id-224388e471b94528bd6538893a91aa4d.html"  target="element">
+				  		<area shape="rect" coords="1090,1378,1340,1453" href="../elements/id-0db7db65e37b402c9ba0f1146804bbc9.html"  target="element">
+				  		<area shape="rect" coords="1090,1282,1340,1357" href="../elements/id-64e7fb43e4974e20ae41d16877b32305.html"  target="element">
+				  		<area shape="rect" coords="1090,394,1340,469" href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html"  target="element">
+				  		<area shape="rect" coords="1090,490,1340,565" href="../elements/id-5a4c6bacad774c3e993f51c855ba97cc.html"  target="element">
+				  		<area shape="rect" coords="1090,684,1340,759" href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html"  target="element">
+				  		<area shape="rect" coords="1090,778,1340,853" href="../elements/id-0e5de5dcd921465c8bafe3468592f1b6.html"  target="element">
+				  		<area shape="rect" coords="1090,589,1340,664" href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html"  target="element">
+				  		<area shape="rect" coords="1090,874,1340,949" href="../elements/id-255f78c450214ed48e8b76256da2223b.html"  target="element">
+				  		<area shape="rect" coords="1090,1184,1340,1259" href="../elements/id-46263faec818451881bfc9ed5b5e5605.html"  target="element">
+				  		<area shape="rect" coords="1090,1078,1340,1153" href="../elements/id-9abe5cc039254500be33ac46614304b7.html"  target="element">
+				  		<area shape="rect" coords="1090,969,1340,1044" href="../elements/id-13629894a1cb4aba8db01741a8539a6b.html"  target="element">
+				  				<area shape="rect" coords="448,1306,568,1361" href="../elements/id-50a55369c7c846a7ac1041aa4b7a34ea.html"  target="element">
+				  				<area shape="rect" coords="580,1306,700,1361" href="../elements/id-cb4e64228e59489eba493540073c9017.html"  target="element">
+				  				<area shape="rect" coords="580,1234,700,1289" href="../elements/id-134caf7f92cc4ed9a156a42ce19865d0.html"  target="element">
+				  				<area shape="rect" coords="448,1234,568,1289" href="../elements/id-49e563712dbf41f4a2ae877b1e433212.html"  target="element">
+
+				  		<area shape="rect" coords="436,1186,844,1390" href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html"  target="element">
+				  				<area shape="rect" coords="1626,846,1786,901" href="../elements/id-2bbc6084ca2f4c6ca45e5457ccc0b59a.html"  target="element">
+
+				  		<area shape="rect" coords="1614,810,1805,1014" href="../elements/id-0ebc9749a4e743edbfd053b9b29fef9f.html"  target="element">
+				  				<area shape="rect" coords="1758,310,1878,365" href="../elements/id-524c4afe98154971bd90195970b493fc.html"  target="element">
+				  				<area shape="rect" coords="1626,310,1746,365" href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html"  target="element">
+				  				<area shape="rect" coords="1758,250,1878,305" href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html"  target="element">
+				  				<area shape="rect" coords="1626,250,1746,305" href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html"  target="element">
+
+				  		<area shape="rect" coords="1614,226,2034,370" href="../elements/id-cb7d647355fd4d259b7484587f17f007.html"  target="element">
+				  				<area shape="rect" coords="1626,718,1786,773" href="../elements/id-57369621518147b8b600d8f6855cba2d.html"  target="element">
+				  				<area shape="rect" coords="1794,646,1954,701" href="../elements/id-0243fc74bd564f89b83c570cdc540013.html"  target="element">
+				  				<area shape="rect" coords="1626,646,1786,701" href="../elements/id-03b2b90c0f4d42ca8b302d43080ed184.html"  target="element">
+
+				  		<area shape="rect" coords="1614,598,1974,802" href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html"  target="element">
+				  				<area shape="rect" coords="570,310,690,365" href="../elements/id-052dc131a5d5414f9fd8bfa14b131d6a.html"  target="element">
+				  				<area shape="rect" coords="438,310,558,365" href="../elements/id-268148e839624e2ebb5ace18c034c443.html"  target="element">
+				  				<area shape="rect" coords="570,250,690,305" href="../elements/id-287baed13ac84fc4bb36c88d6233ddef.html"  target="element">
+				  				<area shape="rect" coords="438,250,558,305" href="../elements/id-d2ff5e5e17944784bf1b648a0d27a376.html"  target="element">
+
+				  		<area shape="rect" coords="426,226,847,371" href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html"  target="element">
+				  				<area shape="rect" coords="1674,454,1834,509" href="../elements/id-0533ad26c25b47ae8495c869533c10a7.html"  target="element">
+
+				  		<area shape="rect" coords="1614,394,2034,574" href="../elements/id-0a5b34cdebe2402fa686bb8860d0ecc2.html"  target="element">
+				  				<area shape="rect" coords="678,430,838,485" href="../elements/id-4b324860aa8d4f4dbb5b3282dbbf3f4f.html"  target="element">
+				  				<area shape="rect" coords="306,430,466,485" href="../elements/id-31428a3156474f70bc381d8d09d49348.html"  target="element">
+				  				<area shape="rect" coords="474,502,634,557" href="../elements/id-820faa524f5e4090aeb91c4c6aa1da1f.html"  target="element">
+				  				<area shape="rect" coords="138,502,298,557" href="../elements/id-0f5519fc3856487fb2d548d28673fc14.html"  target="element">
+				  				<area shape="rect" coords="306,502,466,557" href="../elements/id-0c455ccccf014a109465ed1ddd568ad3.html"  target="element">
+				  				<area shape="rect" coords="474,430,634,485" href="../elements/id-1d35fc8f61464f8f91f18172083d0d7f.html"  target="element">
+				  				<area shape="rect" coords="138,430,298,485" href="../elements/id-05e57ee3620f444abb72bea39e922f9b.html"  target="element">
+
+				  		<area shape="rect" coords="126,394,847,574" href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html"  target="element">
+				  				<area shape="rect" coords="543,1078,703,1133" href="../elements/id-151846ec24cf42d48e97ecd45652769b.html"  target="element">
+				  				<area shape="rect" coords="375,1078,535,1133" href="../elements/id-225d180d8d69434980de3f251eafd748.html"  target="element">
+				  				<area shape="rect" coords="543,1018,703,1073" href="../elements/id-0f39a6d40603460eaaff31544ea2c9ea.html"  target="element">
+				  				<area shape="rect" coords="375,1018,535,1073" href="../elements/id-58cc6a95c24f406cb2b6a6dc069e8801.html"  target="element">
+
+				  		<area shape="rect" coords="363,982,844,1150" href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html"  target="element">
+				  				<area shape="rect" coords="488,893,648,948" href="../elements/id-bff4235843f1474daedad2e1271c221e.html"  target="element">
+				  				<area shape="rect" coords="316,893,476,948" href="../elements/id-a0475b2f16aa43e48504e3b8b5c62535.html"  target="element">
+				  				<area shape="rect" coords="664,826,824,881" href="../elements/id-4f461d05b0414b5ea6a8135431290801.html"  target="element">
+				  				<area shape="rect" coords="488,826,648,881" href="../elements/id-172914ff003242778d96c7001370c75f.html"  target="element">
+				  				<area shape="rect" coords="316,826,476,881" href="../elements/id-24ad9a22035f4109b76df804a456d0f2.html"  target="element">
+
+				  		<area shape="rect" coords="292,790,844,958" href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">The view that relates Architecture principles to infrastructure layer view functional components is crucial in solutions architecture. This view focuses on how architecture principles influence the design and implementation of functional components within the technical layer. 
+
+By aligning architecture principles with technical layer view functional components, solutions architects ensure consistency, enhance performance and scalability, promote reusability and maintainability, and support regulatory compliance. This alignment leads to the creation of robust and efficient applications within the technology layer, enabling seamless integration, optimal user experience, reduced maintenance effort, and adherence to legal and industry standards.
+
+In summary, aligning Architecture principles with technical layer view functional components ensures consistency, enhances performance and scalability, promotes reusability and maintainability, and supports regulatory compliance. By following these principles, solutions architects can design robust and efficient applications within the technical layer.
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-24ad9a22035f4109b76df804a456d0f2.html" target="element"> Relational Database Manager </a> </td>
+													    <td> <a href="../elements/id-24ad9a22035f4109b76df804a456d0f2.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-172914ff003242778d96c7001370c75f.html" target="element"> Object-Oriented Database Manager </a> </td>
+													    <td> <a href="../elements/id-172914ff003242778d96c7001370c75f.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-4f461d05b0414b5ea6a8135431290801.html" target="element"> NoSQL Database Manager </a> </td>
+													    <td> <a href="../elements/id-4f461d05b0414b5ea6a8135431290801.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a0475b2f16aa43e48504e3b8b5c62535.html" target="element"> Graph Database Manager </a> </td>
+													    <td> <a href="../elements/id-a0475b2f16aa43e48504e3b8b5c62535.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-bff4235843f1474daedad2e1271c221e.html" target="element"> Database Cache Manager </a> </td>
+													    <td> <a href="../elements/id-bff4235843f1474daedad2e1271c221e.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html" target="element"> Storage Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-58cc6a95c24f406cb2b6a6dc069e8801.html" target="element"> File Storage </a> </td>
+													    <td> <a href="../elements/id-58cc6a95c24f406cb2b6a6dc069e8801.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0f39a6d40603460eaaff31544ea2c9ea.html" target="element"> Block Storage  </a> </td>
+													    <td> <a href="../elements/id-0f39a6d40603460eaaff31544ea2c9ea.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-225d180d8d69434980de3f251eafd748.html" target="element"> Distributed File System </a> </td>
+													    <td> <a href="../elements/id-225d180d8d69434980de3f251eafd748.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-151846ec24cf42d48e97ecd45652769b.html" target="element"> Backup </a> </td>
+													    <td> <a href="../elements/id-151846ec24cf42d48e97ecd45652769b.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-05e57ee3620f444abb72bea39e922f9b.html" target="element"> Enterprise Service Bus </a> </td>
+													    <td> <a href="../elements/id-05e57ee3620f444abb72bea39e922f9b.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-1d35fc8f61464f8f91f18172083d0d7f.html" target="element"> API Manager </a> </td>
+													    <td> <a href="../elements/id-1d35fc8f61464f8f91f18172083d0d7f.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0c455ccccf014a109465ed1ddd568ad3.html" target="element"> GraphQL Server </a> </td>
+													    <td> <a href="../elements/id-0c455ccccf014a109465ed1ddd568ad3.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0f5519fc3856487fb2d548d28673fc14.html" target="element"> Serverless Orchestrator </a> </td>
+													    <td> <a href="../elements/id-0f5519fc3856487fb2d548d28673fc14.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-820faa524f5e4090aeb91c4c6aa1da1f.html" target="element"> Application Server </a> </td>
+													    <td> <a href="../elements/id-820faa524f5e4090aeb91c4c6aa1da1f.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-31428a3156474f70bc381d8d09d49348.html" target="element"> Event Manager </a> </td>
+													    <td> <a href="../elements/id-31428a3156474f70bc381d8d09d49348.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-4b324860aa8d4f4dbb5b3282dbbf3f4f.html" target="element"> API Gateway </a> </td>
+													    <td> <a href="../elements/id-4b324860aa8d4f4dbb5b3282dbbf3f4f.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-0a5b34cdebe2402fa686bb8860d0ecc2.html" target="element"> Workflow Orchestration Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-0a5b34cdebe2402fa686bb8860d0ecc2.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0533ad26c25b47ae8495c869533c10a7.html" target="element"> Business Process Manager </a> </td>
+													    <td> <a href="../elements/id-0533ad26c25b47ae8495c869533c10a7.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d2ff5e5e17944784bf1b648a0d27a376.html" target="element"> Analytics </a> </td>
+													    <td> <a href="../elements/id-d2ff5e5e17944784bf1b648a0d27a376.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-287baed13ac84fc4bb36c88d6233ddef.html" target="element"> Business Intelligence </a> </td>
+													    <td> <a href="../elements/id-287baed13ac84fc4bb36c88d6233ddef.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-268148e839624e2ebb5ace18c034c443.html" target="element"> Databricks </a> </td>
+													    <td> <a href="../elements/id-268148e839624e2ebb5ace18c034c443.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-052dc131a5d5414f9fd8bfa14b131d6a.html" target="element"> Data Catalog </a> </td>
+													    <td> <a href="../elements/id-052dc131a5d5414f9fd8bfa14b131d6a.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html" target="element"> Blockchain Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-03b2b90c0f4d42ca8b302d43080ed184.html" target="element"> Inmutable Database Manager </a> </td>
+													    <td> <a href="../elements/id-03b2b90c0f4d42ca8b302d43080ed184.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0243fc74bd564f89b83c570cdc540013.html" target="element"> Blockchain Ledger </a> </td>
+													    <td> <a href="../elements/id-0243fc74bd564f89b83c570cdc540013.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-57369621518147b8b600d8f6855cba2d.html" target="element"> Distributed Blockchain Network </a> </td>
+													    <td> <a href="../elements/id-57369621518147b8b600d8f6855cba2d.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html" target="element"> Logger </a> </td>
+													    <td> <a href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html" target="element"> Audit Manager </a> </td>
+													    <td> <a href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html" target="element"> Telemetry </a> </td>
+													    <td> <a href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-524c4afe98154971bd90195970b493fc.html" target="element"> Management Console </a> </td>
+													    <td> <a href="../elements/id-524c4afe98154971bd90195970b493fc.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-0ebc9749a4e743edbfd053b9b29fef9f.html" target="element"> Trust Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-0ebc9749a4e743edbfd053b9b29fef9f.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2bbc6084ca2f4c6ca45e5457ccc0b59a.html" target="element"> PKI Certificate Manager </a> </td>
+													    <td> <a href="../elements/id-2bbc6084ca2f4c6ca45e5457ccc0b59a.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-49e563712dbf41f4a2ae877b1e433212.html" target="element"> Identity Provider </a> </td>
+													    <td> <a href="../elements/id-49e563712dbf41f4a2ae877b1e433212.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-134caf7f92cc4ed9a156a42ce19865d0.html" target="element"> Federated Identity Provider </a> </td>
+													    <td> <a href="../elements/id-134caf7f92cc4ed9a156a42ce19865d0.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-cb4e64228e59489eba493540073c9017.html" target="element"> Active Directory </a> </td>
+													    <td> <a href="../elements/id-cb4e64228e59489eba493540073c9017.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-50a55369c7c846a7ac1041aa4b7a34ea.html" target="element"> Lightweight Directory Access Protocol </a> </td>
+													    <td> <a href="../elements/id-50a55369c7c846a7ac1041aa4b7a34ea.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-13629894a1cb4aba8db01741a8539a6b.html" target="element"> Trust </a> </td>
+											    <td> <a href="../elements/id-13629894a1cb4aba8db01741a8539a6b.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-9abe5cc039254500be33ac46614304b7.html" target="element"> Privacy </a> </td>
+											    <td> <a href="../elements/id-9abe5cc039254500be33ac46614304b7.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-46263faec818451881bfc9ed5b5e5605.html" target="element"> User-centricity </a> </td>
+											    <td> <a href="../elements/id-46263faec818451881bfc9ed5b5e5605.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-255f78c450214ed48e8b76256da2223b.html" target="element"> Evidence based Public Policy </a> </td>
+											    <td> <a href="../elements/id-255f78c450214ed48e8b76256da2223b.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+											    <td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0e5de5dcd921465c8bafe3468592f1b6.html" target="element"> Service Orientation </a> </td>
+											    <td> <a href="../elements/id-0e5de5dcd921465c8bafe3468592f1b6.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+											    <td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5a4c6bacad774c3e993f51c855ba97cc.html" target="element"> Accountability </a> </td>
+											    <td> <a href="../elements/id-5a4c6bacad774c3e993f51c855ba97cc.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+											    <td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-64e7fb43e4974e20ae41d16877b32305.html" target="element"> Openness </a> </td>
+											    <td> <a href="../elements/id-64e7fb43e4974e20ae41d16877b32305.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0db7db65e37b402c9ba0f1146804bbc9.html" target="element"> Integrated Horizontal User Experience </a> </td>
+											    <td> <a href="../elements/id-0db7db65e37b402c9ba0f1146804bbc9.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-224388e471b94528bd6538893a91aa4d.html" target="element"> Artificial Intelligence Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-224388e471b94528bd6538893a91aa4d.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-83f14efbd989435188aa3cddb148b8a6.html" target="element"> Machine Learning </a> </td>
+													    <td> <a href="../elements/id-83f14efbd989435188aa3cddb148b8a6.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-512fa185aceb47cbb741e6717b7a1301.html" target="element"> Digital Workplace Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-512fa185aceb47cbb741e6717b7a1301.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-499e0a3e26de414caf00bf79ac27fdca.html" target="element"> Remote Desktop </a> </td>
+													    <td> <a href="../elements/id-499e0a3e26de414caf00bf79ac27fdca.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html" target="element"> Logger </a> </td>
+													    <td> <a href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html" target="element"> Audit Manager </a> </td>
+													    <td> <a href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html" target="element"> Telemetry </a> </td>
+													    <td> <a href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-524c4afe98154971bd90195970b493fc.html" target="element"> Management Console </a> </td>
+													    <td> <a href="../elements/id-524c4afe98154971bd90195970b493fc.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-8e3bc496ddc848d3a8853d4ede4763cc.html" target="element"> Content Delivery Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-8e3bc496ddc848d3a8853d4ede4763cc.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-1343c7d8027d405d9598173529a72b9b.html" target="element"> Web Server </a> </td>
+													    <td> <a href="../elements/id-1343c7d8027d405d9598173529a72b9b.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-011a714e394b4c6084f4f192be71dcf0.html" target="element"> Streaming Server </a> </td>
+													    <td> <a href="../elements/id-011a714e394b4c6084f4f192be71dcf0.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-45cb020e504541d2ae3ce69cc59f1115.html" target="element"> Data Lake Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-45cb020e504541d2ae3ce69cc59f1115.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-94a0ab412f4c49bca8dce1ece4287ae4.html" target="element"> Data Lake Storage </a> </td>
+													    <td> <a href="../elements/id-94a0ab412f4c49bca8dce1ece4287ae4.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html" target="element"> Containers Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-105cbb9a42fe4136ae4ea80a8e90682c.html" target="element"> Containers Manager </a> </td>
+													    <td> <a href="../elements/id-105cbb9a42fe4136ae4ea80a8e90682c.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-1c5783d785cb4c1faa2832d1a52f29ce.html" target="element"> Containers Orchestrator </a> </td>
+													    <td> <a href="../elements/id-1c5783d785cb4c1faa2832d1a52f29ce.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-822a4607087d499eb3e3e991ac16a939.html" target="element"> Container Registry </a> </td>
+													    <td> <a href="../elements/id-822a4607087d499eb3e3e991ac16a939.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0c8181b78b1343e784d17756bce4ec4f.html" target="element"> Container </a> </td>
+													    <td> <a href="../elements/id-0c8181b78b1343e784d17756bce4ec4f.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html" target="element"> Computing Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-105fae7b1cb54f9ba590544dc1c43629.html" target="element"> Virtual Machine </a> </td>
+													    <td> <a href="../elements/id-105fae7b1cb54f9ba590544dc1c43629.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e7acc1f0e7814b048e308a4e258bd5e2.html" target="element"> Server </a> </td>
+													    <td> <a href="../elements/id-e7acc1f0e7814b048e308a4e258bd5e2.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6e7974013fb24b829a01e1fc1c7f8ffc.html" target="element"> Private Network </a> </td>
+													    <td> <a href="../elements/id-6e7974013fb24b829a01e1fc1c7f8ffc.html" target="element" class="i18n-elementtype-CommunicationNetwork">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-023d50e1251e4d98aef95ff33bc38ab3.html" target="element"> Firewall </a> </td>
+													    <td> <a href="../elements/id-023d50e1251e4d98aef95ff33bc38ab3.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0d2725ea450e4ba78bb28ac91dd7f5fd.html" target="element"> Load Balancer </a> </td>
+													    <td> <a href="../elements/id-0d2725ea450e4ba78bb28ac91dd7f5fd.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-26d0192cfa6e4222a91888fb2a65af4b.html" target="element"> Router </a> </td>
+													    <td> <a href="../elements/id-26d0192cfa6e4222a91888fb2a65af4b.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-96aaf9813e8e42ba8fd4888722d8dabc.html" target="element"> Private Subnetwork </a> </td>
+													    <td> <a href="../elements/id-96aaf9813e8e42ba8fd4888722d8dabc.html" target="element" class="i18n-elementtype-CommunicationNetwork">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-846078eea9454cc5a3e9f8512a3b39d7.html" target="element"> Domain Name Service </a> </td>
+													    <td> <a href="../elements/id-846078eea9454cc5a3e9f8512a3b39d7.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-876d592cfd7e455fb64f459e6ef5121b.html" target="element"> Virtual Private Network </a> </td>
+													    <td> <a href="../elements/id-876d592cfd7e455fb64f459e6ef5121b.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-648bfbbba1dd443fa2bdb05b0fd6831f.html" target="element"> Gateway </a> </td>
+													    <td> <a href="../elements/id-648bfbbba1dd443fa2bdb05b0fd6831f.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-b68bae7b18b84d2bbbadf3a9376fb47d.html" target="element"> Health Data Lake Infrastructure Enablers </a> </td>
+											    <td> <a href="../elements/id-b68bae7b18b84d2bbbadf3a9376fb47d.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-69909dcfa924421faa43f6ebd2fb13e9.html" target="element"> Patient vital signs data lake </a> </td>
+													    <td> <a href="../elements/id-69909dcfa924421faa43f6ebd2fb13e9.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-21434524f8464c7fae8eab374fb7749c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-21434524f8464c7fae8eab374fb7749c.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-4f461d05b0414b5ea6a8135431290801.html" target="element"> NoSQL Database Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8e176b3d59c445eca5d8a5457163a2ee.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8e176b3d59c445eca5d8a5457163a2ee.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-24ad9a22035f4109b76df804a456d0f2.html" target="element"> Relational Database Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-52a0e4f77bee4f7c944dba9087c7d78c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-52a0e4f77bee4f7c944dba9087c7d78c.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-a0475b2f16aa43e48504e3b8b5c62535.html" target="element"> Graph Database Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2720c2f4de774b9bbfe2716f9ed8d64d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2720c2f4de774b9bbfe2716f9ed8d64d.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-172914ff003242778d96c7001370c75f.html" target="element"> Object-Oriented Database Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-49b5f4deb36b4db08a718c54981b4841.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-49b5f4deb36b4db08a718c54981b4841.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-bff4235843f1474daedad2e1271c221e.html" target="element"> Database Cache Manager </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-c508272f6e1b4f02811972450501567c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c508272f6e1b4f02811972450501567c.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html" target="element"> Storage Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-225d180d8d69434980de3f251eafd748.html" target="element"> Distributed File System </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c0a7b8d70965440e9c478c97a69fdd18.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c0a7b8d70965440e9c478c97a69fdd18.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html" target="element"> Storage Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-0f39a6d40603460eaaff31544ea2c9ea.html" target="element"> Block Storage  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-97567d74dd2d4a87af96f2d5f3bebaeb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-97567d74dd2d4a87af96f2d5f3bebaeb.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html" target="element"> Storage Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-58cc6a95c24f406cb2b6a6dc069e8801.html" target="element"> File Storage </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f1752d173e464bf6bf2dd2666d6e9268.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f1752d173e464bf6bf2dd2666d6e9268.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html" target="element"> Storage Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-151846ec24cf42d48e97ecd45652769b.html" target="element"> Backup </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-d7e004a31f934f049d8cf48d26e716ac.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d7e004a31f934f049d8cf48d26e716ac.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-4b324860aa8d4f4dbb5b3282dbbf3f4f.html" target="element"> API Gateway </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dd6b185f49d54503b23366fa6edbec9b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dd6b185f49d54503b23366fa6edbec9b.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-0c455ccccf014a109465ed1ddd568ad3.html" target="element"> GraphQL Server </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-835795212306482f82209e7860663bb2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-835795212306482f82209e7860663bb2.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-31428a3156474f70bc381d8d09d49348.html" target="element"> Event Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dd797a0192144d61a542657bfc33e52a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dd797a0192144d61a542657bfc33e52a.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-0f5519fc3856487fb2d548d28673fc14.html" target="element"> Serverless Orchestrator </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-24b3ebb7e56a4d6180a40a62fe905379.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-24b3ebb7e56a4d6180a40a62fe905379.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-820faa524f5e4090aeb91c4c6aa1da1f.html" target="element"> Application Server </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9f4ccae6db504880b6d99b428e18f2b0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9f4ccae6db504880b6d99b428e18f2b0.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-05e57ee3620f444abb72bea39e922f9b.html" target="element"> Enterprise Service Bus </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b94d46bdfc324356b6edfcadff969cd3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b94d46bdfc324356b6edfcadff969cd3.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-1d35fc8f61464f8f91f18172083d0d7f.html" target="element"> API Manager </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-473ea573d1d84ba2b9b366e4ced55346.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-473ea573d1d84ba2b9b366e4ced55346.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-1d35fc8f61464f8f91f18172083d0d7f.html" target="element"> API Manager </a> </td>
+																				<td> <a href="../elements/id-4b324860aa8d4f4dbb5b3282dbbf3f4f.html" target="element"> API Gateway </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-02b0c26b8fff4f7e8cab3cd760590edf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-02b0c26b8fff4f7e8cab3cd760590edf.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0a5b34cdebe2402fa686bb8860d0ecc2.html" target="element"> Workflow Orchestration Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-0533ad26c25b47ae8495c869533c10a7.html" target="element"> Business Process Manager </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-ec12146ef4d64502b968b357ffe5f65f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ec12146ef4d64502b968b357ffe5f65f.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-287baed13ac84fc4bb36c88d6233ddef.html" target="element"> Business Intelligence </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fbfacf0089874b0e94b30c94797bc438.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fbfacf0089874b0e94b30c94797bc438.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-052dc131a5d5414f9fd8bfa14b131d6a.html" target="element"> Data Catalog </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-44ddd815ced44b4886cb45cedc83bc3e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-44ddd815ced44b4886cb45cedc83bc3e.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-268148e839624e2ebb5ace18c034c443.html" target="element"> Databricks </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b60c65eebbdc4c30953f51af00c53e24.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b60c65eebbdc4c30953f51af00c53e24.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-d2ff5e5e17944784bf1b648a0d27a376.html" target="element"> Analytics </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-2e44eb082bca4cadbf5c5ef2df2893ed.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2e44eb082bca4cadbf5c5ef2df2893ed.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html" target="element"> Blockchain Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-0243fc74bd564f89b83c570cdc540013.html" target="element"> Blockchain Ledger </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dc393550ae5b41d7a2240c658ccae7b6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dc393550ae5b41d7a2240c658ccae7b6.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html" target="element"> Blockchain Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-57369621518147b8b600d8f6855cba2d.html" target="element"> Distributed Blockchain Network </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b8ab2bb7d00e4cf5b8f7e8f3fe221c2a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b8ab2bb7d00e4cf5b8f7e8f3fe221c2a.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html" target="element"> Blockchain Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-03b2b90c0f4d42ca8b302d43080ed184.html" target="element"> Inmutable Database Manager </a> </td>
+																	</tr>
+
+											
+											
+																	<tr>
+																		<td> <a href="../elements/id-5a2886672062455ba66b42ebe7302f36.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5a2886672062455ba66b42ebe7302f36.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0ebc9749a4e743edbfd053b9b29fef9f.html" target="element"> Trust Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-2bbc6084ca2f4c6ca45e5457ccc0b59a.html" target="element"> PKI Certificate Manager </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-e5491856041c4bee876ceb95b3f8e126.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e5491856041c4bee876ceb95b3f8e126.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-50a55369c7c846a7ac1041aa4b7a34ea.html" target="element"> Lightweight Directory Access Protocol </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fdf474f92b4441af9166f283da28a009.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fdf474f92b4441af9166f283da28a009.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-134caf7f92cc4ed9a156a42ce19865d0.html" target="element"> Federated Identity Provider </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-224d544521804a5781a8e71fb4e662b7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-224d544521804a5781a8e71fb4e662b7.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-49e563712dbf41f4a2ae877b1e433212.html" target="element"> Identity Provider </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3cd5ce3251cc4fb88025158c20cb9c5b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3cd5ce3251cc4fb88025158c20cb9c5b.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-cb4e64228e59489eba493540073c9017.html" target="element"> Active Directory </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-9eb3a4a692f3417d9a5982bbce20e22c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9eb3a4a692f3417d9a5982bbce20e22c.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-13629894a1cb4aba8db01741a8539a6b.html" target="element"> Trust </a> </td>
+																		<td> <a href="../elements/id-0ebc9749a4e743edbfd053b9b29fef9f.html" target="element"> Trust Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-47758cda5ea34eb0958cc170c6712a00.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-47758cda5ea34eb0958cc170c6712a00.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-13629894a1cb4aba8db01741a8539a6b.html" target="element"> Trust </a> </td>
+																		<td> <a href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html" target="element"> Blockchain Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-edfda465bb6348ecb6c7d9d545b2a053.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-edfda465bb6348ecb6c7d9d545b2a053.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9abe5cc039254500be33ac46614304b7.html" target="element"> Privacy </a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-305d8d1c5a404959a3067d2022925511.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-305d8d1c5a404959a3067d2022925511.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-46263faec818451881bfc9ed5b5e5605.html" target="element"> User-centricity </a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1a2e49c61ee844d4b937822dd3645af1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1a2e49c61ee844d4b937822dd3645af1.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-46263faec818451881bfc9ed5b5e5605.html" target="element"> User-centricity </a> </td>
+																		<td> <a href="../elements/id-512fa185aceb47cbb741e6717b7a1301.html" target="element"> Digital Workplace Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4f866e5527e147fd827228a5c0252587.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4f866e5527e147fd827228a5c0252587.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-255f78c450214ed48e8b76256da2223b.html" target="element"> Evidence based Public Policy </a> </td>
+																		<td> <a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1764301466ab4debb033878db4d57c7d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1764301466ab4debb033878db4d57c7d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1bd031371d4542d19b26139fbaabb78d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1bd031371d4542d19b26139fbaabb78d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-0a5b34cdebe2402fa686bb8860d0ecc2.html" target="element"> Workflow Orchestration Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bda9377f1b934a1091aa11a3f98eae0d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bda9377f1b934a1091aa11a3f98eae0d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-224388e471b94528bd6538893a91aa4d.html" target="element"> Artificial Intelligence Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8cb69af5834648c6b1c77a42068ab54d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8cb69af5834648c6b1c77a42068ab54d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html" target="element"> Containers Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0156fcd6e58e463e9dc19addb5a5a2eb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0156fcd6e58e463e9dc19addb5a5a2eb.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html" target="element"> Computing Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d67c591bf4aa43d1babff91c341b1fe8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d67c591bf4aa43d1babff91c341b1fe8.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-9dcaa50a1e75451785c403cc1103bb08.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9dcaa50a1e75451785c403cc1103bb08.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0e5de5dcd921465c8bafe3468592f1b6.html" target="element"> Service Orientation </a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b61d8cf04faf4e32976878717bdea8b4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b61d8cf04faf4e32976878717bdea8b4.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0e5de5dcd921465c8bafe3468592f1b6.html" target="element"> Service Orientation </a> </td>
+																		<td> <a href="../elements/id-224388e471b94528bd6538893a91aa4d.html" target="element"> Artificial Intelligence Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6fc375c5667a42db83aff4bd9027f9e7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6fc375c5667a42db83aff4bd9027f9e7.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0e5de5dcd921465c8bafe3468592f1b6.html" target="element"> Service Orientation </a> </td>
+																		<td> <a href="../elements/id-8e3bc496ddc848d3a8853d4ede4763cc.html" target="element"> Content Delivery Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9eaae022943a46208f661dba0c6a5e4e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9eaae022943a46208f661dba0c6a5e4e.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0e5de5dcd921465c8bafe3468592f1b6.html" target="element"> Service Orientation </a> </td>
+																		<td> <a href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html" target="element"> Computing Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-9bf593b5fa2143feb651dced36d63f16.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9bf593b5fa2143feb651dced36d63f16.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-4c5a9328d2d3421798475eb7bb1dc72b.html" target="element"> Application Integration Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f125fe2b91f548b7a71df2d79512da1d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f125fe2b91f548b7a71df2d79512da1d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-224388e471b94528bd6538893a91aa4d.html" target="element"> Artificial Intelligence Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-18d70270aad64cedaa0a38a8c277a3e5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-18d70270aad64cedaa0a38a8c277a3e5.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-75ab9af2186b40ee86fa3e0991724961.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-75ab9af2186b40ee86fa3e0991724961.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-45cb020e504541d2ae3ce69cc59f1115.html" target="element"> Data Lake Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f84d8955159041acab9e1f1a692956fa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f84d8955159041acab9e1f1a692956fa.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1146176bed68419c8a27dc35eac13c69.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1146176bed68419c8a27dc35eac13c69.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html" target="element"> Computing Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-26fc83bae7f14b348dd7ee0dba151a6b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-26fc83bae7f14b348dd7ee0dba151a6b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5a4c6bacad774c3e993f51c855ba97cc.html" target="element"> Accountability </a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9650c8fdfd74448491b1eab235c2759d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9650c8fdfd74448491b1eab235c2759d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5a4c6bacad774c3e993f51c855ba97cc.html" target="element"> Accountability </a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-26fc83bae7f14b348dd7ee0dba151a6b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-26fc83bae7f14b348dd7ee0dba151a6b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5a4c6bacad774c3e993f51c855ba97cc.html" target="element"> Accountability </a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-30dd505d9a6c490b8e400a28ab96335b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-30dd505d9a6c490b8e400a28ab96335b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+																		<td> <a href="../elements/id-173da3c093814ef4bfb91aeb433adcad.html" target="element"> Storage Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5ae53ea6a9fc45c7ad91965208a57fb8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5ae53ea6a9fc45c7ad91965208a57fb8.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+																		<td> <a href="../elements/id-45cb020e504541d2ae3ce69cc59f1115.html" target="element"> Data Lake Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8f894e6f798f4368bbf4ed7e757ebfe2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8f894e6f798f4368bbf4ed7e757ebfe2.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+																		<td> <a href="../elements/id-bf5f49e840194ea399539c075c0f2a55.html" target="element"> Database Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8545867dd901404d9d7a49303d88e876.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8545867dd901404d9d7a49303d88e876.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-64e7fb43e4974e20ae41d16877b32305.html" target="element"> Openness </a> </td>
+																		<td> <a href="../elements/id-66cb449dac6c45e491f9e2840147a5da.html" target="element"> Blockchain Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-44e7cf99591645e29f0d5be5a0b4c39a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-44e7cf99591645e29f0d5be5a0b4c39a.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-64e7fb43e4974e20ae41d16877b32305.html" target="element"> Openness </a> </td>
+																		<td> <a href="../elements/id-8e3bc496ddc848d3a8853d4ede4763cc.html" target="element"> Content Delivery Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a2b79f7ecc0a4fe785c2f37954e62cd8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a2b79f7ecc0a4fe785c2f37954e62cd8.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0db7db65e37b402c9ba0f1146804bbc9.html" target="element"> Integrated Horizontal User Experience </a> </td>
+																		<td> <a href="../elements/id-4b8b6757edf24040997c3cafb14bd457.html" target="element"> Identity and Access Infrastructure Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a23ee2e8c49f43f6adce9a06cde66be1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a23ee2e8c49f43f6adce9a06cde66be1.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0db7db65e37b402c9ba0f1146804bbc9.html" target="element"> Integrated Horizontal User Experience </a> </td>
+																		<td> <a href="../elements/id-512fa185aceb47cbb741e6717b7a1301.html" target="element"> Digital Workplace Infrastructure Enablers </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a3ef04955daa406cbc9c2ff79f806b94.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a3ef04955daa406cbc9c2ff79f806b94.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-224388e471b94528bd6538893a91aa4d.html" target="element"> Artificial Intelligence Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-83f14efbd989435188aa3cddb148b8a6.html" target="element"> Machine Learning </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-4caa563c65ba48c8a845a56227ce4626.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4caa563c65ba48c8a845a56227ce4626.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-512fa185aceb47cbb741e6717b7a1301.html" target="element"> Digital Workplace Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-499e0a3e26de414caf00bf79ac27fdca.html" target="element"> Remote Desktop </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-5a6eec98c5cf43f58a19916bdc0f5a88.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5a6eec98c5cf43f58a19916bdc0f5a88.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html" target="element"> Telemetry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bb9f6aa9a2ba4211a7c34e7f1956cab0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bb9f6aa9a2ba4211a7c34e7f1956cab0.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html" target="element"> Audit Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dbe07b3da0e64936955d615d80ab85b9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dbe07b3da0e64936955d615d80ab85b9.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html" target="element"> Logger </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-212a8569a2f24a449085acdaa8216743.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-212a8569a2f24a449085acdaa8216743.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-524c4afe98154971bd90195970b493fc.html" target="element"> Management Console </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5a6eec98c5cf43f58a19916bdc0f5a88.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5a6eec98c5cf43f58a19916bdc0f5a88.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-56445bc4ef194cb4a30d3451a71a50c8.html" target="element"> Telemetry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bb9f6aa9a2ba4211a7c34e7f1956cab0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bb9f6aa9a2ba4211a7c34e7f1956cab0.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-3fc196ab18544b34a1347bbedcf18b05.html" target="element"> Audit Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dbe07b3da0e64936955d615d80ab85b9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dbe07b3da0e64936955d615d80ab85b9.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-12ac7ba3b9344b88a961d12850e3eeee.html" target="element"> Logger </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-212a8569a2f24a449085acdaa8216743.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-212a8569a2f24a449085acdaa8216743.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-524c4afe98154971bd90195970b493fc.html" target="element"> Management Console </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-f8ed05501a934de89c895d8879aa3c09.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f8ed05501a934de89c895d8879aa3c09.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8e3bc496ddc848d3a8853d4ede4763cc.html" target="element"> Content Delivery Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-1343c7d8027d405d9598173529a72b9b.html" target="element"> Web Server </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a7fcfb9242694e78baadf9b12b87a124.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a7fcfb9242694e78baadf9b12b87a124.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8e3bc496ddc848d3a8853d4ede4763cc.html" target="element"> Content Delivery Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-011a714e394b4c6084f4f192be71dcf0.html" target="element"> Streaming Server </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-98577c17d8324722bcbdd719692e33a2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-98577c17d8324722bcbdd719692e33a2.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-45cb020e504541d2ae3ce69cc59f1115.html" target="element"> Data Lake Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-94a0ab412f4c49bca8dce1ece4287ae4.html" target="element"> Data Lake Storage </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-5e958b347d1d49f5a25d67f3f3fbe18a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5e958b347d1d49f5a25d67f3f3fbe18a.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html" target="element"> Containers Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-1c5783d785cb4c1faa2832d1a52f29ce.html" target="element"> Containers Orchestrator </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d4f11ca096f943a7aaf5401cb6e53056.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d4f11ca096f943a7aaf5401cb6e53056.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html" target="element"> Containers Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-822a4607087d499eb3e3e991ac16a939.html" target="element"> Container Registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a988cc710a184685b5f00244bd31edfa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a988cc710a184685b5f00244bd31edfa.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html" target="element"> Containers Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-105cbb9a42fe4136ae4ea80a8e90682c.html" target="element"> Containers Manager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1532947c55dc400da41157ba901d4625.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1532947c55dc400da41157ba901d4625.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-62d5e4d26a164b6d946bdde5d1d67be8.html" target="element"> Containers Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-0c8181b78b1343e784d17756bce4ec4f.html" target="element"> Container </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-bacf072aac01488d98ef706f0d8ae2d6.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-bacf072aac01488d98ef706f0d8ae2d6.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-1c5783d785cb4c1faa2832d1a52f29ce.html" target="element"> Containers Orchestrator </a> </td>
+																				<td> <a href="../elements/id-105cbb9a42fe4136ae4ea80a8e90682c.html" target="element"> Containers Manager </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-b5225ead785e42d480d5ded8df123a9d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b5225ead785e42d480d5ded8df123a9d.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-822a4607087d499eb3e3e991ac16a939.html" target="element"> Container Registry </a> </td>
+																				<td> <a href="../elements/id-0c8181b78b1343e784d17756bce4ec4f.html" target="element"> Container </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-9ea977968d374817a248777ba00cd537.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-9ea977968d374817a248777ba00cd537.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-822a4607087d499eb3e3e991ac16a939.html" target="element"> Container Registry </a> </td>
+																				<td> <a href="../elements/id-105cbb9a42fe4136ae4ea80a8e90682c.html" target="element"> Containers Manager </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-93b44904f90a4a1a9018c80b81b2c435.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-93b44904f90a4a1a9018c80b81b2c435.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-0c8181b78b1343e784d17756bce4ec4f.html" target="element"> Container </a> </td>
+																				<td> <a href="../elements/id-105cbb9a42fe4136ae4ea80a8e90682c.html" target="element"> Containers Manager </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-d707def930904c05a595c484be819e6d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d707def930904c05a595c484be819e6d.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html" target="element"> Computing Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-e7acc1f0e7814b048e308a4e258bd5e2.html" target="element"> Server </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2d0a021e04f44d49bc3d01eaff5f4b00.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2d0a021e04f44d49bc3d01eaff5f4b00.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-815267202d3a4e7482c00d97ed1c729f.html" target="element"> Computing Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-105fae7b1cb54f9ba590544dc1c43629.html" target="element"> Virtual Machine </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-1067d90ad3af41e398ca4db5d23e330a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-1067d90ad3af41e398ca4db5d23e330a.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-105fae7b1cb54f9ba590544dc1c43629.html" target="element"> Virtual Machine </a> </td>
+																				<td> <a href="../elements/id-e7acc1f0e7814b048e308a4e258bd5e2.html" target="element"> Server </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-91027bda03f643a08e89e0a92dd569e3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-91027bda03f643a08e89e0a92dd569e3.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-0d2725ea450e4ba78bb28ac91dd7f5fd.html" target="element"> Load Balancer </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6edb057c73624247851e89455a83459b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6edb057c73624247851e89455a83459b.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-846078eea9454cc5a3e9f8512a3b39d7.html" target="element"> Domain Name Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8840938e475a4d638c81a92761867efa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8840938e475a4d638c81a92761867efa.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-96aaf9813e8e42ba8fd4888722d8dabc.html" target="element"> Private Subnetwork </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f62e7be5d8e34a1da31060c7d96faa76.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f62e7be5d8e34a1da31060c7d96faa76.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-648bfbbba1dd443fa2bdb05b0fd6831f.html" target="element"> Gateway </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f8e868d5615d4396b17f5a43c9c37683.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f8e868d5615d4396b17f5a43c9c37683.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-876d592cfd7e455fb64f459e6ef5121b.html" target="element"> Virtual Private Network </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-245f48970a5449e2ac0b32f697147226.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-245f48970a5449e2ac0b32f697147226.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-26d0192cfa6e4222a91888fb2a65af4b.html" target="element"> Router </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-29dc6f31975e4a45967ea1bfe922ef0d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-29dc6f31975e4a45967ea1bfe922ef0d.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-023d50e1251e4d98aef95ff33bc38ab3.html" target="element"> Firewall </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-04be2aa609e24a7b87b00b14dfbf98e2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-04be2aa609e24a7b87b00b14dfbf98e2.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-088c5dc503784889895adb5509964e8b.html" target="element"> Networking Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-6e7974013fb24b829a01e1fc1c7f8ffc.html" target="element"> Private Network </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-b1e0a391cf6a4de48c4288408f5e7500.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b1e0a391cf6a4de48c4288408f5e7500.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-6e7974013fb24b829a01e1fc1c7f8ffc.html" target="element"> Private Network </a> </td>
+																				<td> <a href="../elements/id-96aaf9813e8e42ba8fd4888722d8dabc.html" target="element"> Private Subnetwork </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-753e29a7671c434aba29e58994d98d86.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-753e29a7671c434aba29e58994d98d86.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-023d50e1251e4d98aef95ff33bc38ab3.html" target="element"> Firewall </a> </td>
+																				<td> <a href="../elements/id-0d2725ea450e4ba78bb28ac91dd7f5fd.html" target="element"> Load Balancer </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-1a1a6ef6e98e4658bc2ad3930d51d7fa.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-1a1a6ef6e98e4658bc2ad3930d51d7fa.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-26d0192cfa6e4222a91888fb2a65af4b.html" target="element"> Router </a> </td>
+																				<td> <a href="../elements/id-6e7974013fb24b829a01e1fc1c7f8ffc.html" target="element"> Private Network </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-836becb5d82644a0ac21a3f241c9c2b4.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-836becb5d82644a0ac21a3f241c9c2b4.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-96aaf9813e8e42ba8fd4888722d8dabc.html" target="element"> Private Subnetwork </a> </td>
+																				<td> <a href="../elements/id-023d50e1251e4d98aef95ff33bc38ab3.html" target="element"> Firewall </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-52d92d5624e744baaeeb421a90b97ab6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-52d92d5624e744baaeeb421a90b97ab6.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b68bae7b18b84d2bbbadf3a9376fb47d.html" target="element"> Health Data Lake Infrastructure Enablers </a> </td>
+																		<td> <a href="../elements/id-69909dcfa924421faa43f6ebd2fb13e9.html" target="element"> Patient vital signs data lake </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-7185409c13814d4baac89942cf71706a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-7185409c13814d4baac89942cf71706a.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-69909dcfa924421faa43f6ebd2fb13e9.html" target="element"> Patient vital signs data lake </a> </td>
+																				<td> <a href="../elements/id-94a0ab412f4c49bca8dce1ece4287ae4.html" target="element"> Data Lake Storage </a> </td>
+																			</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
