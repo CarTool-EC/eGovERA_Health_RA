@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>SV-Healt Functional Architecture Principles</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>SV-Healt Functional Architecture Principles</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-ea2ab8fcd72147eab1c94314388c963e.png" alt="SV-Healt Functional Architecture Principles" usemap="#id-ea2ab8fcd72147eab1c94314388c963emap"/>
+			   <map name="id-ea2ab8fcd72147eab1c94314388c963emap">
+				  				<area shape="rect" coords="2086,970,2267,1055" href="../elements/id-b4abac95073d44e2828c016175541393.html"  target="element">
+
+				  		<area shape="rect" coords="2050,934,2303,1079" href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html"  target="element">
+				  				<area shape="rect" coords="298,1774,479,1859" href="../elements/id-9381cb5a84af4aef8323e227755919db.html"  target="element">
+
+				  		<area shape="rect" coords="274,1738,503,1888" href="../elements/id-3bc1571985d94cc8875eb6234d8d7bed.html"  target="element">
+				  				<area shape="rect" coords="226,46,407,131" href="../elements/id-ee3f705266314f12aa904be1d9a0f52f.html"  target="element">
+
+				  		<area shape="rect" coords="202,10,431,150" href="../elements/id-48d9248ecbdc4a76a2d42342475fa993.html"  target="element">
+				  		<area shape="rect" coords="1330,250,1580,325" href="../elements/id-154f38eaa09d45d5950700902cb8d815.html"  target="element">
+				  		<area shape="rect" coords="1330,670,1580,745" href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html"  target="element">
+				  		<area shape="rect" coords="1330,778,1580,853" href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html"  target="element">
+				  		<area shape="rect" coords="1330,1318,1580,1393" href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html"  target="element">
+				  		<area shape="rect" coords="1330,886,1580,961" href="../elements/id-109242e85e864ee08f4ac0f6aa9345e9.html"  target="element">
+				  		<area shape="rect" coords="1330,1102,1580,1177" href="../elements/id-2d502f57ae70424cb3fb065b25e0093f.html"  target="element">
+				  		<area shape="rect" coords="1330,1426,1580,1501" href="../elements/id-1262152d329e4f91ab5933502eee3214.html"  target="element">
+				  		<area shape="rect" coords="1330,996,1580,1071" href="../elements/id-64c1483aaa36441e9b527a40418428cd.html"  target="element">
+				  		<area shape="rect" coords="1330,1210,1580,1285" href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html"  target="element">
+				  		<area shape="rect" coords="1330,562,1580,637" href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html"  target="element">
+				  		<area shape="rect" coords="1330,454,1580,529" href="../elements/id-5c0143530b9540509357f82f5d2bbebf.html"  target="element">
+				  		<area shape="rect" coords="1330,355,1580,430" href="../elements/id-349192b760444dfbb0756fb32d9cc462.html"  target="element">
+				  				<area shape="rect" coords="2902,911,3083,996" href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html"  target="element">
+				  				<area shape="rect" coords="2703,1019,2884,1104" href="../elements/id-4bf49ebc29654a18b57b236196f0746c.html"  target="element">
+				  				<area shape="rect" coords="2499,1019,2680,1104" href="../elements/id-44c8f12dffd34b7dbcb0371f743a6055.html"  target="element">
+				  				<area shape="rect" coords="2902,1019,3083,1104" href="../elements/id-a89100b03fc74371810f2702d0ea49e5.html"  target="element">
+				  				<area shape="rect" coords="2703,911,2884,996" href="../elements/id-8bf5fa128f1049f7bfb4f1a7130f812e.html"  target="element">
+
+				  		<area shape="rect" coords="2470,875,3106,1139" href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html"  target="element">
+				  				<area shape="rect" coords="2146,454,2327,539" href="../elements/id-b2834f02cf45494885637011efbc4730.html"  target="element">
+				  				<area shape="rect" coords="2242,358,2423,443" href="../elements/id-3d6d1b6857c3418a98f4c7dd502954eb.html"  target="element">
+				  				<area shape="rect" coords="2050,358,2231,443" href="../elements/id-8985d0ffa3e94b1b8a28abd1f708008c.html"  target="element">
+				  				<area shape="rect" coords="2242,262,2423,347" href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html"  target="element">
+				  				<area shape="rect" coords="2050,262,2231,347" href="../elements/id-498166098d674d7cb6350b9c015f0c65.html"  target="element">
+
+				  		<area shape="rect" coords="2026,226,2454,556" href="../elements/id-397a30cee79e430fb79a110d98422a67.html"  target="element">
+				  				<area shape="rect" coords="682,1006,863,1091" href="../elements/id-4c67d2a0904544618222222b77fb88f6.html"  target="element">
+				  				<area shape="rect" coords="682,898,863,983" href="../elements/id-71ff782295914e8d8fcb0facf87a84b9.html"  target="element">
+				  				<area shape="rect" coords="466,1546,647,1631" href="../elements/id-0e8ed3040e9b41efab51612e4dcd9a42.html"  target="element">
+				  				<area shape="rect" coords="466,1366,647,1451" href="../elements/id-a0c48a6699584847855e07ca07855b4c.html"  target="element">
+				  				<area shape="rect" coords="466,1222,647,1307" href="../elements/id-2e37b45893dc48098467ad80ddc09802.html"  target="element">
+				  				<area shape="rect" coords="466,1114,647,1199" href="../elements/id-10cdebd0dd4246259e0dc1a3b81a1626.html"  target="element">
+				  				<area shape="rect" coords="466,1006,647,1091" href="../elements/id-e662c9fc85d24ca3b80474acc3ff58f4.html"  target="element">
+				  				<area shape="rect" coords="466,898,647,983" href="../elements/id-9147f72fbcb642d7b754ff3740081eef.html"  target="element">
+				  				<area shape="rect" coords="466,790,647,875" href="../elements/id-56da48d77d4a4f91a8275f87fbbadf2c.html"  target="element">
+				  				<area shape="rect" coords="466,682,647,767" href="../elements/id-340b4a58e40348bebce0b72e9f0f9aa4.html"  target="element">
+				  				<area shape="rect" coords="250,1438,431,1523" href="../elements/id-4714813c33b64d2d81f68f5cc017d830.html"  target="element">
+				  				<area shape="rect" coords="250,1330,431,1415" href="../elements/id-67e75375ba164d8b932d09486988ccce.html"  target="element">
+				  				<area shape="rect" coords="250,1222,431,1307" href="../elements/id-e1f366a4aba543e4b36935982f23d998.html"  target="element">
+				  				<area shape="rect" coords="250,1066,431,1151" href="../elements/id-b4c8474400f8404c9fbdd6e2c39747c1.html"  target="element">
+				  				<area shape="rect" coords="250,898,431,983" href="../elements/id-418f0bbfbc314df3b94c35d7e9fff262.html"  target="element">
+				  				<area shape="rect" coords="250,790,431,875" href="../elements/id-78210dd158fc4653bb677cc59f9cbf31.html"  target="element">
+				  				<area shape="rect" coords="34,1438,215,1523" href="../elements/id-7fa24d18a3ff4d7a972f93209e943281.html"  target="element">
+				  				<area shape="rect" coords="34,1330,215,1415" href="../elements/id-873a59f6bc7a47b583cfea8824b0d871.html"  target="element">
+				  				<area shape="rect" coords="34,1222,215,1307" href="../elements/id-e13c2dfb4f92461faa05e1bdcf7ff0c2.html"  target="element">
+				  				<area shape="rect" coords="34,1114,215,1199" href="../elements/id-a17c459fe6ba46ebbebe99de2e57a501.html"  target="element">
+				  				<area shape="rect" coords="34,1006,215,1091" href="../elements/id-9108f2d15e57439ab4e43f6fb691fa07.html"  target="element">
+				  				<area shape="rect" coords="34,898,215,983" href="../elements/id-ab24af4916554420b22a558addce1b7e.html"  target="element">
+				  				<area shape="rect" coords="34,790,215,875" href="../elements/id-163fd0ff659f47ab8652df0d19f39b12.html"  target="element">
+				  				<area shape="rect" coords="250,1546,431,1631" href="../elements/id-4fb4b1b4087949d18541e19e0b2830bb.html"  target="element">
+				  				<area shape="rect" coords="250,682,431,767" href="../elements/id-fb9cfa6d0c8547338bbc25663cae1b33.html"  target="element">
+				  				<area shape="rect" coords="34,682,215,767" href="../elements/id-daa038f361234f7e81658832f7bcf8c3.html"  target="element">
+
+				  		<area shape="rect" coords="10,646,886,1655" href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html"  target="element">
+				  				<area shape="rect" coords="802,406,983,491" href="../elements/id-8ac7552ddb1e4590b1748f244b44d52a.html"  target="element">
+				  				<area shape="rect" coords="610,502,791,587" href="../elements/id-2258a104d53f488e929b528baefc2040.html"  target="element">
+				  				<area shape="rect" coords="610,406,791,491" href="../elements/id-842c80a7c5704481be4f9a2ea6858c4e.html"  target="element">
+				  				<area shape="rect" coords="418,502,599,587" href="../elements/id-ac06a0a41f354ccdaa37481b3f4f892b.html"  target="element">
+				  				<area shape="rect" coords="418,406,599,491" href="../elements/id-d09d926579a64e0f8121630e5ccca129.html"  target="element">
+				  				<area shape="rect" coords="226,502,407,587" href="../elements/id-10456bc7eb6645e1b08cda158d36ed98.html"  target="element">
+				  				<area shape="rect" coords="226,406,407,491" href="../elements/id-f79456b7c27a414c84769ab8369a7100.html"  target="element">
+				  				<area shape="rect" coords="34,502,215,587" href="../elements/id-ab15dc85a91e4ad69143312fd92fac97.html"  target="element">
+				  				<area shape="rect" coords="34,406,215,491" href="../elements/id-dbb250793a5b43b1affb437e69f97baa.html"  target="element">
+
+				  		<area shape="rect" coords="10,370,1007,623" href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html"  target="element">
+				  				<area shape="rect" coords="418,238,599,323" href="../elements/id-5668cdfce7784dfabe3090a2830e7066.html"  target="element">
+				  				<area shape="rect" coords="226,238,407,323" href="../elements/id-7e8ba904f75f4337b42330ebeb912caf.html"  target="element">
+				  				<area shape="rect" coords="34,238,215,323" href="../elements/id-9546ebb38ebd44f1ad328fd4ffc76cb5.html"  target="element">
+
+				  		<area shape="rect" coords="10,202,623,342" href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">NARRATIVE:
+The SV-Healt Functional Architecture Principles view extends the Semantic view and provides a comprehensive framework for leveraging health-related data and promoting interoperability, reusability, and accessibility. It consists of several elements, their relations, and motivations:
+
+1. Health Dataset Catalogue Catalogue (Grouping ABB): This element represents a catalog that contains various datasets related to health. It includes the following sub-elements:
+   - Prescription catalogue (Data Object ABB): A dataset catalog that stores indexed inventory of prescription data, mitigating fragmentation through dispersed data sets.
+   - Healthcare facilities catalogue (Data Object ABB): A dataset catalog that lists all accredited healthcare facilities.
+   - Patient summary index (Data Object ABB): A dataset catalog that contains an indexed inventory of all patient summaries in a decentralized architecture.
+
+2. Health Dataset Solutions (Grouping ABB): This element represents solutions related to health datasets. It includes various sub-elements:
+   - Health synthetic metadata (Data Object ABB): A dataset containing artificially created metadata for research purposes.
+   - Information to patients metadata (Data Object ABB): A dataset containing data related to information that can be directly provided to patients.
+   - Diagnosis metadata (Data Object ABB): A dataset containing metadata for handling diagnosis processes and activities.
+   - European patient summary metadata (Data Object ABB): A dataset containing metadata for managing patient summaries.
+   - Health ERP (Enterprise Resource Planning) metadata (Data Object ABB): A dataset containing metadata for managing health processes in hospitals.
+   - Caregivers metadata (Data Object ABB): A dataset containing metadata for collecting data about caregivers.
+   - Integrated care pathways metadata (Data Object ABB): A dataset containing metadata and information related to different care pathways.
+   - Patient summary metadata (Data Object ABB): A dataset containing metadata for managing patient summary processes and activities.
+   - Relatives metadata (Data Object ABB): A dataset containing metadata for collecting data about relatives of patients.
+
+3. Health Base Registry Catalogue (Grouping ABB): This element represents a catalog that contains various base registries related to health. It includes the following sub-elements:
+   - Drugs interactions registry (Data Object ABB): A base registry containing all available drugs interactions.
+   - Authorized treatments registry (Data Object ABB): A base registry containing a list of all possible legally authorized treatments.
+   - Authorized medical images registry (Data Object ABB): A base registry containing a list of all types of medical images that can be legally prescribed or taken.
+   - Authorized medical equipments registry (Data Object ABB): A base registry containing a list of all legally authorized medical equipments.
+   - Authorized medical devices registry (Data Object ABB): A base registry containing a list of all legally authorized medical devices.
+   - Imaging bank for test and experimentation facilities (Data Object ABB): A dataset containing medical images for testing and experimental purposes.
+   - Credentials registry (Data Object ABB): A base registry containing credential data to access public administration information systems.
+   - Health professional qualifications registry (Data Object ABB): A base registry containing a list of qualifications associated with healthcare professionals.
+   - Diagnosis registry (Data Object ABB): A base registry containing all diagnoses performed by authorized health professionals.
+   - ADT (Admission Discharge and Transfer) registry (Data Object ABB): A base registry containing data about patient admissions, discharges, and transfers.
+   - Authorized vaccines registry (Data Object ABB): A base registry including all types of vaccines and vaccination treatments that can be legally dispensed.
+   - Eligible patients registry (Data Object ABB): A data repository for researchers to submit their data, with specific requirements concerning subject or research domain.
+   - Hospital tickets registry (Data Object ABB): A base registry containing data about daily processed patient hospitalization and consultation tickets.
+   - Prescriptions registry (Data Object ABB): A base registry containing data about prescriptions issued by health professionals or healthcare facilities.
+   - Laboratory analyser data registry (Data Object ABB): A base registry containing data about chemicals and characteristics in biological samples analyzed by laboratory analyzers.
+   - Laboratory pre/post-analytical device data registry (Data Object ABB): A base registry containing data exchanged between an Automation Manager and automated Laboratory Devices for processing work orders and retrieving results.
+   - Treatments registry (Data Object ABB): A base registry containing data about treatments prescribed to inpatients or outpatients.
+   - Vaccinations registry (Data Object ABB): A base registry containing data about vaccinations performed by the national health system.
+   - Patients registry (Data Object ABB): A base registry containing patient administrative data, such as demographic data and hospitalization data.
+   - Healthcare payments registry (Data Object ABB): A base registry containing data about payments made by patients to access healthcare services.
+   - Healthcare facilities registry (Data Object ABB): A base registry containing data about healthcare facilities.
+   - Dispensation reports registry (Data Object ABB): A base registry containing data about medicines to be dispensed or that have been dispensed.
+   - Laboratory reports registry (Data Object ABB): A base registry containing data about laboratory reports performed by patients.
+   - Medical images registry (Data Object ABB): A base registry containing data about medical images captured in hospitals, clinics, or other legally entitled sites.
+   - Patient summary registry (Data Object ABB): A base registry containing national patient summaries of patients.
+   - Healthcare bills registry (Data Object ABB): A base registry containing data about bills related to healthcare services.
+
+4. Health Ontology Solutions (Grouping ABB): This element represents solutions related to health ontologies. It includes various sub-elements:
+   - International Classification of Diseases for Oncology (ICD-O) (Data Object SBB): An ontology for tumor diseases widely used by cancer registries.
+   - Logical Observation Identifiers Names and Codes (LOINC) (Data Object SBB): A database and universal standard for identifying medical laboratory observations.
+   - International Classification of Diseases (ICD) (Data Object SBB): A diagnostic tool used to classify and monitor causes of injury and death.
+   - Anatomical Therapeutic Chemical Classification Ontology (ATCCO) (Data Object SBB): An ontology for classifying active ingredients of drugs.
+   - International surgery procedure ontology (Data Object SBB): An ontology for the joint development of surgical ontologies.
+
+5. Health Controlled Vocabulary Solutions (Grouping ABB): This element represents solutions related to health controlled vocabularies. It includes various sub-elements:
+   - International Classification of Diseases for Oncology (Data Object SBB): An ontology for joint development of disease-related ontologies.
+   - Systematised Nomenclature of Medicine (SNOMED) (Data Object SBB): A structured dictionary used in electronic medical record systems.
+   - International consumer health terminology (Data Object SBB): An international dictionary of health terminology.
+   - International Clinical Terminology for Primary Care (Data Object SBB): A set of definitions of terms describing the process of primary care.
+   - Logical Observation Identifiers Names and Codes (LOINC) (Data Object SBB): A database and universal standard for identifying medical laboratory observations.
+
+6. Data Interoperability (Principle SBB): This principle emphasizes the importance of ensuring interoperability between different health-related data sources.
+
+7. Data Reusability (Principle SBB): This principle promotes the reusability of health-related data for various purposes.
+
+8. Loosely coupled integration (Principle SBB): This principle advocates for loosely coupled integration between different health information systems.
+
+9. Data Accessibility (Principle SBB): This principle emphasizes the need for easy access to health-related data.
+
+10. Data Findability (Principle SBB): This principle focuses on making health-related data easily discoverable and searchable.
+
+11. Data Portability (Principle SBB): This principle promotes the ability to transfer health-related data between different systems.
+
+12. EU Localisation Framework compliance (Principle SBB): This principle emphasizes compliance with the EU Localisation Framework for health-related data.
+
+13. Once Only (Principle SBB): This principle promotes the concept of capturing health-related data only once and reusing it across different systems.
+
+14. Preservation of information (Principle SBB): This principle emphasizes the need to preserve health-related information for future use.
+
+15. Transparency of internal information systems (Principle SBB): This principle promotes transparency in the functioning of internal health information systems.
+
+16. Transparency of the administrative environment (Principle SBB): This principle promotes transparency in the administrative environment of healthcare systems.
+
+17. Reuse, before buy, before build (Principle SBB): This principle encourages the reuse of existing solutions before considering buying or building new ones.
+
+18. Health Dataset Catalogue Solutions (Grouping ABB): This element represents solutions related to health dataset catalogues. It includes the following sub-element:
+   - European health professional qualification catalogue ISCO-08 (Data Object SBB): A European data catalogue containing a list of all health professional habilitations.
+
+19. Health Base Registry Solutions (Grouping ABB): This element represents solutions related to health base registries. It includes the following sub-element:
+   - European Reference Laboratory Network for TB (ERLTB-Net) (Data Object SBB): A network supporting countries in providing reliable and timely diagnostic services for tuberculosis.
+
+20. Health Controlled Vocabulary Catalogue (Grouping ABB): This element represents a catalog that contains various controlled vocabularies related to health. It includes the following sub-element:
+   - National specific taxonomy (Data Object ABB): A taxonomy consisting of term names and labels specific to public service information.
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+											    <td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9546ebb38ebd44f1ad328fd4ffc76cb5.html" target="element"> Prescription catalogue </a> </td>
+													    <td> <a href="../elements/id-9546ebb38ebd44f1ad328fd4ffc76cb5.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-7e8ba904f75f4337b42330ebeb912caf.html" target="element"> Healthcare facilities catalogue </a> </td>
+													    <td> <a href="../elements/id-7e8ba904f75f4337b42330ebeb912caf.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-5668cdfce7784dfabe3090a2830e7066.html" target="element"> Patient summary index </a> </td>
+													    <td> <a href="../elements/id-5668cdfce7784dfabe3090a2830e7066.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+											    <td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-dbb250793a5b43b1affb437e69f97baa.html" target="element"> Health synthetic metadata </a> </td>
+													    <td> <a href="../elements/id-dbb250793a5b43b1affb437e69f97baa.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ab15dc85a91e4ad69143312fd92fac97.html" target="element"> Information to patients metadata </a> </td>
+													    <td> <a href="../elements/id-ab15dc85a91e4ad69143312fd92fac97.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f79456b7c27a414c84769ab8369a7100.html" target="element"> Diagnosis metadata </a> </td>
+													    <td> <a href="../elements/id-f79456b7c27a414c84769ab8369a7100.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-10456bc7eb6645e1b08cda158d36ed98.html" target="element"> European patient summary metadata </a> </td>
+													    <td> <a href="../elements/id-10456bc7eb6645e1b08cda158d36ed98.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d09d926579a64e0f8121630e5ccca129.html" target="element"> Health ERP (Enterprise Resource Planning) metadata </a> </td>
+													    <td> <a href="../elements/id-d09d926579a64e0f8121630e5ccca129.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ac06a0a41f354ccdaa37481b3f4f892b.html" target="element"> Caregivers metadata </a> </td>
+													    <td> <a href="../elements/id-ac06a0a41f354ccdaa37481b3f4f892b.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-842c80a7c5704481be4f9a2ea6858c4e.html" target="element"> Integrated care pathways metadata </a> </td>
+													    <td> <a href="../elements/id-842c80a7c5704481be4f9a2ea6858c4e.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2258a104d53f488e929b528baefc2040.html" target="element"> Patient summary metadata </a> </td>
+													    <td> <a href="../elements/id-2258a104d53f488e929b528baefc2040.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-8ac7552ddb1e4590b1748f244b44d52a.html" target="element"> Relatives metadata </a> </td>
+													    <td> <a href="../elements/id-8ac7552ddb1e4590b1748f244b44d52a.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+											    <td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-daa038f361234f7e81658832f7bcf8c3.html" target="element"> Drugs interactions registry </a> </td>
+													    <td> <a href="../elements/id-daa038f361234f7e81658832f7bcf8c3.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-fb9cfa6d0c8547338bbc25663cae1b33.html" target="element"> Authorised treatments registry </a> </td>
+													    <td> <a href="../elements/id-fb9cfa6d0c8547338bbc25663cae1b33.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-4fb4b1b4087949d18541e19e0b2830bb.html" target="element"> Authorised medical images registry </a> </td>
+													    <td> <a href="../elements/id-4fb4b1b4087949d18541e19e0b2830bb.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-163fd0ff659f47ab8652df0d19f39b12.html" target="element"> Authorised medical equipments registry </a> </td>
+													    <td> <a href="../elements/id-163fd0ff659f47ab8652df0d19f39b12.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ab24af4916554420b22a558addce1b7e.html" target="element"> Authorised medical devices registry </a> </td>
+													    <td> <a href="../elements/id-ab24af4916554420b22a558addce1b7e.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9108f2d15e57439ab4e43f6fb691fa07.html" target="element"> Imaging bank for test and experimentation facilities </a> </td>
+													    <td> <a href="../elements/id-9108f2d15e57439ab4e43f6fb691fa07.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a17c459fe6ba46ebbebe99de2e57a501.html" target="element"> Credentials registry </a> </td>
+													    <td> <a href="../elements/id-a17c459fe6ba46ebbebe99de2e57a501.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e13c2dfb4f92461faa05e1bdcf7ff0c2.html" target="element"> Health professional qualifications registry </a> </td>
+													    <td> <a href="../elements/id-e13c2dfb4f92461faa05e1bdcf7ff0c2.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-873a59f6bc7a47b583cfea8824b0d871.html" target="element"> Diagnosis registry </a> </td>
+													    <td> <a href="../elements/id-873a59f6bc7a47b583cfea8824b0d871.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-7fa24d18a3ff4d7a972f93209e943281.html" target="element"> ADT (Admission Discharge and Transfer) registry </a> </td>
+													    <td> <a href="../elements/id-7fa24d18a3ff4d7a972f93209e943281.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-78210dd158fc4653bb677cc59f9cbf31.html" target="element"> Authorised vaccines registry </a> </td>
+													    <td> <a href="../elements/id-78210dd158fc4653bb677cc59f9cbf31.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-418f0bbfbc314df3b94c35d7e9fff262.html" target="element"> Eligible patients registry </a> </td>
+													    <td> <a href="../elements/id-418f0bbfbc314df3b94c35d7e9fff262.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-b4c8474400f8404c9fbdd6e2c39747c1.html" target="element"> Hospital tickets registry </a> </td>
+													    <td> <a href="../elements/id-b4c8474400f8404c9fbdd6e2c39747c1.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e1f366a4aba543e4b36935982f23d998.html" target="element"> Prescriptions registry </a> </td>
+													    <td> <a href="../elements/id-e1f366a4aba543e4b36935982f23d998.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-67e75375ba164d8b932d09486988ccce.html" target="element"> Laboratory analyser data registry </a> </td>
+													    <td> <a href="../elements/id-67e75375ba164d8b932d09486988ccce.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-4714813c33b64d2d81f68f5cc017d830.html" target="element"> Laboratory pre/post-analytical device data registry </a> </td>
+													    <td> <a href="../elements/id-4714813c33b64d2d81f68f5cc017d830.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-340b4a58e40348bebce0b72e9f0f9aa4.html" target="element"> Treatments registry </a> </td>
+													    <td> <a href="../elements/id-340b4a58e40348bebce0b72e9f0f9aa4.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-56da48d77d4a4f91a8275f87fbbadf2c.html" target="element"> Vaccinations registry </a> </td>
+													    <td> <a href="../elements/id-56da48d77d4a4f91a8275f87fbbadf2c.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9147f72fbcb642d7b754ff3740081eef.html" target="element"> Patients registry </a> </td>
+													    <td> <a href="../elements/id-9147f72fbcb642d7b754ff3740081eef.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e662c9fc85d24ca3b80474acc3ff58f4.html" target="element"> Healthcare payments registry </a> </td>
+													    <td> <a href="../elements/id-e662c9fc85d24ca3b80474acc3ff58f4.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-10cdebd0dd4246259e0dc1a3b81a1626.html" target="element"> Healthcare facilities registry </a> </td>
+													    <td> <a href="../elements/id-10cdebd0dd4246259e0dc1a3b81a1626.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2e37b45893dc48098467ad80ddc09802.html" target="element"> Dispensation reports registry </a> </td>
+													    <td> <a href="../elements/id-2e37b45893dc48098467ad80ddc09802.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a0c48a6699584847855e07ca07855b4c.html" target="element"> Laboratory reports registry </a> </td>
+													    <td> <a href="../elements/id-a0c48a6699584847855e07ca07855b4c.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0e8ed3040e9b41efab51612e4dcd9a42.html" target="element"> Medical images registry </a> </td>
+													    <td> <a href="../elements/id-0e8ed3040e9b41efab51612e4dcd9a42.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-71ff782295914e8d8fcb0facf87a84b9.html" target="element"> Patient summary registry </a> </td>
+													    <td> <a href="../elements/id-71ff782295914e8d8fcb0facf87a84b9.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-4c67d2a0904544618222222b77fb88f6.html" target="element"> Healthcare bills registry </a> </td>
+													    <td> <a href="../elements/id-4c67d2a0904544618222222b77fb88f6.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+											    <td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-498166098d674d7cb6350b9c015f0c65.html" target="element"> International Classification of Diseases for Oncology (ICD-O) </a> </td>
+													    <td> <a href="../elements/id-498166098d674d7cb6350b9c015f0c65.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html" target="element"> Logical Observation Identifiers Names and Codes (LOINC)  </a> </td>
+													    <td> <a href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-8985d0ffa3e94b1b8a28abd1f708008c.html" target="element"> International Classification of Diseases (ICD) </a> </td>
+													    <td> <a href="../elements/id-8985d0ffa3e94b1b8a28abd1f708008c.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-3d6d1b6857c3418a98f4c7dd502954eb.html" target="element"> Anatomical Therapeutic Chemical Classification Ontology (ATCCO) </a> </td>
+													    <td> <a href="../elements/id-3d6d1b6857c3418a98f4c7dd502954eb.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-b2834f02cf45494885637011efbc4730.html" target="element"> International surgery procedure ontology </a> </td>
+													    <td> <a href="../elements/id-b2834f02cf45494885637011efbc4730.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element"> Health Controlled Vocabulary Solutions </a> </td>
+											    <td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-8bf5fa128f1049f7bfb4f1a7130f812e.html" target="element"> International Classification of Diseases for Oncology </a> </td>
+													    <td> <a href="../elements/id-8bf5fa128f1049f7bfb4f1a7130f812e.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a89100b03fc74371810f2702d0ea49e5.html" target="element"> Systematised Nomenclature of Medicine (SNOMED) </a> </td>
+													    <td> <a href="../elements/id-a89100b03fc74371810f2702d0ea49e5.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-44c8f12dffd34b7dbcb0371f743a6055.html" target="element"> International consumer health terminology </a> </td>
+													    <td> <a href="../elements/id-44c8f12dffd34b7dbcb0371f743a6055.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-4bf49ebc29654a18b57b236196f0746c.html" target="element"> International Clinical Terminology for Primary Care  </a> </td>
+													    <td> <a href="../elements/id-4bf49ebc29654a18b57b236196f0746c.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html" target="element"> Logical Observation Identifiers Names and Codes (LOINC)  </a> </td>
+													    <td> <a href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-349192b760444dfbb0756fb32d9cc462.html" target="element"> Data Interoperability </a> </td>
+											    <td> <a href="../elements/id-349192b760444dfbb0756fb32d9cc462.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5c0143530b9540509357f82f5d2bbebf.html" target="element"> Data Reusability </a> </td>
+											    <td> <a href="../elements/id-5c0143530b9540509357f82f5d2bbebf.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+											    <td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html" target="element"> Data Accessibility </a> </td>
+											    <td> <a href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-64c1483aaa36441e9b527a40418428cd.html" target="element"> Data Findability </a> </td>
+											    <td> <a href="../elements/id-64c1483aaa36441e9b527a40418428cd.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1262152d329e4f91ab5933502eee3214.html" target="element"> Data Portability </a> </td>
+											    <td> <a href="../elements/id-1262152d329e4f91ab5933502eee3214.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2d502f57ae70424cb3fb065b25e0093f.html" target="element"> EU Localisation Framework compliance </a> </td>
+											    <td> <a href="../elements/id-2d502f57ae70424cb3fb065b25e0093f.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-109242e85e864ee08f4ac0f6aa9345e9.html" target="element"> Once Only </a> </td>
+											    <td> <a href="../elements/id-109242e85e864ee08f4ac0f6aa9345e9.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+											    <td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+											    <td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html" target="element"> Transparency of the administrative environment </a> </td>
+											    <td> <a href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-154f38eaa09d45d5950700902cb8d815.html" target="element"> Reuse, before buy, before build </a> </td>
+											    <td> <a href="../elements/id-154f38eaa09d45d5950700902cb8d815.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-48d9248ecbdc4a76a2d42342475fa993.html" target="element"> Health Dataset Catalogue Solutions </a> </td>
+											    <td> <a href="../elements/id-48d9248ecbdc4a76a2d42342475fa993.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ee3f705266314f12aa904be1d9a0f52f.html" target="element"> European health professional qualification catalogue ISCO-08 </a> </td>
+													    <td> <a href="../elements/id-ee3f705266314f12aa904be1d9a0f52f.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-3bc1571985d94cc8875eb6234d8d7bed.html" target="element"> Health Base Registry Solutions </a> </td>
+											    <td> <a href="../elements/id-3bc1571985d94cc8875eb6234d8d7bed.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9381cb5a84af4aef8323e227755919db.html" target="element"> European Reference Laboratory Network for TB (ERLTB-Net) </a> </td>
+													    <td> <a href="../elements/id-9381cb5a84af4aef8323e227755919db.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+											    <td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-b4abac95073d44e2828c016175541393.html" target="element"> National specific taxonomy </a> </td>
+													    <td> <a href="../elements/id-b4abac95073d44e2828c016175541393.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-1f505c2fd85b4795bb7399783dde3086.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1f505c2fd85b4795bb7399783dde3086.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																		<td> <a href="../elements/id-5668cdfce7784dfabe3090a2830e7066.html" target="element"> Patient summary index </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5a1be387c60e4530b851c7a4b2716c64.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5a1be387c60e4530b851c7a4b2716c64.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																		<td> <a href="../elements/id-9546ebb38ebd44f1ad328fd4ffc76cb5.html" target="element"> Prescription catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5b0334a0b783443984e7c814064d4ec7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5b0334a0b783443984e7c814064d4ec7.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																		<td> <a href="../elements/id-7e8ba904f75f4337b42330ebeb912caf.html" target="element"> Healthcare facilities catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b185b617d4c94529b199920cf0642d98.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b185b617d4c94529b199920cf0642d98.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-5ab8b0ebc566465ea1704a914c0ef475.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5ab8b0ebc566465ea1704a914c0ef475.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-8ac7552ddb1e4590b1748f244b44d52a.html" target="element"> Relatives metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d059baddad1348aebd25acf6d3804309.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d059baddad1348aebd25acf6d3804309.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-d09d926579a64e0f8121630e5ccca129.html" target="element"> Health ERP (Enterprise Resource Planning) metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5d1bb44bdc8f46fc8a3f62c403bc69ab.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5d1bb44bdc8f46fc8a3f62c403bc69ab.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-842c80a7c5704481be4f9a2ea6858c4e.html" target="element"> Integrated care pathways metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a453b463ea074da89f3eb92bc13c9dcc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a453b463ea074da89f3eb92bc13c9dcc.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-f79456b7c27a414c84769ab8369a7100.html" target="element"> Diagnosis metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c7e8b5ab2c0a42cd97a5ce09d4239424.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c7e8b5ab2c0a42cd97a5ce09d4239424.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-dbb250793a5b43b1affb437e69f97baa.html" target="element"> Health synthetic metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-051336a909f7492a8964a39bf1b4a11a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-051336a909f7492a8964a39bf1b4a11a.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-2258a104d53f488e929b528baefc2040.html" target="element"> Patient summary metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-56aaca8fb886473f94d6f8833e79f4b7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-56aaca8fb886473f94d6f8833e79f4b7.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-ac06a0a41f354ccdaa37481b3f4f892b.html" target="element"> Caregivers metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-41296ebe19e9406f92c435c07ae8a10d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-41296ebe19e9406f92c435c07ae8a10d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-10456bc7eb6645e1b08cda158d36ed98.html" target="element"> European patient summary metadata </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4e3cdd3cdb624289aad666388770c448.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4e3cdd3cdb624289aad666388770c448.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																		<td> <a href="../elements/id-ab15dc85a91e4ad69143312fd92fac97.html" target="element"> Information to patients metadata </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-b5d7751bd7ee4731aa1a32081a331767.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b5d7751bd7ee4731aa1a32081a331767.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-67e75375ba164d8b932d09486988ccce.html" target="element"> Laboratory analyser data registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3b375bddf48a481ebf87728b006a5ac1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3b375bddf48a481ebf87728b006a5ac1.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-fb9cfa6d0c8547338bbc25663cae1b33.html" target="element"> Authorised treatments registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5a5c32cb5d4d4ab7b9261175b4e7e3b1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5a5c32cb5d4d4ab7b9261175b4e7e3b1.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-9147f72fbcb642d7b754ff3740081eef.html" target="element"> Patients registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e0b8f015e88a4960811d83028ff58d69.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e0b8f015e88a4960811d83028ff58d69.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-163fd0ff659f47ab8652df0d19f39b12.html" target="element"> Authorised medical equipments registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ca69f687ba5f42e68ff229b0431532a1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ca69f687ba5f42e68ff229b0431532a1.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-4fb4b1b4087949d18541e19e0b2830bb.html" target="element"> Authorised medical images registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-50f47e8c22d94d689b40a2bc892bea6d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-50f47e8c22d94d689b40a2bc892bea6d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-e662c9fc85d24ca3b80474acc3ff58f4.html" target="element"> Healthcare payments registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ea1fa666f1c04a19bb79b2ad6344c578.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ea1fa666f1c04a19bb79b2ad6344c578.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-e13c2dfb4f92461faa05e1bdcf7ff0c2.html" target="element"> Health professional qualifications registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-84d56033e5904366bad027586a680ef8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-84d56033e5904366bad027586a680ef8.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-418f0bbfbc314df3b94c35d7e9fff262.html" target="element"> Eligible patients registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f0316a1bb18946e8aab1a7dd3461a905.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f0316a1bb18946e8aab1a7dd3461a905.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-e1f366a4aba543e4b36935982f23d998.html" target="element"> Prescriptions registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3f73d7e831c4460499b501f2ef0c6777.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3f73d7e831c4460499b501f2ef0c6777.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-340b4a58e40348bebce0b72e9f0f9aa4.html" target="element"> Treatments registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1a23541feda64d86b79b5bc7d668c50d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1a23541feda64d86b79b5bc7d668c50d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-10cdebd0dd4246259e0dc1a3b81a1626.html" target="element"> Healthcare facilities registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3535826d4b4844c0b0587cfcff8e5446.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3535826d4b4844c0b0587cfcff8e5446.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-78210dd158fc4653bb677cc59f9cbf31.html" target="element"> Authorised vaccines registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f0158a9e4f1945d2a96ab05de146bde9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f0158a9e4f1945d2a96ab05de146bde9.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-ab24af4916554420b22a558addce1b7e.html" target="element"> Authorised medical devices registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4de7f4d067e54ba39a4678471014c1c1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4de7f4d067e54ba39a4678471014c1c1.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-2e37b45893dc48098467ad80ddc09802.html" target="element"> Dispensation reports registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-daa7189fc4844869b6d3e5ce6439fdfe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-daa7189fc4844869b6d3e5ce6439fdfe.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-0e8ed3040e9b41efab51612e4dcd9a42.html" target="element"> Medical images registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2e269d5860af4d7b8d292d97215b0221.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2e269d5860af4d7b8d292d97215b0221.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-56da48d77d4a4f91a8275f87fbbadf2c.html" target="element"> Vaccinations registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-54f8aa04fca4451bbb689c175569ca9f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-54f8aa04fca4451bbb689c175569ca9f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-873a59f6bc7a47b583cfea8824b0d871.html" target="element"> Diagnosis registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ac6df29f4fc74947bd547d07ec1456b4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ac6df29f4fc74947bd547d07ec1456b4.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-7fa24d18a3ff4d7a972f93209e943281.html" target="element"> ADT (Admission Discharge and Transfer) registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c4f8649eaff34c30b206af51b002d691.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c4f8649eaff34c30b206af51b002d691.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-a17c459fe6ba46ebbebe99de2e57a501.html" target="element"> Credentials registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d28ec135db6f40fe96af465fb3160ca5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d28ec135db6f40fe96af465fb3160ca5.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-71ff782295914e8d8fcb0facf87a84b9.html" target="element"> Patient summary registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d3ce87ca82f940a1b90f13ff42f59132.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d3ce87ca82f940a1b90f13ff42f59132.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-b4c8474400f8404c9fbdd6e2c39747c1.html" target="element"> Hospital tickets registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6a88340878f64c8a91b488cb0b901a20.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6a88340878f64c8a91b488cb0b901a20.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-4c67d2a0904544618222222b77fb88f6.html" target="element"> Healthcare bills registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2d8a8ff97691487fbd43e07229252d34.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2d8a8ff97691487fbd43e07229252d34.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-a0c48a6699584847855e07ca07855b4c.html" target="element"> Laboratory reports registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f7781c9449564080a6dd78272a6b0861.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f7781c9449564080a6dd78272a6b0861.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-daa038f361234f7e81658832f7bcf8c3.html" target="element"> Drugs interactions registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fd9a42c43572423ebb19da2ddce5e236.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fd9a42c43572423ebb19da2ddce5e236.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-9108f2d15e57439ab4e43f6fb691fa07.html" target="element"> Imaging bank for test and experimentation facilities </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d66de5180ae147dfb8a5a777ce66aab9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d66de5180ae147dfb8a5a777ce66aab9.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																		<td> <a href="../elements/id-4714813c33b64d2d81f68f5cc017d830.html" target="element"> Laboratory pre/post-analytical device data registry </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-96a5248b9b7842eea8d2fde64f749353.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-96a5248b9b7842eea8d2fde64f749353.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-fb9cfa6d0c8547338bbc25663cae1b33.html" target="element"> Authorised treatments registry </a> </td>
+																				<td> <a href="../elements/id-340b4a58e40348bebce0b72e9f0f9aa4.html" target="element"> Treatments registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-26c76c19aa734aeba005e08f9ecdb77a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-26c76c19aa734aeba005e08f9ecdb77a.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-4fb4b1b4087949d18541e19e0b2830bb.html" target="element"> Authorised medical images registry </a> </td>
+																				<td> <a href="../elements/id-0e8ed3040e9b41efab51612e4dcd9a42.html" target="element"> Medical images registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-41ef0c7233e2439ba8384710d0dfcc1a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-41ef0c7233e2439ba8384710d0dfcc1a.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-78210dd158fc4653bb677cc59f9cbf31.html" target="element"> Authorised vaccines registry </a> </td>
+																				<td> <a href="../elements/id-56da48d77d4a4f91a8275f87fbbadf2c.html" target="element"> Vaccinations registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-be958d2f888142ddb7d80757c050b0e2.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-be958d2f888142ddb7d80757c050b0e2.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-418f0bbfbc314df3b94c35d7e9fff262.html" target="element"> Eligible patients registry </a> </td>
+																				<td> <a href="../elements/id-9147f72fbcb642d7b754ff3740081eef.html" target="element"> Patients registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-d94c186fc39f4c0f9016036cff34c1f2.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-d94c186fc39f4c0f9016036cff34c1f2.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-b4c8474400f8404c9fbdd6e2c39747c1.html" target="element"> Hospital tickets registry </a> </td>
+																				<td> <a href="../elements/id-10cdebd0dd4246259e0dc1a3b81a1626.html" target="element"> Healthcare facilities registry </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-0bebdf30536a45fc9b50b34e56fdd832.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-0bebdf30536a45fc9b50b34e56fdd832.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-b4c8474400f8404c9fbdd6e2c39747c1.html" target="element"> Hospital tickets registry </a> </td>
+																				<td> <a href="../elements/id-e662c9fc85d24ca3b80474acc3ff58f4.html" target="element"> Healthcare payments registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-69bfd4e0800442e3a82de40540ac7a37.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-69bfd4e0800442e3a82de40540ac7a37.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-e1f366a4aba543e4b36935982f23d998.html" target="element"> Prescriptions registry </a> </td>
+																				<td> <a href="../elements/id-2e37b45893dc48098467ad80ddc09802.html" target="element"> Dispensation reports registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-5ba62ec336c4477681d1030f1a64756b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-5ba62ec336c4477681d1030f1a64756b.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-67e75375ba164d8b932d09486988ccce.html" target="element"> Laboratory analyser data registry </a> </td>
+																				<td> <a href="../elements/id-a0c48a6699584847855e07ca07855b4c.html" target="element"> Laboratory reports registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-888a23483bf54a519815e58dabbe0652.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-888a23483bf54a519815e58dabbe0652.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-4714813c33b64d2d81f68f5cc017d830.html" target="element"> Laboratory pre/post-analytical device data registry </a> </td>
+																				<td> <a href="../elements/id-a0c48a6699584847855e07ca07855b4c.html" target="element"> Laboratory reports registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-34ee5aad393b40eeb01e01bc6f37fd3e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-34ee5aad393b40eeb01e01bc6f37fd3e.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-9147f72fbcb642d7b754ff3740081eef.html" target="element"> Patients registry </a> </td>
+																				<td> <a href="../elements/id-71ff782295914e8d8fcb0facf87a84b9.html" target="element"> Patient summary registry </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-9cde2ecafdff45fb88a39c90a7ca6f24.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-9cde2ecafdff45fb88a39c90a7ca6f24.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-e662c9fc85d24ca3b80474acc3ff58f4.html" target="element"> Healthcare payments registry </a> </td>
+																				<td> <a href="../elements/id-4c67d2a0904544618222222b77fb88f6.html" target="element"> Healthcare bills registry </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-44cef8cbc4cc41258a435ed7269bab61.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-44cef8cbc4cc41258a435ed7269bab61.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																		<td> <a href="../elements/id-8985d0ffa3e94b1b8a28abd1f708008c.html" target="element"> International Classification of Diseases (ICD) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4e64442759e942d5a99b84ab28231f4f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4e64442759e942d5a99b84ab28231f4f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																		<td> <a href="../elements/id-498166098d674d7cb6350b9c015f0c65.html" target="element"> International Classification of Diseases for Oncology (ICD-O) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-633a582767c444be998b60814cbe7dcb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-633a582767c444be998b60814cbe7dcb.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																		<td> <a href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html" target="element"> Logical Observation Identifiers Names and Codes (LOINC)  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dc3d8489d2184bf5ab31c131e3982afe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dc3d8489d2184bf5ab31c131e3982afe.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																		<td> <a href="../elements/id-b2834f02cf45494885637011efbc4730.html" target="element"> International surgery procedure ontology </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b0b428baa36a4816a033771610b668fe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b0b428baa36a4816a033771610b668fe.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																		<td> <a href="../elements/id-3d6d1b6857c3418a98f4c7dd502954eb.html" target="element"> Anatomical Therapeutic Chemical Classification Ontology (ATCCO) </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-3a03c7a8c3974fea81f314859513bb48.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3a03c7a8c3974fea81f314859513bb48.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element"> Health Controlled Vocabulary Solutions </a> </td>
+																		<td> <a href="../elements/id-4bf49ebc29654a18b57b236196f0746c.html" target="element"> International Clinical Terminology for Primary Care  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fdd0c9ecf51a41aabc3b23ef1c323caa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fdd0c9ecf51a41aabc3b23ef1c323caa.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element"> Health Controlled Vocabulary Solutions </a> </td>
+																		<td> <a href="../elements/id-52a27bcd34784cb5a94bf9572917f8cc.html" target="element"> Logical Observation Identifiers Names and Codes (LOINC)  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-17703abdbc034f5b89e9c3cce27fddcb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-17703abdbc034f5b89e9c3cce27fddcb.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element"> Health Controlled Vocabulary Solutions </a> </td>
+																		<td> <a href="../elements/id-44c8f12dffd34b7dbcb0371f743a6055.html" target="element"> International consumer health terminology </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3087be4cf7644929b8bec0a7d7c4aabd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3087be4cf7644929b8bec0a7d7c4aabd.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element"> Health Controlled Vocabulary Solutions </a> </td>
+																		<td> <a href="../elements/id-a89100b03fc74371810f2702d0ea49e5.html" target="element"> Systematised Nomenclature of Medicine (SNOMED) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b9660fc336a8468faf1db0ddc70376d5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b9660fc336a8468faf1db0ddc70376d5.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element"> Health Controlled Vocabulary Solutions </a> </td>
+																		<td> <a href="../elements/id-8bf5fa128f1049f7bfb4f1a7130f812e.html" target="element"> International Classification of Diseases for Oncology </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4e76e1f6e7ee4b4dbc5b9481f5629d10.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4e76e1f6e7ee4b4dbc5b9481f5629d10.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b176e7dfbdac43399aa27feda028cd92.html" target="element"> Health Controlled Vocabulary Solutions </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-8de8daefab1843b58ec75b5c3433bb11.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8de8daefab1843b58ec75b5c3433bb11.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-349192b760444dfbb0756fb32d9cc462.html" target="element"> Data Interoperability </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-11546102e82446abaacac64698d70f68.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-11546102e82446abaacac64698d70f68.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-349192b760444dfbb0756fb32d9cc462.html" target="element"> Data Interoperability </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b96a660c25db4fbab44be2fc50bf9f0b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b96a660c25db4fbab44be2fc50bf9f0b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-349192b760444dfbb0756fb32d9cc462.html" target="element"> Data Interoperability </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5401910311a6402d90b6c902c9e6ecb0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5401910311a6402d90b6c902c9e6ecb0.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-349192b760444dfbb0756fb32d9cc462.html" target="element"> Data Interoperability </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0fa8364c27d74a5db7399f3f108e69b4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0fa8364c27d74a5db7399f3f108e69b4.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5c0143530b9540509357f82f5d2bbebf.html" target="element"> Data Reusability </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ca02d8e99fb2405da755d14d558b0bb9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ca02d8e99fb2405da755d14d558b0bb9.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5c0143530b9540509357f82f5d2bbebf.html" target="element"> Data Reusability </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5b35e59b8cac42d6b7d911418a1e5e6d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5b35e59b8cac42d6b7d911418a1e5e6d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5c0143530b9540509357f82f5d2bbebf.html" target="element"> Data Reusability </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bfc9fecd75b94f059a85e74ae5924435.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bfc9fecd75b94f059a85e74ae5924435.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5c0143530b9540509357f82f5d2bbebf.html" target="element"> Data Reusability </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8c817a8d9b21419dad51ea2e5bea955a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8c817a8d9b21419dad51ea2e5bea955a.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3fa8d8eadfd84df6941054f9ec5bda41.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3fa8d8eadfd84df6941054f9ec5bda41.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-baae985f6a8d4635bf0123d45c308dd9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-baae985f6a8d4635bf0123d45c308dd9.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a2772708652a4a489b1de9d811b6d142.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a2772708652a4a489b1de9d811b6d142.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-00bcb809574a4e0c8747fa0281b7995e.html" target="element"> Loosely coupled integration </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8b117282c081459099eb31e796762a72.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8b117282c081459099eb31e796762a72.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html" target="element"> Data Accessibility </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-15c37193558e49e78081173ac72129ce.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-15c37193558e49e78081173ac72129ce.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html" target="element"> Data Accessibility </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-05d285cc73fe40658d4077fd2b53d271.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-05d285cc73fe40658d4077fd2b53d271.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html" target="element"> Data Accessibility </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-545e453a68784cc78a2b180781e2fcb3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-545e453a68784cc78a2b180781e2fcb3.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html" target="element"> Data Accessibility </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d7eb087c276e45bfae9242aeeb741714.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d7eb087c276e45bfae9242aeeb741714.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1e3b8a5c8a9d4e9bb06a0a016b78456c.html" target="element"> Data Accessibility </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-064a0ace20894375989f2247be4adc87.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-064a0ace20894375989f2247be4adc87.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-64c1483aaa36441e9b527a40418428cd.html" target="element"> Data Findability </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-106ff4eaffcd49dda7848f27d3c75b54.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-106ff4eaffcd49dda7848f27d3c75b54.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-64c1483aaa36441e9b527a40418428cd.html" target="element"> Data Findability </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-efae0b08803b4d33ab92b6bcca740280.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-efae0b08803b4d33ab92b6bcca740280.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-64c1483aaa36441e9b527a40418428cd.html" target="element"> Data Findability </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-54cb215c90f248e486eba95a40439973.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-54cb215c90f248e486eba95a40439973.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1262152d329e4f91ab5933502eee3214.html" target="element"> Data Portability </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bcb5d490d3914754a6c7660ff1d35afa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bcb5d490d3914754a6c7660ff1d35afa.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1262152d329e4f91ab5933502eee3214.html" target="element"> Data Portability </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2d9c80a0549f46b2971a98d2ddb22c7c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2d9c80a0549f46b2971a98d2ddb22c7c.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1262152d329e4f91ab5933502eee3214.html" target="element"> Data Portability </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-09eae784a4da4bb1a1f487e40de924ac.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-09eae784a4da4bb1a1f487e40de924ac.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d502f57ae70424cb3fb065b25e0093f.html" target="element"> EU Localisation Framework compliance </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a883e321a5f347a2833c9f07134c9c4a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a883e321a5f347a2833c9f07134c9c4a.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d502f57ae70424cb3fb065b25e0093f.html" target="element"> EU Localisation Framework compliance </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a00eb12784ab4726a5d9a6cf2532dba4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a00eb12784ab4726a5d9a6cf2532dba4.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-109242e85e864ee08f4ac0f6aa9345e9.html" target="element"> Once Only </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6875089a32e64c80b4c4efaeb1e2dd1d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6875089a32e64c80b4c4efaeb1e2dd1d.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-109242e85e864ee08f4ac0f6aa9345e9.html" target="element"> Once Only </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b0ab35ad3e1c4bd2b6406998e6ec8264.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b0ab35ad3e1c4bd2b6406998e6ec8264.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f5ab111fbfdb4a3b977d5bc806e0ed71.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f5ab111fbfdb4a3b977d5bc806e0ed71.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9167a0861cf44faca094fc10d81a8fce.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9167a0861cf44faca094fc10d81a8fce.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-34ec6c175ef749dab5829f5662e2ec9f.html" target="element"> Preservation of information </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3bd7f98b71664cc789cac83ede369022.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3bd7f98b71664cc789cac83ede369022.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-841860f290284fe98945bbe5ced49c9e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-841860f290284fe98945bbe5ced49c9e.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3ca12c17a4eb4b2b955f03d187cc660b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3ca12c17a4eb4b2b955f03d187cc660b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ec316fab77ed4a3abdfefea57e347a30.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ec316fab77ed4a3abdfefea57e347a30.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-eb62d1ff6bd04db8a5c2e7f224975715.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-eb62d1ff6bd04db8a5c2e7f224975715.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-415db57335e44e39ab4cc3b87e27d1de.html" target="element"> Transparency of internal information systems </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8c206e2e83e1435f9f18a9b20b564ee6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8c206e2e83e1435f9f18a9b20b564ee6.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html" target="element"> Transparency of the administrative environment </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a6a8b232aee44020b4a2cd90cfc7c095.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a6a8b232aee44020b4a2cd90cfc7c095.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html" target="element"> Transparency of the administrative environment </a> </td>
+																		<td> <a href="../elements/id-9c9f1976877849bfafd22cce5887da2b.html" target="element"> Health Dataset Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f0dbc5f07fc64adfa56c2600d6193c3f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f0dbc5f07fc64adfa56c2600d6193c3f.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html" target="element"> Transparency of the administrative environment </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-54d88fb2678e4d9ab32f811dac802f5e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-54d88fb2678e4d9ab32f811dac802f5e.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html" target="element"> Transparency of the administrative environment </a> </td>
+																		<td> <a href="../elements/id-397a30cee79e430fb79a110d98422a67.html" target="element"> Health Ontology Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a82da6653e7b4a8fa79224f99139dcf4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a82da6653e7b4a8fa79224f99139dcf4.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-48fd934a2df443ce95d56e8e557e7aa7.html" target="element"> Transparency of the administrative environment </a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e02df4386f414daf85d40bfb1c89ebc7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e02df4386f414daf85d40bfb1c89ebc7.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-154f38eaa09d45d5950700902cb8d815.html" target="element"> Reuse, before buy, before build </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-dc226f90d9dd4c66be5d14538969c333.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dc226f90d9dd4c66be5d14538969c333.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-48d9248ecbdc4a76a2d42342475fa993.html" target="element"> Health Dataset Catalogue Solutions </a> </td>
+																		<td> <a href="../elements/id-ee3f705266314f12aa904be1d9a0f52f.html" target="element"> European health professional qualification catalogue ISCO-08 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-39c7cbb790cb4f198d60c1ec9eaf579b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-39c7cbb790cb4f198d60c1ec9eaf579b.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-48d9248ecbdc4a76a2d42342475fa993.html" target="element"> Health Dataset Catalogue Solutions </a> </td>
+																		<td> <a href="../elements/id-aa983e970d9f4f0aa8d4b2fb6707abc4.html" target="element"> Health Dataset Catalogue Catalogue </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-13c7e382e28e4b138269ba9824af4e5d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-13c7e382e28e4b138269ba9824af4e5d.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3bc1571985d94cc8875eb6234d8d7bed.html" target="element"> Health Base Registry Solutions </a> </td>
+																		<td> <a href="../elements/id-9381cb5a84af4aef8323e227755919db.html" target="element"> European Reference Laboratory Network for TB (ERLTB-Net) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bc112f4cde384798a4bdc31c0d7cb6a8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bc112f4cde384798a4bdc31c0d7cb6a8.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3bc1571985d94cc8875eb6234d8d7bed.html" target="element"> Health Base Registry Solutions </a> </td>
+																		<td> <a href="../elements/id-dd8e0dda3fd744fbad533c801b7425bf.html" target="element"> Health Base Registry Catalogue </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-deace4d2c5d6444c990c9052a33a5b17.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-deace4d2c5d6444c990c9052a33a5b17.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0a7dff94d7aa435ca8d95fbe3edaf655.html" target="element"> Health Controlled Vocabulary Catalogue </a> </td>
+																		<td> <a href="../elements/id-b4abac95073d44e2828c016175541393.html" target="element"> National specific taxonomy </a> </td>
+																	</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

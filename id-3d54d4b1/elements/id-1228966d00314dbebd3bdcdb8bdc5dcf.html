@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>eHDSI (eHealth Digital Service Infrastructure) data format</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>eHDSI (eHealth Digital Service Infrastructure) data format</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Representation"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Representation" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description: Data format (representation) defined by eHealth Digital Service Infrastructure in order to enable the cross-border exchange of medical data.
+
+Additional information: The eHDSI data format is part of the broader eHealth Digital Service Infrastructure initiative by the European Commission, aimed at improving cross-border healthcare services in Europe. The data format is based on international standards and includes a wide range of data types, such as patient demographics, medical history, medication information, lab results, and more. It is designed to be both human-readable and machine-readable, facilitating both direct patient care and secondary uses such as research and public health surveillance. The eHDSI data format is also designed to support data privacy and security, with built-in mechanisms for data encryption, anonymization, and access control.
+
+Example: An example of the eHDSI data format in use could be a patient from France visiting a doctor in Germany. The doctor, through the eHDSI, would be able to access the patient's medical history, allergies, current medications, and other relevant information, all formatted in a standardized, easy-to-understand manner. This would allow the doctor to provide appropriate care without needing to rely on the patient's memory or incomplete records. Similarly, the patient's care in Germany could be easily documented and shared back with their regular healthcare providers in France, ensuring continuity of care.
+
+Publisher: European Commission
+
+Source: https://ec.europa.eu/cefdigital/wiki/display/EHOPERATIONS/eHealth+DSI
+
+LOST view: Semantic view
+
+Identifier: http://data.europa.eu/dr8/egovera/EHDSIDataFormatRepresentation
+
+EIRA traceability: eira:DataRepresentation
+
+EIRA concept: eira:SolutionBuildingBlock
+
+Last modification: 2023-08-21
+
+dct:identifier: http://data.europa.eu/dr8/egovera/EHDSIDataFormatRepresentation
+
+dct:title: EHDSI (eHealth Digital Service Infrastructure) Data Format
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/EHDSIDataFormatRepresentation</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DataRepresentation</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-08-21</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/EHDSIDataFormatRepresentation</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EHDSI (eHealth Digital Service Infrastructure) Data Format</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">An example of the eHDSI data format in use could be a patient from France visiting a doctor in Germany. The doctor, through the eHDSI, would be able to access the patient's medical history, allergies, current medications, and other relevant information, all formatted in a standardized, easy-to-understand manner. This would allow the doctor to provide appropriate care without needing to rely on the patient's memory or incomplete records. Similarly, the patient's care in Germany could be easily documented and shared back with their regular healthcare providers in France, ensuring continuity of care.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The eHDSI data format is part of the broader eHealth Digital Service Infrastructure initiative by the European Commission, aimed at improving cross-border healthcare services in Europe. The data format is based on international standards and includes a wide range of data types, such as patient demographics, medical history, medication information, lab results, and more. It is designed to be both human-readable and machine-readable, facilitating both direct patient care and secondary uses such as research and public health surveillance. The eHDSI data format is also designed to support data privacy and security, with built-in mechanisms for data encryption, anonymization, and access control.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data format (representation) defined by eHealth Digital Service Infrastructure in order to enable the cross-border exchange of medical data.</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap">European Commission</td></tr><tr><td>dct:source</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://ec.europa.eu/cefdigital/wiki/display/EHOPERATIONS/eHealth+DSI</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Semantic view</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
