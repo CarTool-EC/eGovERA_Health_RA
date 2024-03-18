@@ -40,6 +40,9 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
@@ -57,23 +60,23 @@ Additional information: The granularity of the requirements might be of high lev
 
 Example: The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): The COMMISSION REGULATION (EU) 2018/1881 of 3 December 2018 amending Regulation (EC) No 1907/2006 of the European Parliament and of the Council on the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards Annexes I, III,VI, VII, VIII, IX, X, XI, and XII to address nanoforms of substances (https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1544102387245&amp;uri=CELEX:32018R1881) is an example of an SBB implementing a Legal Act ABB.
 
-eira:iopDimension: Structural IoP
+IoP Dimension: Governance IoP
 
-LOST view: High Level view
+LOST view: Legal view
 
-Viewpoint: Interoperability Privacy viewpoint
-
-eira:iopSaliency: The Legal Act ABB is salient for legal interoperability because it helps establish legal rules by ensuring compatible legal/juridical certainty in the exchange of information.
+Interoperability saliency: The Legal Act ABB is salient for legal interoperability because it helps establish legal rules by ensuring compatible legal/juridical certainty in the exchange of information.
 
 Identifier: http://data.europa.eu/dr8/LegalActRequirement
+
+eira:ID: ABB164
 
 ABB name: eira:LegalActRequirement
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-Last modification: 2023-09-1
+Last modification: 2023-09-01
 
-dct:identifier: http://data.europa.eu/dr8/LegalActRequirement
+eira:requirement_or_constraint: [ Requirement | Constraint ]
 
 </div>
 					</div>
@@ -86,7 +89,85 @@ dct:identifier: http://data.europa.eu/dr8/LegalActRequirement
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/LegalActRequirement</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:LegalActRequirement</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-09-1</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal Instrument</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal Act ABB is a Business Object formalising a set of rules on a subject potentially including requirements concerning digital public services.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">European Union Law </td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://eur-lex.europa.eu/summary/glossary/legislative_acts.html</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): The COMMISSION REGULATION (EU) 2018/1881 of 3 December 2018 amending Regulation (EC) No 1907/2006 of the European Parliament and of the Council on the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards Annexes I, III,VI, VII, VIII, IX, X, XI, and XII to address nanoforms of substances (https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1544102387245&amp;uri=CELEX:32018R1881) is an example of an SBB implementing a Legal Act ABB.</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Legal Act ABB is salient for legal interoperability because it helps establish legal rules by ensuring compatible legal/juridical certainty in the exchange of information.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The granularity of the requirements might be of high level or detail level. Requirements of high-level granularity contain generic/abstract functional requirements like principles and/or recommendations with considerable degrees for transposition/execution and of not binding nature. On the other side, requirements of detail-level granularity imply a limited degree for transposition/execution and they contain specific/concrete functionalities, solution components, data, procedures, and/or technical specifications or standards to be used. EU legal acts are legislative or non-legislative acts adopted by the European institutions (Article 288 TFEU). With the entry into force of the Treaty of Lisbon on 1 December 2009. The names "European Union" or "EU" have replaced "European Community", "Community" or "EC".</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Governance IoP</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/LegalActRequirement</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Interoperability Privacy viewpoint</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">High Level view</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal view</td></tr>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/LegalActRequirement</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:LegalActRequirement</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2024-01-28</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal Instrument</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal Act ABB is a Business Object formalising a set of rules on a subject potentially including requirements concerning digital public services.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">European Union Law </td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://eur-lex.europa.eu/summary/glossary/legislative_acts.html</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): The COMMISSION REGULATION (EU) 2018/1881 of 3 December 2018 amending Regulation (EC) No 1907/2006 of the European Parliament and of the Council on the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards Annexes I, III,VI, VII, VIII, IX, X, XI, and XII to address nanoforms of substances (https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1544102387245&amp;uri=CELEX:32018R1881) is an example of an SBB implementing a Legal Act ABB.</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Legal Act ABB is salient for legal interoperability because it helps establish legal rules by ensuring compatible legal/juridical certainty in the exchange of information.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The granularity of the requirements might be of high level or detail level. Requirements of high-level granularity contain generic/abstract functional requirements like principles and/or recommendations with considerable degrees for transposition/execution and of not binding nature. On the other side, requirements of detail-level granularity imply a limited degree for transposition/execution and they contain specific/concrete functionalities, solution components, data, procedures, and/or technical specifications or standards to be used. EU legal acts are legislative or non-legislative acts adopted by the European institutions (Article 288 TFEU). With the entry into force of the Treaty of Lisbon on 1 December 2009. The names "European Union" or "EU" have replaced "European Community", "Community" or "EC".</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Governance IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal view</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Interoperability Privacy viewpoint</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Highlevel viewpoint</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/LegalActRequirement</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-81259ebb009b493fb7789eae00913684">
+																	<td><a href="../views/id-81259ebb009b493fb7789eae00913684.html" target="view" title="High Level viewpoint"> High Level viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-0e0afdeeda004309831fdbbda7af0109">
+																	<td><a href="../views/id-0e0afdeeda004309831fdbbda7af0109.html" target="view" title="Interoperability Privacy viewpoint"> Interoperability Privacy viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-c749612380ad40a581956b5445d2912b">
+																	<td><a href="../views/id-c749612380ad40a581956b5445d2912b.html" target="view" title="Legal view"> Legal view </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-dedc8c34bf8f479c9a589a1b382c0dde.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+											<td><a href="../elements/id-944842d179184275a77f8bb9659be9ef.html" target="element"> Legal Clauses</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d1fa5dd319284ca0a5793a449ad00770.html" target="element" title="realizes">realizes</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+											<td><a href="../elements/id-c20ed28f10404e61a03ff937418f55ab.html" target="element"> Public Policy</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-14e194c107ad4394a5f6ce0e6d273b36.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4b4c877de36647f0a31c70461a1a8dbb.html" target="element"> Legislation Catalogue</a></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a266ce8c69ae46d9ab55490ca79bd379.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-387cf50cab34475598603ebd31efdb11.html" target="element"> Granularity of Legal Requirements</a></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d738b1bfd3c64e25b29542285379a152.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-52ee36f2985346e9aa5f5d29390f5147.html" target="element"> Legal Act Representation</a></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-07f318f1ce884ccab28cba0b5f383272.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-0583409bed6f47558fc7689034b82136.html" target="element"> Legal Functional content</a></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-42d99d8cf8e044fcbe36a5ad751a0a3f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-2835d5822b834021a6d5f216c566808f.html" target="element"> Binding power</a></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b735b29fbcdc495fbf92975a71138c5b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-44c35a0c02624e08abb0f299c7391196.html" target="element"> Jurisdiction</a></td>
+											<td><a href="../elements/id-698b6bf8856942b1b1362fee67dfeedf.html" target="element"> Legal Act</a></td>
+										</tr>
 							</tbody>
 						</table>
 					</div>

@@ -40,6 +40,9 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
@@ -88,7 +91,91 @@ adr:consecuences: The consequences section contains information about the overal
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalSolutionArchitectureDecisionGoal</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DigitalSolutionArchitectureDecisionGoal</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DigitalSolutionArchitectureDecisionGoal</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-06-15</td></tr><tr><td>dct:publisher</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ISO/IEC/IEEE </td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">A unique increasing number and date that usually follows the ADR-nnnn pattern to help sort them from old to new (ADR-20230412180800). The format to use is ADR-[YYYYMMDDHHmmSS].</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The title contains a short phrase describing the architectural decisions.</td></tr><tr><td>dct:description</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The description contains a full description of the architectural decisions.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">An Architectural Decision Record (ADR) is a document that captures the key decisions made during the architectural design and development of a software system. It is used to record the rationale, alternatives considered, and trade-offs made during the decision-making process, as well as the context and implications of each decision.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ISO/IEC/IEEE 42010:2022</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://www.iso.org/standard/74393.html</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:adr_context</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The context explains why we need to make a decision. It also describes the alternatives along with the pros and cons.</td></tr><tr><td>eira:adr_decision</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The decision describes the justification for why the particular solution was accepted. It has more emphasis on the why rather than the how.</td></tr><tr><td>eira:adr_status</td><td class="convertlinks no-margin" style="white-space:pre-wrap">[Proposed (under review)|Accepted (approved and ready for implementation)|Superseded (superseded by another decision)]</td></tr><tr><td>eira:adr_consecuences</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The consequences section contains information about the overall impact of an architectural decision. Every decision has trade-offs. That&#8217;s why it&#8217;s crucial to include the analysis to provide a clear picture.</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Governance IoP</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Digital Solution Architecture Decisions Catalogue view</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Enterprise Architecture Framework alignment guidelines view</td></tr>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalSolutionArchitectureDecisionGoal</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DigitalSolutionArchitectureDecisionGoal</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2024-01-28</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalSolutionArchitectureDecisionGoal</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The title contains a short phrase describing the architectural decisions.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">An Architectural Decision Record (ADR) is a document that captures the key decisions made during the architectural design and development of a software system. It is used to record the rationale, alternatives considered, and trade-offs made during the decision-making process, as well as the context and implications of each decision.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Architectural Decision Records</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://adr.github.io/</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:adr_context</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The context explains why we need to make a decision. It also describes the alternatives along with the pros and cons.</td></tr><tr><td>eira:adr_decision</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The decision describes the justification for why the particular solution was accepted. It has more emphasis on the why rather than the how.</td></tr><tr><td>eira:adr_status</td><td class="convertlinks no-margin" style="white-space:pre-wrap">[Proposed (under review)|Accepted (approved and ready for implementation)|Superseded (superseded by another decision)]</td></tr><tr><td>eira:adr_consecuences</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The consequences section contains information about the overall impact of an architectural decision. Every decision has trade-offs. That&#8217;s why it&#8217;s crucial to include the analysis to provide a clear picture.</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Governance IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Interoperability Motivation View</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">N/A</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-7073e40d2d1a4b94b0aafb525803e70d">
+																	<td><a href="../views/id-7073e40d2d1a4b94b0aafb525803e70d.html" target="view" title="Enterprise Architecture Framework alignment guidelines viewpoint"> Enterprise Architecture Framework alignment guidelines viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-83b0aee85678429ea671868dd54428f9">
+																	<td><a href="../views/id-83b0aee85678429ea671868dd54428f9.html" target="view" title="Digital Solution Architecture Decisions Catalogue viewpoint"> Digital Solution Architecture Decisions Catalogue viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-2f8e7163f5354462a27c27027ea1f299.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-1461d8a168a443d4bba1a343f65c5958.html" target="element"> Constraints, Assumptions and Decisions</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3e783ccbe23241b998103a9913dc158a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-365d1ee5454d4455a785f3f4ef677def.html" target="element"> Digital Solution Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-0fb46ace13ce45de856245deed26c872.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-c4935c40d11d49828afc1b279201e435.html" target="element"> Digital Solution Maintenability &amp; Quality Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-54e065ff0da44df08fc944e03e2d6ff0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-437c6b103362439aae559592c03dc112.html" target="element"> Digital Solution Scalability Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-756031a1329b4b02be7d510ea8202c5b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-6593f3a9fe7c47699b85cd02c75c2957.html" target="element"> Digital Solution Portability and Scalability Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a385b32d457d4f6d8054bae793a9bcee.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-ec1b6087cb2f4f7284e1f701d35b4fee.html" target="element"> Digital Solution High Availability and Resilience Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a55a6858f1df4c97a3587124d28b0726.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-8b43646c0bed4b59aaf2d1640950a434.html" target="element"> Digital Solution Security, Privacy and Compliance Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cbce641d7020402f91f0c2f7d2588f84.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-6e4ec06f4acd4ccd8fa0bc6b8dc4f193.html" target="element"> Digital Solution Technical Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dd8828c63bf6433cbe09ef2c06faa8e1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-f575b0f6a5c6490b89672ea778bed111.html" target="element"> Digital Solution Usability Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-de078177786242eba0ce12b1f9a28733.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-4c3a98a4791e487a9e198fae192c70a2.html" target="element"> Digital Solution Business Architecture Decision Catalogue</a></td>
+											<td><a href="../elements/id-1c26857b662c4a529533e842225925df.html" target="element"> Digital Solution Architecture Decision</a></td>
+										</tr>
 							</tbody>
 						</table>
 					</div>
