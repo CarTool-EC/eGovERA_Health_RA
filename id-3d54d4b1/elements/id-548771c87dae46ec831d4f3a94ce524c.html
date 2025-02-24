@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Secure Access Control</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Secure Access Control</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessService"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessService" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Secure Access Control within the context of IT interoperability in a digital public service of the European Commission refers to the mechanism that ensures authorized and secure access to digital resources and services. It involves the implementation of robust authentication and authorization protocols to verify the identity of users and grant them appropriate levels of access based on their roles and permissions. This ensures that only authorized individuals can access sensitive information and perform specific actions, thereby safeguarding the confidentiality, integrity, and availability of digital services and data.
+
+Source: EIRA Team
+
+Additional information: Secure Access Control is a crucial component within the realm of IT interoperability, particularly in the context of a digital public service provided by the European Commission. It encompasses a comprehensive set of mechanisms and protocols that ensure the protection and controlled access to sensitive information and resources.
+
+At its core, Secure Access Control aims to authenticate and authorize individuals or entities attempting to access digital services, systems, or data. It establishes a robust framework that guarantees only authorized users can gain entry, preventing unauthorized access and potential security breaches. This is of utmost importance in the European Commission's digital public service, as it deals with a vast amount of sensitive data and resources.
+
+Authentication is the initial step in the Secure Access Control process. It involves verifying the identity of users or entities attempting to access the system. Various authentication methods can be employed, such as passwords, biometrics, smart cards, or digital certificates. These methods ensure that only legitimate users with valid credentials can proceed further.
+
+Once authentication is successful, the authorization phase comes into play. Authorization determines the level of access and privileges granted to authenticated users based on their roles, responsibilities, and permissions. This step ensures that users can only access the resources and perform actions that are relevant to their designated roles, preventing unauthorized activities and potential misuse of sensitive information.
+
+To achieve a robust Secure Access Control system, the European Commission's digital public service may implement a variety of mechanisms. Role-based access control (RBAC) is commonly employed, where access rights are assigned based on predefined roles within the organization. This approach simplifies access management by grouping users with similar responsibilities and granting them appropriate permissions.
+
+Additionally, attribute-based access control (ABAC) can be utilized, which considers various attributes such as user attributes, resource attributes, and environmental attributes to make access control decisions. ABAC provides a more flexible and dynamic approach to access control, allowing for fine-grained control over resource access based on specific conditions.
+
+Furthermore, Secure Access Control may incorporate multi-factor authentication (MFA) to enhance security. MFA requires users to provide multiple pieces of evidence to prove their identity, such as a combination of passwords, biometrics, or one-time passwords. This adds an extra layer of protection, making it significantly more challenging for unauthorized individuals to gain access.
+
+In the European Commission's digital public service, Secure Access Control also encompasses the concept of access logging and auditing. This involves recording and monitoring all access attempts, including successful and unsuccessful ones, to establish an audit trail. This audit trail can be utilized for forensic analysis, compliance purposes, and identifying potential security incidents or breaches.
+
+Overall, Secure Access Control within the context of IT interoperability in the European Commission's digital public service is a comprehensive framework that ensures the protection of sensitive information and resources. By implementing robust authentication, authorization, and access management mechanisms, it guarantees that only authorized individuals can access the system, mitigating the risk of unauthorized access and potential security threats.
+
+Example: One example of the application of Secure Access Control within the context of IT interoperability in a digital public service within the European Commission could be the authentication and authorization process for accessing sensitive data or services.
+
+In this scenario, Secure Access Control ensures that only authorized individuals or entities can access specific resources or perform certain actions within the digital public service. It involves the use of various security mechanisms such as user authentication, role-based access control, and encryption to protect the confidentiality, integrity, and availability of the data.
+
+For instance, when a user wants to access a specific dataset or service provided by the European Commission, they would need to authenticate themselves using a secure login process. This could involve providing a username and password, along with an additional factor of authentication such as a one-time password or a biometric verification.
+
+Once authenticated, the user's access privileges are determined based on their assigned role or permissions within the system. For example, a user with the role of "data analyst" may have read-only access to certain datasets, while a user with the role of "data administrator" may have full access and the ability to modify the data.
+
+Secure Access Control also ensures that data is transmitted securely between different systems or components involved in the digital public service. This can be achieved through the use of encryption protocols such as SSL/TLS, which encrypts the data during transmission to prevent unauthorized interception or tampering.
+
+Furthermore, Secure Access Control can also enforce fine-grained access control policies based on various attributes such as user location, time of access, or the sensitivity of the data being accessed. This helps in ensuring that only authorized users with a legitimate need can access specific resources, thereby minimizing the risk of data breaches or unauthorized disclosures.
+
+Overall, the application of Secure Access Control within the context of IT interoperability in a digital public service within the European Commission plays a crucial role in safeguarding sensitive data, protecting user privacy, and ensuring the integrity and availability of the services provided.
+
+LOST view: OV-Functional Architecture Principles
+
+Identifier: http://data.europa.eu/dr8/egovera/SecureAccessControlBusinessService
+
+ABB name: egovera:SecureAccessControlBusinessService
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+Last modification: 2023-11-20
+
+Identifier: http://data.europa.eu/dr8/egovera/SecureAccessControlBusinessService
+
+Name: Secure Access Control Digital Public Service
+
+Interoperability Layer: Organisational
+
+Specialises: http://data.europa.eu/dr8/DigitalPublicBusinessService
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/SecureAccessControlBusinessService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-11-20</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/SecureAccessControlBusinessService</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Secure Access Control Digital Public Service</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">egovera:SecureAccessControlBusinessService</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EIRA Team</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">One example of the application of Secure Access Control within the context of IT interoperability in a digital public service within the European Commission could be the authentication and authorization process for accessing sensitive data or services.
+
+								In this scenario, Secure Access Control ensures that only authorized individuals or entities can access specific resources or perform certain actions within the digital public service. It involves the use of various security mechanisms such as user authentication, role-based access control, and encryption to protect the confidentiality, integrity, and availability of the data.
+
+								For instance, when a user wants to access a specific dataset or service provided by the European Commission, they would need to authenticate themselves using a secure login process. This could involve providing a username and password, along with an additional factor of authentication such as a one-time password or a biometric verification.
+
+								Once authenticated, the user's access privileges are determined based on their assigned role or permissions within the system. For example, a user with the role of "data analyst" may have read-only access to certain datasets, while a user with the role of "data administrator" may have full access and the ability to modify the data.
+
+								Secure Access Control also ensures that data is transmitted securely between different systems or components involved in the digital public service. This can be achieved through the use of encryption protocols such as SSL/TLS, which encrypts the data during transmission to prevent unauthorized interception or tampering.
+
+								Furthermore, Secure Access Control can also enforce fine-grained access control policies based on various attributes such as user location, time of access, or the sensitivity of the data being accessed. This helps in ensuring that only authorized users with a legitimate need can access specific resources, thereby minimizing the risk of data breaches or unauthorized disclosures.
+
+								Overall, the application of Secure Access Control within the context of IT interoperability in a digital public service within the European Commission plays a crucial role in safeguarding sensitive data, protecting user privacy, and ensuring the integrity and availability of the services provided.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Secure Access Control is a crucial component within the realm of IT interoperability, particularly in the context of a digital public service provided by the European Commission. It encompasses a comprehensive set of mechanisms and protocols that ensure the protection and controlled access to sensitive information and resources.
+
+								At its core, Secure Access Control aims to authenticate and authorize individuals or entities attempting to access digital services, systems, or data. It establishes a robust framework that guarantees only authorized users can gain entry, preventing unauthorized access and potential security breaches. This is of utmost importance in the European Commission's digital public service, as it deals with a vast amount of sensitive data and resources.
+
+								Authentication is the initial step in the Secure Access Control process. It involves verifying the identity of users or entities attempting to access the system. Various authentication methods can be employed, such as passwords, biometrics, smart cards, or digital certificates. These methods ensure that only legitimate users with valid credentials can proceed further.
+
+								Once authentication is successful, the authorization phase comes into play. Authorization determines the level of access and privileges granted to authenticated users based on their roles, responsibilities, and permissions. This step ensures that users can only access the resources and perform actions that are relevant to their designated roles, preventing unauthorized activities and potential misuse of sensitive information.
+
+								To achieve a robust Secure Access Control system, the European Commission's digital public service may implement a variety of mechanisms. Role-based access control (RBAC) is commonly employed, where access rights are assigned based on predefined roles within the organization. This approach simplifies access management by grouping users with similar responsibilities and granting them appropriate permissions.
+
+								Additionally, attribute-based access control (ABAC) can be utilized, which considers various attributes such as user attributes, resource attributes, and environmental attributes to make access control decisions. ABAC provides a more flexible and dynamic approach to access control, allowing for fine-grained control over resource access based on specific conditions.
+
+								Furthermore, Secure Access Control may incorporate multi-factor authentication (MFA) to enhance security. MFA requires users to provide multiple pieces of evidence to prove their identity, such as a combination of passwords, biometrics, or one-time passwords. This adds an extra layer of protection, making it significantly more challenging for unauthorized individuals to gain access.
+
+								In the European Commission's digital public service, Secure Access Control also encompasses the concept of access logging and auditing. This involves recording and monitoring all access attempts, including successful and unsuccessful ones, to establish an audit trail. This audit trail can be utilized for forensic analysis, compliance purposes, and identifying potential security incidents or breaches.
+
+								Overall, Secure Access Control within the context of IT interoperability in the European Commission's digital public service is a comprehensive framework that ensures the protection of sensitive information and resources. By implementing robust authentication, authorization, and access management mechanisms, it guarantees that only authorized individuals can access the system, mitigating the risk of unauthorized access and potential security threats.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Secure Access Control within the context of IT interoperability in a digital public service of the European Commission refers to the mechanism that ensures authorized and secure access to digital resources and services. It involves the implementation of robust authentication and authorization protocols to verify the identity of users and grant them appropriate levels of access based on their roles and permissions. This ensures that only authorized individuals can access sensitive information and perform specific actions, thereby safeguarding the confidentiality, integrity, and availability of digital services and data.</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Functional Architecture Principles</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Data Spaces</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational</td></tr><tr><td>skos:broader</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalPublicBusinessService</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-c310185eac07452f9ae8175318192ca9">
+																	<td><a href="../views/id-c310185eac07452f9ae8175318192ca9.html" target="view" title="Electronic Identification"> Electronic Identification </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-8c9b3ac3162048e58a146fdac22242f7">
+																	<td><a href="../views/id-8c9b3ac3162048e58a146fdac22242f7.html" target="view" title="Digital Twin"> Digital Twin </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-1c696a22b1274ce3828a323f56d60be2">
+																	<td><a href="../views/id-1c696a22b1274ce3828a323f56d60be2.html" target="view" title="TVA-Public Aministration Single Window [Traceability]"> TVA-Public Aministration Single Window [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-a12186a173f54d43ad9c06e9a2ac5969">
+																	<td><a href="../views/id-a12186a173f54d43ad9c06e9a2ac5969.html" target="view" title="OV-Functional Architecture Principles viewpoint"> OV-Functional Architecture Principles viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-d5b85277b9f74f888cfc263912205941">
+																	<td><a href="../views/id-d5b85277b9f74f888cfc263912205941.html" target="view" title="Artificial Intelligence"> Artificial Intelligence </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-787654a258784b4892740c831f02d461">
+																	<td><a href="../views/id-787654a258784b4892740c831f02d461.html" target="view" title="OV-Digital Public Services Catalogue"> OV-Digital Public Services Catalogue </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-ade5f5842a5043bdb7a47da76cbd600e">
+																	<td><a href="../views/id-ade5f5842a5043bdb7a47da76cbd600e.html" target="view" title="Organisational view [Traceability]"> Organisational view [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-8c8798280523478ebd4de252d5e99b83">
+																	<td><a href="../views/id-8c8798280523478ebd4de252d5e99b83.html" target="view" title="Contact management"> Contact management </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-718a7e3684ce4142b5a0299ae84ac4d1">
+																	<td><a href="../views/id-718a7e3684ce4142b5a0299ae84ac4d1.html" target="view" title="OV-Data Spaces"> OV-Data Spaces </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-513b88fc95a04e6fa10a16cbb910a4ba.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+											<td><a href="../elements/id-3a64405c852f466598068b5bf09aecf4.html" target="element"> Security Measure</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8d06f914adc1484488d27d172904c35c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+											<td><a href="../elements/id-096f42862a6a4c6292e6760c8b0368d4.html" target="element"> Access rights</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-90dc9c9cb15d44a5963c039185b99676.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+											<td><a href="../elements/id-31263ee86f104964ab7d3ab0d6a1f254.html" target="element"> Contact Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-27d78ad93d214b50a303680a303a1c0f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+											<td><a href="../elements/id-94c2dfeb9dcb40939764956f473615f9.html" target="element"> Electronic Identification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-72c2004969bf4c3b8e8f367718171425.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+											<td><a href="../elements/id-0a824d1c4a6f4557bb400efb5511b73a.html" target="element"> Digital Twin</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d8c3beebdb6d48c9a4c51bdb08f43ee6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+											<td><a href="../elements/id-92912c120040477882866218969b55e2.html" target="element"> Artificial Intelligence</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-47d11796ad664000a976e145aa48a7aa.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-31bc130fbcad4519a3f495c25046298b.html" target="element"> Business Agnostic Data Space Participant Digital Public Service Catalog</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-92196d8f3e3448db9955a6447f876adf.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-018fee6e2f83479987dfb1f628339425.html" target="element"> Business Agnostic Digital Public Services Catalogue</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-06dc919da0464c869c4293a3dfaf6cd5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3c03aecc20d14325aa6c568f57a93dc3.html" target="element"> API Enablers</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-0b09bc3b4e3a4ae3b02de9df586af999.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-679ef086bb2d4f7fa7cd9d5792ef5308.html" target="element"> National Schema on eIdentification</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-16acc66dea7b4890bdec5a5ab66869d3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-304e110f690a4e689286696761d6ed4a.html" target="element"> eTranslation</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-177b5a39f61a478ba80dbaa82eafe623.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4cb9482d752049829a3c245323df05a6.html" target="element"> Commission Delegated Regulation (EU) 2018/389 of 27 November 2017</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1e0f46cd4c794395aa5770cd5af45ab1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4aa56e178c334822a4ec4b3923ff04eb.html" target="element"> Directive (EU) 2022/2555 of the European Parliament and of the Council of 14 December 2022</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-23c49747b804425b900348a3f0c53b7e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-32a126b65baa4526bc5723abdbaba979.html" target="element"> Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3b79413ba8c24fdf949f6f3b8ea51a73.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3e0690a4e661457fb79b4412fa1647ea.html" target="element"> Security Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-54d2d52619ee4671b1672773a8b503d4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-b5ea7fb8b1ee425bb6d1a6ac420cc7e2.html" target="element"> Business Agnostic Business Information Base</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-646e3376cbc7439f8c29b225e4115564.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c9cfe03c26d04fa1b44acf59ce3e062f.html" target="element"> National Legal Interoperability Agreement</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7e98fc802e6b4635b72ea4cc12ea8204.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f044895bbad64de082f6eb03135b26f8.html" target="element"> Agreement of the Use on Common Infrastructure</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9c963522bb9b45b8b98eee2bb2cb49ab.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-199e5ee9998f40da8b81607b538d6a58.html" target="element"> Business Agnostic Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9f8b2369fbbd49069716b0624c9ef46d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-aa350ab93c944d74b79a29592defc2bf.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3b4860a84b9b4187b9aec2b7a0f11d37.html" target="element"> National Schema on the access to Base Registries</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ac7b043a22ce4af4aab872104f024955.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-38c8bf90145b42a0aae7381441a56b15.html" target="element"> Dataspace Enablers</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ae7d23327d8d4be78696c0a1615db906.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-13e2bb8b0d7f466aa655afd5b644461b.html" target="element"> Trust Enablers</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bdb67eb2c7d6483f91e252c3a2ef4954.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4442bed2c03c4345a551161d2d0c9b85.html" target="element"> Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d5ffbe04fd504dfdb0be5f38dc392b52.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-93e36f06b95e4b8ea6e9921e83fc72e0.html" target="element"> Directive (EU) 2018/1972 of the European Parliament and of the Council of 11 December 2018</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f7f55119891c4a898a464351cdb10863.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-6a1f58b5f7c44ec382909a5f5a2be489.html" target="element"> Metadata</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f895c322fa9b4ffd9b7b9a36023e0982.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-2dd01ba594494d0ab1f7cff20d6dda09.html" target="element"> Privacy Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8ea940c6dcd5459c9fab3f7b66b6baf4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-653b15a54ef349f0b5f981817d06dd3f.html" target="element"> User Experience Management Enablers</a></td>
+											<td><a href="../elements/id-548771c87dae46ec831d4f3a94ce524c.html" target="element"> Secure Access Control</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Forms Management</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Forms Management</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessService"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessService" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Forms Management enables the storage, catalogation and indexing/searching of structured and unstructured documents.
+
+Source: FORTRA
+
+Source reference: https://www.helpsystems.com/blog/what-forms-management
+
+Additional information: Forms management within the context of IT interoperability in a digital public service within the European Commission refers to the systematic and efficient handling of electronic forms used for various administrative processes. It involves the design, creation, distribution, submission, processing, and storage of digital forms to facilitate seamless information exchange and collaboration between different systems, organizations, and individuals.
+
+At its core, forms management aims to streamline and standardize the collection of data and information by providing a structured and user-friendly interface for users to input and submit relevant details electronically. This process eliminates the need for paper-based forms, reducing administrative burdens, improving data accuracy, and enhancing overall efficiency.
+
+The European Commission, being a supranational institution responsible for policy-making and governance within the European Union, relies heavily on digital public services to interact with citizens, businesses, and other stakeholders. Forms management plays a crucial role in ensuring the smooth functioning of these services by enabling the exchange of information in a secure, standardized, and interoperable manner.
+
+The process of forms management typically involves several key components. Firstly, there is the design and creation of electronic forms, which involves defining the required fields, data types, validation rules, and any associated business logic. These forms are often developed using specialized software tools that allow for easy customization and integration with existing systems.
+
+Once the forms are created, they need to be distributed to the relevant users or organizations. This can be achieved through various channels, such as web portals, email notifications, or integration with other systems. The forms may also be made available in multiple languages to cater to the diverse linguistic needs of the European Union.
+
+When users fill out the forms, the data they provide is submitted electronically to the designated recipients or back-end systems. This data may undergo validation checks to ensure its accuracy and compliance with predefined rules. Forms management systems often incorporate features like data encryption and digital signatures to ensure the security and integrity of the information being transmitted.
+
+After submission, the received forms are processed and stored in a centralized repository or database. This allows for easy retrieval and access to the collected data for further processing or analysis. The forms management system may also generate notifications or trigger automated workflows based on predefined rules, ensuring timely actions and responses.
+
+In the context of IT interoperability, forms management systems need to adhere to established standards and protocols to enable seamless integration with other systems and services. This includes using open data formats, standardized data models, and interoperability frameworks. By adopting such standards, the European Commission can ensure that its digital public services can effectively communicate and exchange information with other systems, both within and outside the organization.
+
+Overall, forms management within the European Commission's digital public service is a critical component of IT interoperability. It enables the efficient collection, processing, and storage of electronic forms, facilitating seamless information exchange and collaboration between different stakeholders. By leveraging digital technologies and adhering to interoperability standards, the European Commission can enhance the effectiveness and accessibility of its public services, ultimately benefiting citizens, businesses, and the overall European Union.
+
+Example: Forms management is an essential aspect of IT interoperability in the context of a digital public service in the European Commission. Here are some examples of its application:
+
+1. Online Application Forms: The European Commission can utilize forms management to create and manage online application forms for various services such as grants, permits, or registrations. These forms can be designed to collect specific information required from applicants, ensuring consistency and standardization across different services.
+
+2. Data Collection and Reporting: Forms management can be employed to collect data from various stakeholders, such as citizens, businesses, or other government agencies. For instance, the European Commission may use forms to gather information on the implementation of specific policies or to collect feedback from citizens on public services. This data can then be analyzed and reported on to support evidence-based decision-making.
+
+3. Service Requests and Complaints: Forms management can facilitate the submission and processing of service requests or complaints. Citizens can fill out online forms to report issues, request information, or seek assistance. These forms can be integrated with backend systems to ensure efficient handling and tracking of requests, leading to improved service delivery and responsiveness.
+
+4. Cross-Border Collaboration: In the context of the European Commission, forms management can support cross-border collaboration between member states. For instance, forms can be used to exchange information and data between different national authorities, enabling seamless cooperation and interoperability in areas such as law enforcement, public health, or environmental protection.
+
+5. Standardization and Harmonization: Forms management can contribute to standardizing and harmonizing data collection processes across different services and member states. By defining common data fields, formats, and validation rules, forms can ensure consistency in the information collected, making it easier to aggregate and analyze data at a European level.
+
+6. Accessibility and Multilingual Support: Forms management can address accessibility requirements by providing accessible form templates and features such as screen reader compatibility or alternative text for visual elements. Additionally, multilingual support can be incorporated into forms, allowing citizens to complete them in their preferred language, thereby enhancing inclusivity and user experience.
+
+Overall, forms management plays a crucial role in enabling efficient data collection, standardization, and collaboration within the European Commission's digital public services, supporting IT interoperability and enhancing the delivery of services to citizens and stakeholders.
+
+LOST view: TVA-Data Management Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/FormsManagementBusinessService
+
+ABB name: egovera:FormsManagementBusinessService
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+Last modification: 2023-11-20
+
+Identifier: http://data.europa.eu/dr8/egovera/FormsManagementBusinessService
+
+Name: Forms Management Digital Public Service
+
+Interoperability Layer: Organisational
+
+Specialises: http://data.europa.eu/dr8/DigitalPublicBusinessService
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/FormsManagementBusinessService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-11-20</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/FormsManagementBusinessService</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Forms Management Digital Public Service</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">egovera:FormsManagementBusinessService</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">FORTRA</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://www.helpsystems.com/blog/what-forms-management</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Forms management is an essential aspect of IT interoperability in the context of a digital public service in the European Commission. Here are some examples of its application:
+
+								1. Online Application Forms: The European Commission can utilize forms management to create and manage online application forms for various services such as grants, permits, or registrations. These forms can be designed to collect specific information required from applicants, ensuring consistency and standardization across different services.
+
+								2. Data Collection and Reporting: Forms management can be employed to collect data from various stakeholders, such as citizens, businesses, or other government agencies. For instance, the European Commission may use forms to gather information on the implementation of specific policies or to collect feedback from citizens on public services. This data can then be analyzed and reported on to support evidence-based decision-making.
+
+								3. Service Requests and Complaints: Forms management can facilitate the submission and processing of service requests or complaints. Citizens can fill out online forms to report issues, request information, or seek assistance. These forms can be integrated with backend systems to ensure efficient handling and tracking of requests, leading to improved service delivery and responsiveness.
+
+								4. Cross-Border Collaboration: In the context of the European Commission, forms management can support cross-border collaboration between member states. For instance, forms can be used to exchange information and data between different national authorities, enabling seamless cooperation and interoperability in areas such as law enforcement, public health, or environmental protection.
+
+								5. Standardization and Harmonization: Forms management can contribute to standardizing and harmonizing data collection processes across different services and member states. By defining common data fields, formats, and validation rules, forms can ensure consistency in the information collected, making it easier to aggregate and analyze data at a European level.
+
+								6. Accessibility and Multilingual Support: Forms management can address accessibility requirements by providing accessible form templates and features such as screen reader compatibility or alternative text for visual elements. Additionally, multilingual support can be incorporated into forms, allowing citizens to complete them in their preferred language, thereby enhancing inclusivity and user experience.
+
+								Overall, forms management plays a crucial role in enabling efficient data collection, standardization, and collaboration within the European Commission's digital public services, supporting IT interoperability and enhancing the delivery of services to citizens and stakeholders.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Forms management within the context of IT interoperability in a digital public service within the European Commission refers to the systematic and efficient handling of electronic forms used for various administrative processes. It involves the design, creation, distribution, submission, processing, and storage of digital forms to facilitate seamless information exchange and collaboration between different systems, organizations, and individuals.
+
+								At its core, forms management aims to streamline and standardize the collection of data and information by providing a structured and user-friendly interface for users to input and submit relevant details electronically. This process eliminates the need for paper-based forms, reducing administrative burdens, improving data accuracy, and enhancing overall efficiency.
+
+								The European Commission, being a supranational institution responsible for policy-making and governance within the European Union, relies heavily on digital public services to interact with citizens, businesses, and other stakeholders. Forms management plays a crucial role in ensuring the smooth functioning of these services by enabling the exchange of information in a secure, standardized, and interoperable manner.
+
+								The process of forms management typically involves several key components. Firstly, there is the design and creation of electronic forms, which involves defining the required fields, data types, validation rules, and any associated business logic. These forms are often developed using specialized software tools that allow for easy customization and integration with existing systems.
+
+								Once the forms are created, they need to be distributed to the relevant users or organizations. This can be achieved through various channels, such as web portals, email notifications, or integration with other systems. The forms may also be made available in multiple languages to cater to the diverse linguistic needs of the European Union.
+
+								When users fill out the forms, the data they provide is submitted electronically to the designated recipients or back-end systems. This data may undergo validation checks to ensure its accuracy and compliance with predefined rules. Forms management systems often incorporate features like data encryption and digital signatures to ensure the security and integrity of the information being transmitted.
+
+								After submission, the received forms are processed and stored in a centralized repository or database. This allows for easy retrieval and access to the collected data for further processing or analysis. The forms management system may also generate notifications or trigger automated workflows based on predefined rules, ensuring timely actions and responses.
+
+								In the context of IT interoperability, forms management systems need to adhere to established standards and protocols to enable seamless integration with other systems and services. This includes using open data formats, standardized data models, and interoperability frameworks. By adopting such standards, the European Commission can ensure that its digital public services can effectively communicate and exchange information with other systems, both within and outside the organization.
+
+								Overall, forms management within the European Commission's digital public service is a critical component of IT interoperability. It enables the efficient collection, processing, and storage of electronic forms, facilitating seamless information exchange and collaboration between different stakeholders. By leveraging digital technologies and adhering to interoperability standards, the European Commission can enhance the effectiveness and accessibility of its public services, ultimately benefiting citizens, businesses, and the overall European Union.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Forms Management enables the storage, catalogation and indexing/searching of structured and unstructured documents.</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Data Management Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Functional Architecture Principles</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational</td></tr><tr><td>skos:broader</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalPublicBusinessService</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-ade5f5842a5043bdb7a47da76cbd600e">
+																	<td><a href="../views/id-ade5f5842a5043bdb7a47da76cbd600e.html" target="view" title="Organisational view [Traceability]"> Organisational view [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-c8173a1e92e64a8595b7d77f112fdc3e">
+																	<td><a href="../views/id-c8173a1e92e64a8595b7d77f112fdc3e.html" target="view" title="Case and Workflow Management"> Case and Workflow Management </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-a12186a173f54d43ad9c06e9a2ac5969">
+																	<td><a href="../views/id-a12186a173f54d43ad9c06e9a2ac5969.html" target="view" title="OV-Functional Architecture Principles viewpoint"> OV-Functional Architecture Principles viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-787654a258784b4892740c831f02d461">
+																	<td><a href="../views/id-787654a258784b4892740c831f02d461.html" target="view" title="OV-Digital Public Services Catalogue"> OV-Digital Public Services Catalogue </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-f032ccb4d849446e9e4756f656dc7301">
+																	<td><a href="../views/id-f032ccb4d849446e9e4756f656dc7301.html" target="view" title="TVA-Data Management Enablers [Traceability]"> TVA-Data Management Enablers [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-20ca0712f8e6404ca5401f8846a58337.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-0ebc9749a4e743edbfd053b9b29fef9f.html" target="element"> Trust Infrastructure Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5a2f8c85761b456fa86f8bc0f95e5e54.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-224388e471b94528bd6538893a91aa4d.html" target="element"> Artificial Intelligence Infrastructure Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5eb5f82887ec48348c6e1b1ff0482e87.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-0a5b34cdebe2402fa686bb8860d0ecc2.html" target="element"> Workflow Orchestration Infrastructure Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a9966f1e0a4e4f9180e514232943dca9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d9d48640495f4dc08a482b8133042d9e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-cb7d647355fd4d259b7484587f17f007.html" target="element"> Management Infrastructure Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e3e1d666b58e4807b8d50c144f62c8dd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-91129469f4cd41c1a0f98929ba3b1a46.html" target="element"> Artificial Intelligence Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4c1f23cba76c4748b5d9a962d3f8cfb8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-6e7bf8b4f1d742eb896284ecf10326fb.html" target="element"> Case and Workflow Management</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-11283a9afe304f758660e0191cd782bb.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-018fee6e2f83479987dfb1f628339425.html" target="element"> Business Agnostic Digital Public Services Catalogue</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-276a566bf33a4d359bfa85ef9b66a82e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-074ae4e91ea047319e5e4c796ef37873.html" target="element"> Schedule Management Enablers</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-29d78e1b1e03436887ee5fb886347ea6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-318a82a1a74f4bd7be88ac2318396d68.html" target="element"> Security Enablers</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2a3ac654f1ce42afa4bf0cbd345c2ad4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-17ccd726a78f437ea0f01048bfa3d5db.html" target="element"> Orchestration Enablers</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4745f00dec7d44e78fa9bcc12515ae38.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-38c8bf90145b42a0aae7381441a56b15.html" target="element"> Dataspace Enablers</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4d0dd6230cef445abb7b9b6798f92c54.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-32a126b65baa4526bc5723abdbaba979.html" target="element"> Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-51cb990088d54b26a57058794d2f5e5f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3c03aecc20d14325aa6c568f57a93dc3.html" target="element"> API Enablers</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-77ea938783674127947727dae8c3e80f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-31263ee86f104964ab7d3ab0d6a1f254.html" target="element"> Contact Management</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-84c5c8bd2c7b42ac9ba439c773ff7431.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-87f9b6a597134814b842adc390fe437f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-1842ccf043ea45faae63a6bb8cf441d2.html" target="element"> Business Agnostic Organisational Agreement Catalogue</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a4a6ff4f09e14e13b02e26a001f42610.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-03ce9e8e6ce94aad891f76cad6e5affd.html" target="element"> Analytics Enablers</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ae3500215de24d96aa10010d6bfd3c99.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3e0690a4e661457fb79b4412fa1647ea.html" target="element"> Security Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b2779f9b6fdf4fbaba15272563d5b70a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c9cfe03c26d04fa1b44acf59ce3e062f.html" target="element"> National Legal Interoperability Agreement</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bea247f622284400bca0bd1a88c5091f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-199e5ee9998f40da8b81607b538d6a58.html" target="element"> Business Agnostic Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c58622692990415393c1417a5a336da8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-a078a058646e45d489dca7751bfd0a59.html" target="element"> Regulation (EU) 2018/1807 of the European Parliament and of the Council of 14 November 2018</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c7b9569407d741beb0f2295f46e07903.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-5e0fc10478724619bda7b77375c8f14b.html" target="element"> Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c9472393d14a4622a9126474d0d01771.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-342c894804b343b983d197485cf5b6e9.html" target="element"> Privacy Enablers</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d58e6796e9cb4a1eaa5613efb4291b9c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-2dd01ba594494d0ab1f7cff20d6dda09.html" target="element"> Privacy Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f522facdf4ea4f39a6f55e066d799bda.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3b4860a84b9b4187b9aec2b7a0f11d37.html" target="element"> National Schema on the access to Base Registries</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f7dde553ca75423a8c56a054b845999a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-679ef086bb2d4f7fa7cd9d5792ef5308.html" target="element"> National Schema on eIdentification</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a153428ad4a6449fb7e1d02801f6eb74.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-522345eb8bf7448680d334b89b7d2258.html" target="element"> Forms Management</a></td>
+											<td><a href="../elements/id-4fd0163689764d6790008279989fffd1.html" target="element"> Forms Management</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

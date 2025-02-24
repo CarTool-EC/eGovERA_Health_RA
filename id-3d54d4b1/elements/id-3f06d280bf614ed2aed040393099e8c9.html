@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Data Space Participant</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Data Space Participant</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessService"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessService" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: A data space participant is a component of a data space that can be a provider, recipient, or intermediary of the data exchange. The decentralization, transparency, and interoperability of data spaces are outlined as important properties.
+
+Source: Gaia-X
+
+Source reference: https://gaia-x-hub.de/wp-content/uploads/2022/10/White_Paper_Definition_Dataspace_EN.pdf
+
+Additional information: Data space participants play a crucial role in the functioning of a data space. They are the entities that provide, receive, or mediate the exchange of data within the data space. The data space is designed to be decentralized, transparent, and interoperable, which allows participants to have a high degree of control over the data exchange. This includes determining the partners, duration, purpose, and other aspects of the exchange.
+
+Example: An example of a data space participant could be a car manufacturer in a Mobility Data Space (MDS). The manufacturer could provide data on local hazards collected by their vehicles to map service providers, who then use this data to display appropriate warnings in vehicles. Similarly, weather data collected by weather service providers (another participant) is shared with mobility service providers to provide weather-dependent recommendations for mobility offers.
+
+LOST view: TVA-Data Space Enablers [Motivation]
+
+Identifier: http://data.europa.eu/dr8/egovera/DataSpaceParticipantBusinessService
+
+EIRA traceability: eira:DigitalPublicBusinessService
+
+ABB name: egovera:DataSpaceParticipantBusinessService
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+Last modification: 2023-07-07
+
+dct:identifier: http://data.europa.eu/dr8/egovera/DataSpaceParticipantBusinessService
+
+dct:title: Data Space Participant Digital Public Service
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/DataSpaceParticipantBusinessService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-11-20</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/DataSpaceParticipantBusinessService</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data Space Participant Digital Public Service</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">egovera:DataSpaceParticipantBusinessService</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Gaia-X</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://gaia-x-hub.de/wp-content/uploads/2022/10/White_Paper_Definition_Dataspace_EN.pdf</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">An example of a data space participant could be a car manufacturer in a Mobility Data Space (MDS). The manufacturer could provide data on local hazards collected by their vehicles to map service providers, who then use this data to display appropriate warnings in vehicles. Similarly, weather data collected by weather service providers (another participant) is shared with mobility service providers to provide weather-dependent recommendations for mobility offers.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data space participants play a crucial role in the functioning of a data space. They are the entities that provide, receive, or mediate the exchange of data within the data space. The data space is designed to be decentralized, transparent, and interoperable, which allows participants to have a high degree of control over the data exchange. This includes determining the partners, duration, purpose, and other aspects of the exchange.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">A data space participant is a component of a data space that can be a provider, recipient, or intermediary of the data exchange. The decentralization, transparency, and interoperability of data spaces are outlined as important properties.</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Data Space Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Data Spaces [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Data Spaces</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational</td></tr><tr><td>skos:broader</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalPublicBusinessService</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-718a7e3684ce4142b5a0299ae84ac4d1">
+																	<td><a href="../views/id-718a7e3684ce4142b5a0299ae84ac4d1.html" target="view" title="OV-Data Spaces"> OV-Data Spaces </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-787654a258784b4892740c831f02d461">
+																	<td><a href="../views/id-787654a258784b4892740c831f02d461.html" target="view" title="OV-Digital Public Services Catalogue"> OV-Digital Public Services Catalogue </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-3694cd7ee0584442ad53b904b3be2137">
+																	<td><a href="../views/id-3694cd7ee0584442ad53b904b3be2137.html" target="view" title="OV-Data Spaces [Traceability]"> OV-Data Spaces [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-1f145ca13a1a4bfd81c41a3682defd3a">
+																	<td><a href="../views/id-1f145ca13a1a4bfd81c41a3682defd3a.html" target="view" title="TVA-Health Data Space Enablers [Traceability]"> TVA-Health Data Space Enablers [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-5e7c112cd37c4a39bb6ded7eae8e0ad0">
+																	<td><a href="../views/id-5e7c112cd37c4a39bb6ded7eae8e0ad0.html" target="view" title="TVA-Data Space Enablers [Traceability]"> TVA-Data Space Enablers [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-0a7022f8ffc84d2ab0c1828114540656.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-096f42862a6a4c6292e6760c8b0368d4.html" target="element"> Access rights</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-302725df81024bf9af3898a9ef256d3c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-29ebbe99e202481c9ec699837a477041.html" target="element"> Digital Asset</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3391a0862f28402ba138c406cd79337d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-3ce2fcdfe4d44ff2ba04511dc7f98a30.html" target="element"> Digital Signature</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-524a8833fffb4d3faff4fee57556a072.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-0da7d09b5a38462e80762a7c4c15db43.html" target="element"> Message</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5322e8450b914d56baeea556b620f747.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-3030c3676c864c9393bd23f1f0366b78.html" target="element"> Transaction</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-63ea8d0542124ec78d2275412e869824.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-77182844d5184d6ba1ff7074e8e76346.html" target="element"> Credential</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-82a0af120b6b450f8145b704863a3034.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-03ee72749cb44b37a83ba7d655cd32ea.html" target="element"> Data Quality</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-833642e9c7ec4590814758c35c5f9d6b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-ba3a14a2b0b84b24b4a68b0f72887cc0.html" target="element"> Location</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8e32d5b71b9e4aca84d7f5c4b0748d16.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-6c420668484a4f5885fc2235b8b423a6.html" target="element"> Audit trail</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-99afcf9518ab4ee58ab7e0108116443c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-3a64405c852f466598068b5bf09aecf4.html" target="element"> Security Measure</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9d9d950fc9034cc983fcc51fb83b2d51.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-535700ebdedd43b68912aac75f08bc03.html" target="element"> Document</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c107e611d8ff4f8dbb5e05262f8ff34a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-61fa93c49e0e4d1eb3a8765d0884e257.html" target="element"> Profile</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f173be148caf444bb8bdf3aa549be1e6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-b2d443b942144bdcbd53f4436c76cf03.html" target="element"> Contracting authority</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2e6343a5f25f4d5dba91e00f344b1ed6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-4803c0ce65934ee9af498f9d0d896895.html" target="element"> Business Agnostic Data Space Digital Public Services Catalogue</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-77e5f94d52924339972fec29a00fa832.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-31bc130fbcad4519a3f495c25046298b.html" target="element"> Business Agnostic Data Space Participant Digital Public Service Catalog</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1a8be86729a142dd86091b0197062225.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-6e7bf8b4f1d742eb896284ecf10326fb.html" target="element"> Case and Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2911c3dc501943ea81d2a2b8e339f9dc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-348cb9cfd9ca404e8ce01621159e2070.html" target="element"> Knowledge Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-395b5d65e428445d9fbd4bbdeba2ad88.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-7250d9753cbe4f548dbf04a6fd4d4a06.html" target="element"> Multimedia Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-82833330e59547edad965f7c7cbf8acd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-0c4003ec108d4ce1ad4d223ca200d52e.html" target="element"> Business Agnostic Data Management Digital Business Capability Map</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-82dae25220794258ad1c700f6e18ce90.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-59c57166e0fb4a6fb82d6e169e3135ab.html" target="element"> Digital Exchange</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9454eba786e74d96a7a03da79bfd5028.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-94c2dfeb9dcb40939764956f473615f9.html" target="element"> Electronic Identification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-afd030bf725c4623b5d7b8ebe985eae9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-2ff0b87ede2748d6b2d65568b7f767d5.html" target="element"> Digital Communication</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ff169d4f4b6a4ec483cdfaae3273dacb.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+											<td><a href="../elements/id-92912c120040477882866218969b55e2.html" target="element"> Artificial Intelligence</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-05c448530eb341e59b700df106679eb4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-018fee6e2f83479987dfb1f628339425.html" target="element"> Business Agnostic Digital Public Services Catalogue</a></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b31d4de629a74ba3a061a9411b86e65f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-1b88b06d3603407ea5fc5ea780b76da6.html" target="element"> Data Space</a></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a8689e50a7e94ca39c5b7b7e6db916b9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-2338e2f79c164403a44b5294503a6c35.html" target="element"> Dataspace Connector</a></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e68af2785f2d43e1b35538f4f833c287.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-487ff82891084f69b4f2b08b1dc0601a.html" target="element"> EHDS2 Node</a></td>
+											<td><a href="../elements/id-3f06d280bf614ed2aed040393099e8c9.html" target="element"> Data Space Participant</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
